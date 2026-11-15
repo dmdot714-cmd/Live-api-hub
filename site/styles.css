@@ -1,0 +1,184 @@
+:root {
+  --bg: #f7f7f5;
+  --surface: #ffffff;
+  --text: #1c1c1a;
+  --muted: #6b6b66;
+  --border: #e3e3de;
+  --accent: #0b5fff;
+  --accent-soft: #e8efff;
+  --live: #137333;
+  --live-bg: #e6f4ea;
+  --reachable: #b06000;
+  --reachable-bg: #fef3e2;
+  --down: #b3261e;
+  --down-bg: #fce8e6;
+  --radius: 12px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #141412;
+    --surface: #1e1e1c;
+    --text: #ececea;
+    --muted: #a3a39c;
+    --border: #333330;
+    --accent: #8ab4ff;
+    --accent-soft: #1d2a44;
+    --live: #81c995;
+    --live-bg: #1d3325;
+    --reachable: #f6b73c;
+    --reachable-bg: #3a2f18;
+    --down: #f28b82;
+    --down-bg: #3d2220;
+  }
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.5;
+}
+
+.wrap { max-width: 1080px; margin: 0 auto; padding: 0 16px; }
+
+.site-header {
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  padding: 28px 0 20px;
+}
+
+.site-header h1 { margin: 0 0 4px; font-size: 2rem; letter-spacing: -0.02em; }
+.tagline { margin: 0 0 8px; color: var(--muted); font-size: 1.05rem; }
+.meta { margin: 0; color: var(--muted); font-size: 0.9rem; }
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 20px 0 8px;
+}
+
+.controls input[type="search"] {
+  flex: 1 1 260px;
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--surface);
+  color: var(--text);
+  font-size: 1rem;
+}
+
+.controls select {
+  padding: 10px 8px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--surface);
+  color: var(--text);
+  font-size: 0.95rem;
+}
+
+.controls .check {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.95rem;
+  color: var(--muted);
+  padding: 10px 4px;
+}
+
+.result-count { color: var(--muted); font-size: 0.9rem; margin: 8px 0 16px; }
+.load-error {
+  background: var(--down-bg);
+  color: var(--down);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 12px 14px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 14px;
+}
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.card h2 { margin: 0; font-size: 1.1rem; }
+.card h2 a { color: var(--text); text-decoration: none; }
+.card h2 a:hover { color: var(--accent); text-decoration: underline; }
+
+.category {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--accent);
+  background: var(--accent-soft);
+  border-radius: 999px;
+  padding: 2px 8px;
+  align-self: flex-start;
+}
+
+.card p { margin: 0; color: var(--muted); font-size: 0.95rem; }
+
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip {
+  font-size: 0.8rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 2px 8px;
+  color: var(--muted);
+}
+
+.free-tier { font-size: 0.88rem; }
+.free-tier strong { color: var(--text); font-weight: 600; }
+
+.status-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.82rem;
+  color: var(--muted);
+  margin-top: auto;
+}
+
+.status {
+  font-weight: 600;
+  border-radius: 999px;
+  padding: 2px 8px;
+}
+.status.live { color: var(--live); background: var(--live-bg); }
+.status.reachable { color: var(--reachable); background: var(--reachable-bg); }
+.status.down { color: var(--down); background: var(--down-bg); }
+.status.unknown { color: var(--muted); background: var(--accent-soft); }
+
+.docs-link { font-size: 0.9rem; color: var(--accent); text-decoration: none; }
+.docs-link:hover { text-decoration: underline; }
+
+.site-footer {
+  margin: 32px 0;
+  padding-top: 16px;
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+.site-footer a { color: var(--accent); }
+.site-footer code {
+  background: var(--accent-soft);
+  border-radius: 4px;
+  padding: 1px 5px;
+  font-size: 0.82rem;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Live API Hub — Verified Free Public APIs</title>
+<meta name="description" content="A searchable directory of free public APIs. Every entry is link-checked, with live status, auth type, and free-tier notes.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <h1>Live API Hub</h1>
+    <p class="tagline">Free public APIs, verified — not just listed. Every entry is link-checked and stamped with its status.</p>
+    <p class="meta"><span id="total-count">…</span> APIs · <span id="live-count">…</span> live · data updated <span id="updated-date">…</span></p>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="controls" aria-label="Search and filter">
+    <input id="search" type="search" placeholder="Search APIs… (e.g. weather, news, crypto)" autocomplete="off">
+    <select id="category" aria-label="Category">
+      <option value="">All categories</option>
+    </select>
+    <select id="auth" aria-label="Auth type">
+      <option value="">Any auth</option>
+      <option value="No">No key needed</option>
+      <option value="apiKey">API key</option>
+      <option value="OAuth">OAuth</option>
+    </select>
+    <select id="status" aria-label="Status">
+      <option value="">Any status</option>
+      <option value="live">Live</option>
+      <option value="reachable">Reachable</option>
+      <option value="down">Down</option>
+    </select>
+    <label class="check"><input id="https-only" type="checkbox"> HTTPS only</label>
+  </section>
+
+  <p id="result-count" class="result-count" aria-live="polite"></p>
+  <p id="load-error" class="load-error" hidden></p>
+  <section id="results" class="grid" aria-label="API results"></section>
+
+  <footer class="site-footer">
+    <p>Data: <code>data/apis.json</code> in this repo · Status is checked weekly by <code>scripts/verify.py</code> via GitHub Actions. <span id="status-legend"></span></p>
+    <p><a href="https://github.com/public-apis/public-apis">public-apis</a> (MIT) inspired this project — see the README for credits. Live API Hub itself is MIT licensed.</p>
+  </footer>
+</main>
+
+<script src="app.js"></script>
+</body>
+</html>
