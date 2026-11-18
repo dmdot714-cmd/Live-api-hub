@@ -3,38 +3,83 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Live API Hub — Verified Free Public APIs</title>
-<meta name="description" content="A searchable directory of free public APIs. Every entry is link-checked, with live status, auth type, and free-tier notes.">
+<title>Live API Hub — Free APIs and Agent Tools, Verified</title>
+<meta name="description" content="Free APIs, mobile agents, agent skills, and free LLM gateways — all verified live and tagged by free tier, built for phone-first builders.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'><stop offset='0' stop-color='%236d28d9'/><stop offset='1' stop-color='%23d946ef'/></linearGradient></defs><rect width='64' height='64' rx='14' fill='url(%23g)'/><text x='32' y='45' font-family='Arial,sans-serif' font-size='36' font-weight='700' fill='white' text-anchor='middle'>L</text></svg>">
+<meta property="og:title" content="Live API Hub — Free APIs and Agent Tools, Verified">
+<meta property="og:description" content="260 entries across 36 categories: free APIs, mobile agents, agent skills, and free LLM gateways — all verified live and tagged by free tier.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://dmdot714-cmd.github.io/Live-api-hub/">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "name": "Live API Hub",
+      "url": "https://dmdot714-cmd.github.io/Live-api-hub/",
+      "description": "Free APIs, mobile agents, agent skills, and free LLM gateways — all verified live and tagged by free tier, built for phone-first builders."
+    },
+    {
+      "@type": "Dataset",
+      "name": "Live API Hub directory",
+      "description": "A verified directory of 260 free public APIs, mobile agents, agent skills, and free LLM gateways across 36 categories. Every entry is link-checked live and tagged by free tier (178 fully free, 65 freemium, 17 paid).",
+      "url": "https://dmdot714-cmd.github.io/Live-api-hub/",
+      "license": "https://github.com/dmdot714-cmd/Live-api-hub/blob/main/LICENSE",
+      "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://dmdot714-cmd.github.io/Live-api-hub/data/apis.json",
+        "encodingFormat": "application/json"
+      }
+    }
+  ]
+}
+</script>
+<script>
+(function(){try{var t=localStorage.getItem('lah-theme');if(t){document.documentElement.setAttribute('data-theme',t);}}catch(e){}})();
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<header class="site-header">
-  <div class="wrap">
+<header class="hero">
+  <div class="wrap hero-inner">
+    <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle dark mode"></button>
     <h1>Live API Hub</h1>
-    <p class="tagline">Free public APIs, verified — not just listed. Every entry is link-checked and stamped with its status.</p>
-    <p class="meta"><span id="total-count">…</span> APIs · <span id="live-count">…</span> live · data updated <span id="updated-date">…</span></p>
+    <p class="tagline">Everything free you need to build on your phone.</p>
+    <div class="stats">
+      <span class="stat"><strong id="total-count">…</strong> APIs</span>
+      <span class="stat"><strong id="live-count">…</strong> live</span>
+      <span class="stat"><strong id="cat-count">…</strong> categories</span>
+      <span class="stat stat-muted">data updated <span id="updated-date">…</span></span>
+    </div>
   </div>
 </header>
 
 <main class="wrap">
   <section class="controls" aria-label="Search and filter">
     <input id="search" type="search" placeholder="Search APIs… (e.g. weather, news, crypto)" autocomplete="off">
-    <select id="category" aria-label="Category">
-      <option value="">All categories</option>
-    </select>
-    <select id="auth" aria-label="Auth type">
-      <option value="">Any auth</option>
-      <option value="No">No key needed</option>
-      <option value="apiKey">API key</option>
-      <option value="OAuth">OAuth</option>
-    </select>
-    <select id="status" aria-label="Status">
-      <option value="">Any status</option>
-      <option value="live">Live</option>
-      <option value="reachable">Reachable</option>
-      <option value="down">Down</option>
-    </select>
-    <label class="check"><input id="https-only" type="checkbox"> HTTPS only</label>
+    <div id="category-chips" class="chips-row" aria-label="Filter by category"></div>
+    <div class="controls-row">
+      <select id="auth" aria-label="Auth type">
+        <option value="">Any auth</option>
+        <option value="No">No key needed</option>
+        <option value="apiKey">API key</option>
+        <option value="OAuth">OAuth</option>
+      </select>
+      <select id="tier" aria-label="Pricing">
+        <option value="">Any pricing</option>
+        <option value="free">100% Free</option>
+        <option value="freemium">Free Tier</option>
+        <option value="paid">Paid</option>
+      </select>
+      <label class="check"><input id="https-only" type="checkbox"> HTTPS only</label>
+      <button id="add-btn" class="add-btn" type="button">＋ Add</button>
+    </div>
+    <p class="tier-legend"><span class="tier-badge free">100% Free</span> no paid plan exists &nbsp;·&nbsp; <span class="tier-badge freemium">Free Tier</span> free tier of a paid product &nbsp;·&nbsp; <span class="tier-badge paid">Paid</span> no free tier</p>
   </section>
 
   <p id="result-count" class="result-count" aria-live="polite"></p>
@@ -42,10 +87,93 @@
   <section id="results" class="grid" aria-label="API results"></section>
 
   <footer class="site-footer">
-    <p>Data: <code>data/apis.json</code> in this repo · Status is checked weekly by <code>scripts/verify.py</code> via GitHub Actions. <span id="status-legend"></span></p>
+    <a class="github-btn" href="https://github.com/dmdot714-cmd/Live-api-hub" target="_blank" rel="noopener">View on GitHub &rarr;</a>
+    <p>Data: <code>data/apis.json</code> in this repo · Status is checked weekly by <code>scripts/verify.py</code> via GitHub Actions.</p>
     <p><a href="https://github.com/public-apis/public-apis">public-apis</a> (MIT) inspired this project — see the README for credits. Live API Hub itself is MIT licensed.</p>
   </footer>
 </main>
+
+<div id="add-modal" class="modal" hidden>
+  <div class="modal-backdrop" data-close></div>
+  <div class="modal-box" role="dialog" aria-modal="true" aria-labelledby="add-title">
+    <button class="modal-close" type="button" data-close aria-label="Close">&times;</button>
+    <h2 id="add-title">Add to Live API Hub</h2>
+    <p class="modal-note">Additions save in this browser only. To make one permanent, copy its JSON and send it for the next directory update.</p>
+    <div class="add-choice">
+      <button type="button" class="add-choice-btn" data-form="api">API</button>
+      <button type="button" class="add-choice-btn" data-form="repo">Git Repo</button>
+    </div>
+    <form id="add-api-form" class="add-form" hidden>
+      <label>Site / API link
+        <input id="api-link" type="url" placeholder="https://example.com/docs" required>
+      </label>
+      <button id="api-check-btn" class="check-btn" type="button">Check link</button>
+      <div id="api-check-result" class="check-result" aria-live="polite"></div>
+      <div id="api-github-note" class="check-result warn" hidden></div>
+      <label>Name
+        <input id="api-name" type="text" maxlength="80" required>
+      </label>
+      <label>Category
+        <select id="api-category"></select>
+      </label>
+      <label id="api-newcat-wrap" hidden>New category
+        <input id="api-newcat" type="text" maxlength="40">
+      </label>
+      <label>Description
+        <input id="api-desc" type="text" maxlength="160" required>
+      </label>
+      <label>Free tier / limits
+        <input id="api-freetier" type="text" maxlength="200" placeholder="e.g. 60 req/hour without a key" required>
+      </label>
+      <label>Auth
+        <select id="api-auth">
+          <option value="No">No key needed</option>
+          <option value="apiKey">API key</option>
+          <option value="OAuth">OAuth</option>
+        </select>
+      </label>
+      <label>Pricing
+        <select id="api-tier">
+          <option value="free">100% Free</option>
+          <option value="freemium">Free Tier</option>
+          <option value="paid">Paid</option>
+        </select>
+      </label>
+      <label class="check"><input id="api-https" type="checkbox" checked> HTTPS</label>
+      <div class="form-actions">
+        <button id="api-add-btn" class="primary-btn" type="submit" disabled>Add to site</button>
+        <button id="api-copy-btn" type="button" disabled>Copy JSON</button>
+      </div>
+      <pre id="api-json" class="export-json" hidden></pre>
+    </form>
+    <form id="add-repo-form" class="add-form" hidden>
+      <label>GitHub repo link
+        <input id="repo-link" type="url" placeholder="https://github.com/owner/repo" required>
+      </label>
+      <button id="repo-check-btn" class="check-btn" type="button">Check repo</button>
+      <div id="repo-check-result" class="check-result" aria-live="polite"></div>
+      <label>Category
+        <select id="repo-category"></select>
+      </label>
+      <label>Free tier / limits
+        <input id="repo-freetier" type="text" maxlength="200" placeholder="e.g. Free, open-source (MIT); npm install -g foo">
+      </label>
+      <div class="form-actions">
+        <button id="repo-add-btn" class="primary-btn" type="submit" disabled>Add to site</button>
+        <button id="repo-copy-btn" type="button" disabled>Copy JSON</button>
+      </div>
+      <pre id="repo-json" class="export-json" hidden></pre>
+    </form>
+  </div>
+</div>
+
+<div id="detail-modal" class="modal" hidden>
+  <div class="modal-backdrop" data-detail-close></div>
+  <div class="modal-box detail-box" role="dialog" aria-modal="true" aria-labelledby="detail-title">
+    <button class="modal-close" type="button" data-detail-close aria-label="Close">&times;</button>
+    <div id="detail-content"></div>
+  </div>
+</div>
 
 <script src="app.js"></script>
 </body>

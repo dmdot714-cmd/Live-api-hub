@@ -6,12 +6,784 @@
       "cors": "Yes",
       "description": "Random life advice, one slip at a time.",
       "docs_url": "https://api.adviceslip.com/",
-      "free_tier": "Free, no key required.",
+      "free_tier": "Free, no key; no published limit",
       "https": true,
       "id": "advice-slip",
       "last_checked": "2026-11-14",
       "name": "Advice Slip",
-      "status": "live"
+      "status": "live",
+      "sample_url": "https://api.adviceslip.com/advice",
+      "tier": "free"
+    },
+    {
+      "auth": "No",
+      "category": "Agent For Android",
+      "cors": "Unknown",
+      "description": "AI coding agent for Android — built-in Alpine Linux container, terminal, code editor and Git; MCP support, sub-agents and skills",
+      "docs_url": "https://github.com/jieapi/AiCode",
+      "free_tier": "Free, open-source (GPL-3.0); Android APK from GitHub releases; model-agnostic — bring your own key, works with OpenAI/Anthropic/Gemini-compatible endpoints incl. free gateways",
+      "https": true,
+      "id": "aicode",
+      "last_checked": "2026-11-16",
+      "name": "AiCode",
+      "status": "live",
+      "tier": "free"
+    },
+    {
+      "auth": "No",
+      "category": "Agent For Android",
+      "cors": "Unknown",
+      "description": "Switch off system ads, hot-search, news recommendations and marketing pushes on Chinese-brand Android phones (Vivo, OPPO, Xiaomi, Honor, OnePlus, Realme) — no root, no PC, fully reversible.",
+      "docs_url": "https://github.com/rddmwmddr/android-ad-cleaner",
+      "free_tier": "Free, open-source (MIT); Android 11+ APK; README is Chinese-language.",
+      "https": true,
+      "id": "android-ad-cleaner",
+      "last_checked": "2026-11-17",
+      "name": "Android Ad Cleaner",
+      "status": "live",
+      "tier": "free"
+    },
+    {
+      "auth": "No",
+      "category": "Agent For Android",
+      "cors": "Unknown",
+      "description": "Native Android phone-use agent based on Open-AutoGLM — control your phone with natural language, no PC or ADB needed (uses Shizuku)",
+      "docs_url": "https://github.com/Luokavin/AutoGLM-For-Android",
+      "free_tier": "Free, open-source (MIT); Android 7.0+; multi-model — any OpenAI-format vision-capable API, incl. free gateways; needs the Shizuku app for system permissions",
+      "https": true,
+      "id": "autoglm-android",
+      "last_checked": "2026-11-16",
+      "name": "AutoGLM For Android",
+      "status": "live",
+      "tier": "free"
+    },
+    {
+      "auth": "No",
+      "category": "Agent For Android",
+      "cors": "Unknown",
+      "description": "Multi-provider AI client for Android (and desktop) — ChatGPT, Claude, Gemini, DeepSeek, OpenRouter and more in one app, keys stored on-device",
+      "docs_url": "https://github.com/chatboxai/chatbox",
+      "free_tier": "Free, open-source (GPL-3.0, Community Edition); Google Play + APK; free with your own API key, incl. free gateways; optional hosted plans from $3.99/mo",
+      "https": true,
+      "id": "chatbox",
+      "last_checked": "2026-11-16",
+      "name": "ChatBox",
+      "status": "live",
+      "tier": "free"
+    },
+    {
+      "auth": "No",
+      "category": "Agent For Android",
+      "cors": "Unknown",
+      "description": "Free open-source local-first video editor — auto-captions, TTS + voice cloning, background removal, keyframes, 4K export; scriptable via JSON-RPC API & MCP. No watermark, no account, no subscription.",
+      "docs_url": "https://github.com/jub0t/Concat",
+      "free_tier": "Free, open-source (AGPL-3.0); Android 8.0+ APK, 4 GB RAM min; Beta — phone TTS/voice-cloning features lag desktop.",
+      "https": true,
+      "id": "concat",
+      "last_checked": "2026-11-17",
+      "name": "Concat",
+      "status": "live",
+      "tier": "free"
+    },
+    {
+      "auth": "No",
+      "category": "Agent For Android",
+      "cors": "Unknown",
+      "description": "DeepSeek Harness as a single Android APK — operates apps, files and system settings, with automation triggers and a built-in Linux environment; no root or Termux",
+      "docs_url": "https://github.com/jackwener/DSH-Android",
+      "free_tier": "Free, open-source (Apache-2.0); unofficial community port, no DeepSeek affiliation; DeepSeek account or API key, plus OpenRouter/GLM/Qwen or any OpenAI-compatible endpoint; Play Protect may flag the APK — verify SHA-256",
+      "https": true,
+      "id": "dsh-android",
+      "last_checked": "2026-11-16",
+      "name": "DSH-Android",
+      "status": "live",
+      "tier": "free"
+    },
+    {
+      "auth": "No",
+      "category": "Agent For Android",
+      "cors": "Unknown",
+      "description": "Local-first AI agent for Android — Alpine Linux shell, agent browser, MCP and sub-agents; bring any model, no Locus account or server",
+      "docs_url": "https://github.com/springmusk026/locus",
+      "free_tier": "Free, open-source (AGPL-3.0); APK from GitHub releases; any OpenAI-compatible server, ChatGPT plan, or on-device Gemma/GGUF; Android 8.0+; very new project (Oct 2026)",
+      "https": true,
+      "id": "locus",
+      "last_checked": "2026-11-16",
+      "name": "Locus",
+      "status": "live",
+      "tier": "free"
+    },
+    {
+      "auth": "No",
+      "category": "Agent For Android",
+      "cors": "Unknown",
+      "description": "On-device AI agent that operates your apps and the web from one sentence — works on a hidden background screen while you keep using your phone",
+      "docs_url": "https://github.com/wangzan101/Mika",
+      "free_tier": "Free, open-source (Apache-2.0); APK from GitHub releases; 20+ providers incl. OpenRouter, Groq and any OpenAI-compatible endpoint; Android 12+ for app control (14+ recommended); early public beta",
+      "https": true,
+      "id": "mika",
+      "last_checked": "2026-11-16",
+      "name": "Mika",
+      "status": "live",
+      "tier": "free"
+    },
+    {
+      "auth": "No",
+      "category": "Agent For Android",
+      "cors": "Unknown",
+      "description": "OpenClaw AI gateway as a standalone Android app — Flutter UI with built-in terminal and web dashboard, one-tap setup, no root (Ubuntu via proot)",
+      "docs_url": "https://github.com/mithun50/openclaw-termux",
+      "free_tier": "Free, open-source (MIT); APK from GitHub releases; multi-model via the OpenClaw gateway — works with free gateways; Android 10+",
+      "https": true,
+      "id": "openclaw-app",
+      "last_checked": "2026-11-16",
+      "name": "OpenClaw App",
+      "status": "live",
+      "tier": "free"
+    },
+    {
+      "auth": "No",
+      "category": "Agent For Android",
+      "cors": "Unknown",
+      "description": "Manage your Android phone from any browser on the same Wi-Fi — files, SMS, calls, photos, screen mirror. 100% local, no account, no cloud.",
+      "docs_url": "https://github.com/plainhub/plain-app",
+      "free_tier": "Free, open-source (AGPL-3.0); free and ad-free, no purchases or upsells.",
+      "https": true,
+      "id": "plain-app",
+      "last_checked": "2026-11-17",
+      "name": "Plain App",
+      "status": "live",
+      "tier": "free"
+    },
+    {
+      "auth": "No",
+      "category": "Agent For Android",
+      "cors": "Unknown",
+      "description": "Private on-device AI assistant — chat with GGUF models (Gemma, Qwen, Phi, Llama) fully offline, with voice, tools and Hugging Face model downloads",
+      "docs_url": "https://github.com/a-ghorbani/pocketpal-ai",
+      "free_tier": "Free, open-source (MIT); Google Play + GitHub APK; runs small models on-device only — no cloud models; optional PocketPal Plus purchase in store builds, included free in the GitHub APK",
+      "https": true,
+      "id": "pocketpal-ai",
+      "last_checked": "2026-11-16",
+      "name": "PocketPal AI",
+      "status": "live",
+      "tier": "free"
+    },
+    {
+      "auth": "No",
+      "category": "Agent For Android",
+      "cors": "Unknown",
+      "description": "Native Android LLM client with a proot Linux agent workspace and Phone Use — the AI operates your phone; MCP, Skills and web search built in",
+      "docs_url": "https://github.com/rikkahub/rikkahub",
+      "free_tier": "Free, open-source (AGPL-3.0); Google Play + website APK; multi-provider — custom API/URL/models for any OpenAI/Google/Anthropic-compatible endpoint, incl. free gateways",
+      "https": true,
+      "id": "rikkahub",
+      "last_checked": "2026-11-16",
+      "name": "RikkaHub",
+      "status": "live",
+      "tier": "free"
+    },
+    {
+      "auth": "No",
+      "category": "Agent For Android",
+      "cors": "Unknown",
+      "description": "Free open-source voice studio (ElevenLabs alternative) — voice cloning, voice design, video dubbing, dictation, transcription and audiobooks in 646 languages, on-device and offline after model download; Android 10+ APK.",
+      "docs_url": "https://github.com/debpalash/VoiceStudio",
+      "free_tier": "Free, open-source (AGPL-3.0); Android build is Preview; optional Pro plan (commercial licence + multi-device) — the AGPL app stays free.",
+      "https": true,
+      "id": "voice-studio",
+      "last_checked": "2026-11-17",
+      "name": "VoiceStudio",
+      "status": "live",
+      "tier": "free"
+    },
+    {
+      "id": "aichat",
+      "name": "aichat",
+      "category": "Agent For Termux",
+      "description": "All-in-one LLM CLI: chat, shell assistant, RAG and agents across 20+ providers",
+      "docs_url": "https://github.com/sigoden/aichat",
+      "auth": "No",
+      "https": true,
+      "cors": "Unknown",
+      "free_tier": "Free, open-source (Apache-2.0/MIT); official Termux package: pkg install aichat; works with free gateways or local Ollama",
+      "status": "live",
+      "last_checked": "2026-11-15",
+      "tier": "free"
+    },
+    {
+      "id": "aider",
+      "name": "Aider",
+      "category": "Agent For Termux",
+      "description": "AI pair programming in the terminal — chat to edit real code, git-aware",
+      "docs_url": "https://github.com/Aider-AI/aider",
+      "auth": "No",
+      "https": true,
+      "cors": "Unknown",
+      "free_tier": "Free, open-source (Apache-2.0); pip install (heavy deps may need clang/rust); free via OpenAI-compatible gateways (OpenRouter :free, OrcaRouter, Kilo) — add any API key",
+      "status": "live",
+      "last_checked": "2026-11-15",
+      "tier": "free"
+    },
+    {
+      "id": "codebase-memory-mcp",
+      "name": "Codebase Memory MCP",
+      "category": "Agent For Termux",
+      "description": "Local code-intelligence MCP server: a persistent graph of code, docs and infra for agents",
+      "docs_url": "https://github.com/DeusData/codebase-memory-mcp",
+      "auth": "No",
+      "https": true,
+      "cors": "Unknown",
+      "free_tier": "Free, open-source (MIT); single static binary, no runtime deps",
+      "status": "live",
+      "last_checked": "2026-11-15",
+      "tier": "free"
+    },
+    {
+      "id": "core-termux",
+      "name": "Core Termux",
+      "category": "Agent For Termux",
+      "description": "One-script setup turning Termux into a dev workstation: AI coding agents, editor, databases, automation",
+      "docs_url": "https://github.com/DevCoreXOfficial/core-termux",
+      "auth": "No",
+      "https": true,
+      "cors": "Unknown",
+      "free_tier": "Free, open-source (MIT); built for Termux",
+      "status": "live",
+      "last_checked": "2026-11-15",
+      "tier": "free"
+    },
+    {
+      "auth": "No",
+      "category": "Agent For Termux",
+      "cors": "Unknown",
+      "description": "DeepSeek's open-source agent harness (dsh): plugin-based coding agent with a phone web UI (127.0.0.1:3080) — works with any OpenAI-compatible model or gateway, not just DeepSeek.",
+      "docs_url": "https://github.com/deepseek-ai/deepseek-harness",
+      "free_tier": "Free, open-source (MIT); free via any free gateway (OrcaRouter, Kilo, LLM7); Termux install needs native modules compiled — community installer available (10-30 min).",
+      "https": true,
+      "id": "deepseek-harness",
+      "last_checked": "2026-11-17",
+      "name": "DeepSeek Harness",
+      "status": "live",
+      "tier": "free"
+    },
+    {
+      "id": "fabric",
+      "name": "Fabric",
+      "category": "Agent For Termux",
+      "description": "Crowdsourced AI prompt patterns for the CLI — pipe text through an LLM with a chosen pattern",
+      "docs_url": "https://github.com/danielmiessler/Fabric",
+      "auth": "No",
+      "https": true,
+      "cors": "Unknown",
+      "free_tier": "Free, open-source (MIT); go install (Go is a Termux pkg); free via OpenAI-compatible gateways — add any API key",
+      "status": "live",
+      "last_checked": "2026-11-15",
+      "tier": "free"
+    },
+    {
+      "id": "freebuff",
+      "name": "Freebuff",
+      "category": "Agent For Termux",
+      "description": "Free multi-agent coding assistant for the terminal — the open-source successor to Codebuff",
+      "docs_url": "https://github.com/CodebuffAI/freebuff",
+      "auth": "No",
+      "https": true,
+      "cors": "Unknown",
+      "free_tier": "Free, open-source (Apache-2.0); npm install -g freebuff; no subscription, credits or API key needed — ad-supported free models",
+      "status": "live",
+      "last_checked": "2026-11-15",
+      "tier": "free"
+    },
+    {
+      "id": "goose",
+      "name": "Goose",
+      "category": "Agent For Termux",
+      "description": "Extensible AI agent for code and workflows — desktop app, CLI and API, works with 15+ providers",
+      "docs_url": "https://github.com/aaif-goose/goose",
+      "auth": "No",
+      "https": true,
+      "cors": "Unknown",
+      "free_tier": "Free, open-source (Apache-2.0); official Termux support — install script auto-picks the musl aarch64 build; works with local Ollama or OpenRouter free models",
+      "status": "live",
+      "last_checked": "2026-11-15",
+      "tier": "free"
+    },
+    {
+      "id": "gptme",
+      "name": "gptme",
+      "category": "Agent For Termux",
+      "description": "Terminal agent with local tools — writes code, uses the shell, browses the web; build persistent agents on top",
+      "docs_url": "https://github.com/gptme/gptme",
+      "auth": "No",
+      "https": true,
+      "cors": "Unknown",
+      "free_tier": "Free, open-source (MIT); pip install gptme; free via OpenRouter :free models or any OpenAI-compatible gateway",
+      "status": "live",
+      "last_checked": "2026-11-15",
+      "tier": "free"
+    },
+    {
+      "id": "hermes-agent",
+      "name": "Hermes Agent",
+      "category": "Agent For Termux",
+      "description": "Self-improving AI agent by Nous Research — TUI, chat gateways, skills and memory; any model via OpenRouter, NVIDIA NIM, z.ai GLM or any OpenAI-compatible endpoint",
+      "docs_url": "https://hermes-agent.nousresearch.com/docs",
+      "auth": "No",
+      "https": true,
+      "cors": "Unknown",
+      "free_tier": "Free, open-source (MIT); free via OpenRouter :free models or any free gateway — no Nous subscription needed. Termux install currently broken per official docs (fix in progress)",
+      "status": "live",
+      "last_checked": "2026-11-15",
+      "tier": "free"
+    },
+    {
+      "id": "kimi-code",
+      "name": "Kimi Code",
+      "category": "Agent For Termux",
+      "description": "Moonshot AI's terminal coding agent — reads/edits code, runs shell commands, MCP and subagents",
+      "docs_url": "https://github.com/MoonshotAI/kimi-code",
+      "auth": "No",
+      "https": true,
+      "cors": "Unknown",
+      "free_tier": "Free, open-source (MIT); npm install -g @moonshot-ai/kimi-code (needs Node 22.19+); free via any OpenAI-compatible gateway — default Kimi models need a paid membership",
+      "status": "live",
+      "last_checked": "2026-11-15",
+      "tier": "free"
+    },
+    {
+      "id": "llm",
+      "name": "LLM",
+      "category": "Agent For Termux",
+      "description": "CLI for chatting with LLMs, with plugins for Gemini, Ollama and OpenAI-compatible models",
+      "docs_url": "https://github.com/simonw/llm",
+      "auth": "No",
+      "https": true,
+      "cors": "Unknown",
+      "free_tier": "Free, open-source (Apache-2.0); pip install llm; works with free gateways or local Ollama",
+      "status": "live",
+      "last_checked": "2026-11-15",
+      "tier": "free"
+    },
+    {
+      "id": "ollama",
+      "name": "Ollama",
+      "category": "Agent For Termux",
+      "description": "Run LLMs locally on the phone — the free offline backend for aichat, llm and other CLIs",
+      "docs_url": "https://github.com/ollama/ollama",
+      "auth": "No",
+      "https": true,
+      "cors": "Unknown",
+      "free_tier": "Free, open-source (MIT); official Termux package: pkg install ollama",
+      "status": "live",
+      "last_checked": "2026-11-15",
+      "tier": "free"
+    },
+    {
+      "id": "open-interpreter",
+      "name": "Open Interpreter",
+      "category": "Agent For Termux",
+      "description": "Coding agent optimized for low-cost and local models — runs Python, shell and JS on your machine from natural language",
+      "docs_url": "https://github.com/openinterpreter/openinterpreter",
+      "auth": "No",
+      "https": true,
+      "cors": "Unknown",
+      "free_tier": "Free, open-source (Apache-2.0); install script ships an aarch64 musl binary; free via 117 hosted providers or any OpenAI-compatible gateway",
+      "status": "live",
+      "last_checked": "2026-11-15",
+      "tier": "free"
+    },
+    {
+      "id": "openclaw",
+      "name": "OpenClaw",
+      "category": "Agent For Termux",
+      "description": "Personal AI agent gateway — assistant in your chats, on your own devices, with shell tools and MCP",
+      "docs_url": "https://github.com/openclaw/openclaw",
+      "auth": "No",
+      "https": true,
+      "cors": "Unknown",
+      "free_tier": "Free, open-source (MIT); npm install -g openclaw (needs Node 22+); free via OpenRouter :free models or any OpenAI-compatible gateway",
+      "status": "live",
+      "last_checked": "2026-11-15",
+      "tier": "free"
+    },
+    {
+      "id": "openclaw-android",
+      "name": "OpenClaw for Android",
+      "category": "Agent For Termux",
+      "description": "Automated installer for the OpenClaw agent system on Android via Termux",
+      "docs_url": "https://github.com/iyeoh88-svg/openclaw-android",
+      "auth": "No",
+      "https": true,
+      "cors": "Unknown",
+      "free_tier": "Free, open-source (MIT); installer script sets up OpenClaw in a Debian proot on Termux; needs 4GB+ RAM",
+      "status": "live",
+      "last_checked": "2026-11-15",
+      "tier": "free"
+    },
+    {
+      "id": "opencode",
+      "name": "OpenCode",
+      "category": "Agent For Termux",
+      "description": "The open-source AI coding agent for the terminal",
+      "docs_url": "https://github.com/anomalyco/opencode",
+      "auth": "No",
+      "https": true,
+      "cors": "Unknown",
+      "free_tier": "Free, open-source (MIT); runs in Termux via the opencode-termux build; 13 free models built in (GLM-5.3-Flash Free, DeepSeek V4.1 Flash Free) + 75+ providers via API key",
+      "status": "live",
+      "last_checked": "2026-11-18",
+      "tier": "free"
+    },
+    {
+      "id": "opencode-termux",
+      "name": "OpenCode for Termux",
+      "category": "Agent For Termux",
+      "description": "Native aarch64 build of OpenCode for Termux — the key enabler for agents on the phone",
+      "docs_url": "https://github.com/guysoft/opencode-termux",
+      "auth": "No",
+      "https": true,
+      "cors": "Unknown",
+      "free_tier": "Free, open-source (MIT); standalone zip, pacman or .deb from releases; needs ripgrep",
+      "status": "live",
+      "last_checked": "2026-11-18",
+      "tier": "free"
+    },
+    {
+      "id": "pi",
+      "name": "Pi",
+      "category": "Agent For Termux",
+      "description": "Minimal, extensible terminal coding agent — four tools, mid-session model switching, add only what you need",
+      "docs_url": "https://github.com/earendil-works/pi",
+      "auth": "No",
+      "https": true,
+      "cors": "Unknown",
+      "free_tier": "Free, open-source (MIT); npm install -g @earendil-works/pi-coding-agent (needs Node 22.19+); free via OpenRouter :free models (dedicated provider) or local Ollama",
+      "status": "live",
+      "last_checked": "2026-11-15",
+      "tier": "free"
+    },
+    {
+      "id": "shell-gpt",
+      "name": "ShellGPT",
+      "category": "Agent For Termux",
+      "description": "Shell assistant: natural language to shell commands, plus chat and code modes",
+      "docs_url": "https://github.com/TheR1D/shell_gpt",
+      "auth": "No",
+      "https": true,
+      "cors": "Unknown",
+      "free_tier": "Free, open-source (MIT); pip install shell-gpt; free via OpenAI-compatible gateways through the LiteLLM extra — add any API key",
+      "status": "live",
+      "last_checked": "2026-11-15",
+      "tier": "free"
+    },
+    {
+      "id": "termux-mcp",
+      "name": "Termux MCP",
+      "category": "Agent For Termux",
+      "description": "Early-stage MCP server for Termux — lets AI agents run shell commands on the Android device",
+      "docs_url": "https://github.com/termuxgpt/termux-mcp",
+      "auth": "No",
+      "https": true,
+      "cors": "Unknown",
+      "free_tier": "Free, open-source (AGPL-3.0); built for Termux (Python); small/new project",
+      "status": "live",
+      "last_checked": "2026-11-15",
+      "tier": "free"
+    },
+    {
+      "id": "tgpt",
+      "name": "tgpt",
+      "category": "Agent For Termux",
+      "description": "Free AI chatbots in the terminal — several backends need no API key",
+      "docs_url": "https://github.com/aandrew-me/tgpt",
+      "auth": "No",
+      "https": true,
+      "cors": "Unknown",
+      "free_tier": "Free, open-source (GPL-3.0); go install or prebuilt binary; some backends need no key",
+      "status": "live",
+      "last_checked": "2026-11-15",
+      "tier": "free"
+    },
+    {
+      "auth": "No",
+      "category": "Agent Skill",
+      "cors": "Unknown",
+      "description": "A complete AI agency in one repo — 200+ specialised agents (frontend, Reddit community, copywriting and more), each with personality, process and deliverables. Install a subset on a phone; the full set is heavy.",
+      "docs_url": "https://github.com/msitarzewski/agency-agents",
+      "free_tier": "Free, open-source (MIT)",
+      "https": true,
+      "id": "agency-agents",
+      "last_checked": "2026-11-16",
+      "name": "Agency Agents",
+      "status": "live",
+      "tier": "free"
+    },
+    {
+      "auth": "No",
+      "category": "Agent Skill",
+      "cors": "Unknown",
+      "description": "Catalog of 2,900+ installable SKILL.md playbooks with a local CLI, MCP server and planner for Claude Code, Codex, Cursor and Gemini CLI.",
+      "docs_url": "https://github.com/sickn33/agentic-awesome-skills",
+      "free_tier": "Free, open-source (MIT); imported skills retain upstream licences — 1,836 index entries declare no licence; install from GitHub (npm publishing paused).",
+      "https": true,
+      "id": "agentic-awesome-skills",
+      "last_checked": "2026-11-17",
+      "name": "Agentic Awesome Skills",
+      "status": "live",
+      "tier": "free"
+    },
+    {
+      "auth": "No",
+      "category": "Agent Skill",
+      "cors": "Unknown",
+      "description": "Persistent memory for AI coding agents, built on real-world benchmarks; npm @agentmemory/agentmemory. Works with Claude Code, Codex, Cursor, OpenCode, Pi and more.",
+      "docs_url": "https://github.com/rohitg00/agentmemory",
+      "free_tier": "Free, open-source (Apache-2.0)",
+      "https": true,
+      "id": "agentmemory",
+      "last_checked": "2026-11-16",
+      "name": "agentmemory",
+      "status": "live",
+      "tier": "free"
+    },
+    {
+      "auth": "No",
+      "category": "Agent Skill",
+      "cors": "Unknown",
+      "description": "817 structured cybersecurity skills for AI agents, mapped to MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF and MITRE F3; 29 security domains. Community project — NOT affiliated with Anthropic.",
+      "docs_url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+      "free_tier": "Free, open-source (Apache-2.0)",
+      "https": true,
+      "id": "anthropic-cybersecurity-skills",
+      "last_checked": "2026-11-16",
+      "name": "Anthropic Cybersecurity Skills",
+      "status": "live",
+      "tier": "free"
+    },
+    {
+      "auth": "No",
+      "category": "Agent Skill",
+      "cors": "Unknown",
+      "description": "Agent skill turning an idea, plan or codebase into a verified, interactive, self-contained HTML architecture diagram (Mermaid, flow, sequence).",
+      "docs_url": "https://github.com/tt-a1i/archify",
+      "free_tier": "Free, open-source (Apache-2.0); zero runtime deps beyond Node; works with OpenCode, Claude Code, Codex CLI, Cursor.",
+      "https": true,
+      "id": "archify",
+      "last_checked": "2026-11-17",
+      "name": "Archify",
+      "status": "live",
+      "tier": "free"
+    },
+    {
+      "auth": "No",
+      "category": "Agent Skill",
+      "cors": "Unknown",
+      "description": "Curated collection of 1,000+ agent skills from official dev teams and the community, for Claude Code, Codex, Gemini CLI, Cursor, OpenCode and more.",
+      "docs_url": "https://github.com/VoltAgent/awesome-agent-skills",
+      "free_tier": "Free, open-source (MIT); install by clone/copy skill folders or via skills.sh. Distinct from ComposioHQ/awesome-claude-skills.",
+      "https": true,
+      "id": "awesome-agent-skills",
+      "last_checked": "2026-11-17",
+      "name": "Awesome Agent Skills",
+      "status": "live",
+      "tier": "free"
+    },
+    {
+      "auth": "No",
+      "category": "Agent Skill",
+      "cors": "Unknown",
+      "description": "Curated list of 1000+ production-ready Claude Skills and plugins for Claude Code, Codex, Cursor, Gemini CLI, Antigravity and more — includes the Competitive Ads Extractor and Invoice Organizer skills.",
+      "docs_url": "https://github.com/ComposioHQ/awesome-claude-skills",
+      "free_tier": "Free, open-source (Apache-2.0 per README; individual skills may differ)",
+      "https": true,
+      "id": "awesome-claude-skills",
+      "last_checked": "2026-11-16",
+      "name": "Awesome Claude Skills",
+      "status": "live",
+      "tier": "free"
+    },
+    {
+      "auth": "No",
+      "category": "Agent Skill",
+      "cors": "Unknown",
+      "description": "Editorial diagram design skill for Claude Code, Codex, Copilot, Cursor, Pi and more — 45 diagram types as self-contained HTML + SVG, no Mermaid.",
+      "docs_url": "https://github.com/cathrynlavery/diagram-design",
+      "free_tier": "Free, open-source (MIT)",
+      "https": true,
+      "id": "diagram-design",
+      "last_checked": "2026-11-16",
+      "name": "Diagram Design",
+      "status": "live",
+      "tier": "free"
+    },
+    {
+      "auth": "No",
+      "category": "Agent Skill",
+      "cors": "Unknown",
+      "description": "Everything Claude Code — 311 skills, 71 agents, hooks and rules forming a full engineering workflow (plan, test, implement, review, verify, remember) for 19 hosts incl. OpenCode.",
+      "docs_url": "https://github.com/affaan-m/ECC",
+      "free_tier": "Free, open-source (MIT); full install adds ~27k tokens of standing context; ECC Pro (hosted GitHub App) is paid but the toolkit is not gated.",
+      "https": true,
+      "id": "ecc",
+      "last_checked": "2026-11-17",
+      "name": "ECC",
+      "status": "live",
+      "tier": "free"
+    },
+    {
+      "auth": "No",
+      "category": "Agent Skill",
+      "cors": "Unknown",
+      "description": "Local video editor for coding agents: 42 FFmpeg tools (cut, captions/karaoke, reframe, loudness, platform exports) + MCP server — no cloud, no API keys.",
+      "docs_url": "https://github.com/kajisho5/ffmpeg-skill",
+      "free_tier": "Free, open-source (MIT); needs ffmpeg 6.1+ and python3 on PATH (pkg install ffmpeg python); encoding is slow on a phone.",
+      "https": true,
+      "id": "ffmpeg-skill",
+      "last_checked": "2026-11-17",
+      "name": "ffmpeg-skill",
+      "status": "live",
+      "tier": "free"
+    },
+    {
+      "auth": "No",
+      "category": "Agent Skill",
+      "cors": "Unknown",
+      "description": "Get Shit Done — spec-driven development skills for Claude Code (context engineering + meta-prompting). Successor of the archived gsd-build/get-shit-done.",
+      "docs_url": "https://github.com/open-gsd/gsd-core",
+      "free_tier": "Free, open-source (MIT)",
+      "https": true,
+      "id": "gsd-core",
+      "last_checked": "2026-11-16",
+      "name": "GSD Core",
+      "status": "live",
+      "tier": "free"
+    },
+    {
+      "auth": "No",
+      "category": "Agent Skill",
+      "cors": "Unknown",
+      "description": "Garry Tan's (Y Combinator) exact Claude Code setup — 23 slash-command skills acting as CEO, designer, eng manager, release manager, doc engineer and QA. Needs Claude Code + Bun v1.4.2+; poor fit on a phone (Bun + browser steps).",
+      "docs_url": "https://github.com/garrytan/gstack",
+      "free_tier": "Free, open-source (MIT)",
+      "https": true,
+      "id": "gstack",
+      "last_checked": "2026-11-16",
+      "name": "GStack",
+      "status": "live",
+      "tier": "free"
+    },
+    {
+      "auth": "No",
+      "category": "Agent Skill",
+      "cors": "Unknown",
+      "description": "Anti-AI-slop design skill — 50 material themes, hard quality gates and a page linter so agent-built sites look designed, not generated; 755 openly licensed photos.",
+      "docs_url": "https://github.com/Nutlope/hallmark",
+      "free_tier": "Free, open-source (MIT); browser-check (sloplint) needs desktop Chrome (unavailable on a phone) — core skill works without it.",
+      "https": true,
+      "id": "hallmark",
+      "last_checked": "2026-11-17",
+      "name": "Hallmark",
+      "status": "live",
+      "tier": "free"
+    },
+    {
+      "auth": "No",
+      "category": "Agent Skill",
+      "cors": "Unknown",
+      "description": "Researches any topic across Reddit, X, YouTube, Hacker News, Polymarket and the web, then synthesises a grounded summary of the last 30 days. Needs Python + Go; Reddit/HN keyless, X/YouTube/TikTok need API keys.",
+      "docs_url": "https://github.com/mvanhorn/last30days-skill",
+      "free_tier": "Free, open-source (MIT)",
+      "https": true,
+      "id": "last30days-skill",
+      "last_checked": "2026-11-16",
+      "name": "Last30Days",
+      "status": "live",
+      "tier": "free"
+    },
+    {
+      "auth": "No",
+      "category": "Agent Skill",
+      "cors": "Unknown",
+      "description": "Marketing skills for Claude Code and AI agents — CRO, copywriting, SEO, analytics and growth engineering.",
+      "docs_url": "https://github.com/coreyhaines31/marketingskills",
+      "free_tier": "Free, open-source (MIT)",
+      "https": true,
+      "id": "marketingskills",
+      "last_checked": "2026-11-16",
+      "name": "Marketing Skills",
+      "status": "live",
+      "tier": "free"
+    },
+    {
+      "auth": "No",
+      "category": "Agent Skill",
+      "cors": "Unknown",
+      "description": "Free SEO + GEO skills (audit, keywords, rank tracking, backlinks, AI visibility) on your real Search Console/Analytics data via a free hosted MCP server.",
+      "docs_url": "https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills",
+      "free_tier": "Free, open-source (MIT); skills are Markdown, pasteable into any agent; GSC/GA4-based skills free — free allowance for DataForSEO-backed skills unverified.",
+      "https": true,
+      "id": "open-seo-mcp-skills",
+      "last_checked": "2026-11-17",
+      "name": "Open SEO MCP Skills",
+      "status": "live",
+      "tier": "free"
+    },
+    {
+      "auth": "No",
+      "category": "Agent Skill",
+      "cors": "Unknown",
+      "description": "Makes your AI agent think like the laziest senior dev — the best code is the code you never wrote. YAGNI-style skill; install only from the official repo/npm, never .exe/.dll.",
+      "docs_url": "https://github.com/DietrichGebert/ponytail",
+      "free_tier": "Free, open-source (MIT)",
+      "https": true,
+      "id": "ponytail",
+      "last_checked": "2026-11-16",
+      "name": "Ponytail",
+      "status": "live",
+      "tier": "free"
+    },
+    {
+      "auth": "No",
+      "category": "Agent Skill",
+      "cors": "Unknown",
+      "description": "177 validated science skills + 100+ scientific databases — biology, chemistry, medicine, drug discovery. Works with Cursor, Claude Code, Codex, Pi, Antigravity and the open Agent Skills standard.",
+      "docs_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "free_tier": "Free, open-source (MIT)",
+      "https": true,
+      "id": "scientific-agent-skills",
+      "last_checked": "2026-11-16",
+      "name": "Scientific Agent Skills",
+      "status": "live",
+      "tier": "free"
+    },
+    {
+      "auth": "No",
+      "category": "Agent Skill",
+      "cors": "Unknown",
+      "description": "Design-taste skill for coding agents — art direction, real openly licensed reference photos and a browser self-check instead of generic AI pages.",
+      "docs_url": "https://github.com/Leonxlnx/taste-skill",
+      "free_tier": "Free, open-source (MIT); scripts need Node 22+; browser-check needs desktop Chrome (unavailable on a phone) — core skill works without it.",
+      "https": true,
+      "id": "taste-skill",
+      "last_checked": "2026-11-17",
+      "name": "Taste Skill",
+      "status": "live",
+      "tier": "free"
+    },
+    {
+      "auth": "No",
+      "category": "Agent Skill",
+      "cors": "Unknown",
+      "description": "Skill that audits vibecoded, AI-looking UI and redesigns it in nine passes so it stops looking AI-generated.",
+      "docs_url": "https://github.com/heydamir/unslop",
+      "free_tier": "Free, open-source (CC-BY-4.0, incl. commercial use, attribution required); install by git clone + copy into ~/.claude/skills.",
+      "https": true,
+      "id": "unslop",
+      "last_checked": "2026-11-17",
+      "name": "Unslop",
+      "status": "live",
+      "tier": "free"
     },
     {
       "auth": "No",
@@ -19,12 +791,14 @@
       "cors": "Yes",
       "description": "Random cat facts, one fact per request.",
       "docs_url": "https://catfact.ninja/",
-      "free_tier": "Free, no key required.",
+      "free_tier": "Free, no key; no published limit",
       "https": true,
       "id": "cat-facts",
       "last_checked": "2026-11-14",
       "name": "Cat Facts",
-      "status": "live"
+      "status": "live",
+      "sample_url": "https://catfact.ninja/fact",
+      "tier": "free"
     },
     {
       "auth": "No",
@@ -32,12 +806,14 @@
       "cors": "Yes",
       "description": "Cat as a Service: random cat images, GIFs, and text overlays.",
       "docs_url": "https://cataas.com/",
-      "free_tier": "Free, no key required.",
+      "free_tier": "Free, no key; no published limit",
       "https": true,
       "id": "cataas",
       "last_checked": "2026-11-14",
       "name": "Cataas",
-      "status": "live"
+      "status": "live",
+      "sample_url": "https://cataas.com/cat?json=true",
+      "tier": "free"
     },
     {
       "auth": "No",
@@ -45,12 +821,14 @@
       "cors": "Yes",
       "description": "Random dog images by breed, plus breed lists.",
       "docs_url": "https://dog.ceo/dog-api/",
-      "free_tier": "Free, no key required.",
+      "free_tier": "Free, no key; no published limit",
       "https": true,
       "id": "dog-ceo",
       "last_checked": "2026-11-14",
       "name": "Dog CEO",
-      "status": "live"
+      "status": "live",
+      "sample_url": "https://dog.ceo/api/breeds/image/random",
+      "tier": "free"
     },
     {
       "auth": "No",
@@ -58,12 +836,14 @@
       "cors": "Yes",
       "description": "Random fox images.",
       "docs_url": "https://randomfox.ca/",
-      "free_tier": "Free, no key required.",
+      "free_tier": "Free, no key; no published limit",
       "https": true,
       "id": "randomfox",
       "last_checked": "2026-11-14",
       "name": "RandomFox",
-      "status": "live"
+      "status": "live",
+      "sample_url": "https://randomfox.ca/floof/",
+      "tier": "free"
     },
     {
       "auth": "apiKey",
@@ -71,12 +851,13 @@
       "cors": "Yes",
       "description": "Cat images and breeds with voting and favourites.",
       "docs_url": "https://thecatapi.com/",
-      "free_tier": "Free plan with a free API key; monthly limits apply.",
+      "free_tier": "Free key; no published limit",
       "https": true,
       "id": "thecatapi",
       "last_checked": "2026-11-14",
       "name": "TheCatAPI",
-      "status": "live"
+      "status": "live",
+      "tier": "freemium"
     },
     {
       "auth": "No",
@@ -84,12 +865,28 @@
       "cors": "Yes",
       "description": "Unofficial MyAnimeList API: anime, manga, characters, schedules.",
       "docs_url": "https://docs.api.jikan.moe/",
-      "free_tier": "Free, no key; rate-limited.",
+      "free_tier": "Free, no key; 60 req/min, 3 req/sec",
       "https": true,
       "id": "jikan",
       "last_checked": "2026-11-14",
       "name": "Jikan",
-      "status": "live"
+      "status": "live",
+      "tier": "free"
+    },
+    {
+      "id": "studio-ghibli",
+      "name": "Studio Ghibli",
+      "category": "Anime",
+      "description": "Films, people, places and creatures from Studio Ghibli movies.",
+      "docs_url": "https://ghibliapi.vercel.app",
+      "auth": "No",
+      "https": true,
+      "cors": "Yes",
+      "free_tier": "Free, no key; no published limit",
+      "sample_url": "https://ghibliapi.vercel.app/films",
+      "status": "live",
+      "last_checked": "2026-11-15",
+      "tier": "free"
     },
     {
       "auth": "apiKey",
@@ -97,12 +894,13 @@
       "cors": "Yes",
       "description": "Search books, previews, and metadata from Google Books.",
       "docs_url": "https://developers.google.com/books/docs/v1/getting_started",
-      "free_tier": "Free; API key optional for basic queries.",
+      "free_tier": "Free key; no published limit",
       "https": true,
       "id": "google-books",
       "last_checked": "2026-11-14",
       "name": "Google Books",
-      "status": "live"
+      "status": "live",
+      "tier": "free"
     },
     {
       "auth": "No",
@@ -110,12 +908,13 @@
       "cors": "Yes",
       "description": "Project Gutenberg ebooks as JSON: search by author, topic, or language.",
       "docs_url": "https://gutendex.com/",
-      "free_tier": "Free, no key required.",
+      "free_tier": "Free, no key; no published limit",
       "https": true,
       "id": "gutendex",
       "last_checked": "2026-11-14",
       "name": "Gutendex",
-      "status": "live"
+      "status": "live",
+      "tier": "free"
     },
     {
       "auth": "No",
@@ -123,12 +922,29 @@
       "cors": "Yes",
       "description": "Book metadata, covers, and search from the Internet Archive's Open Library.",
       "docs_url": "https://openlibrary.org/dev/docs/api/",
-      "free_tier": "Free, no key required.",
+      "free_tier": "Free, no key; 1 req/sec (3/sec identified)",
       "https": true,
       "id": "open-library",
       "last_checked": "2026-11-14",
       "name": "Open Library",
-      "status": "live"
+      "status": "live",
+      "sample_url": "https://openlibrary.org/search.json?q=the+lord+of+the+rings&limit=1",
+      "tier": "free"
+    },
+    {
+      "id": "poetrydb",
+      "name": "PoetryDB",
+      "category": "Books",
+      "description": "Classic poems searchable by author, title or line, with full poem text.",
+      "docs_url": "https://github.com/thundercomb/poetrydb#readme",
+      "auth": "No",
+      "https": true,
+      "cors": "Yes",
+      "free_tier": "Free, no key; no published limit",
+      "sample_url": "https://poetrydb.org/random",
+      "status": "live",
+      "last_checked": "2026-11-15",
+      "tier": "free"
     },
     {
       "auth": "No",
@@ -136,25 +952,27 @@
       "cors": "Yes",
       "description": "Binance public market data: prices, trades, and order books.",
       "docs_url": "https://binance-docs.github.io/apidocs/spot/en/",
-      "free_tier": "Free; public market data needs no key.",
+      "free_tier": "Free; 6,000 weight/min per IP",
       "https": true,
       "id": "binance",
       "last_checked": "2026-11-14",
       "name": "Binance",
-      "status": "live"
+      "status": "live",
+      "tier": "free"
     },
     {
-      "auth": "No",
+      "auth": "apiKey",
       "category": "Cryptocurrency",
       "cors": "Yes",
       "description": "Crypto prices and market data for 2,000+ assets.",
       "docs_url": "https://docs.coincap.io/",
-      "free_tier": "Free, no key required.",
+      "free_tier": "Free key; 500 credits/mo, 5 req/min",
       "https": true,
       "id": "coincap",
       "last_checked": "2026-11-14",
       "name": "CoinCap",
-      "status": "live"
+      "status": "live",
+      "tier": "freemium"
     },
     {
       "auth": "No",
@@ -162,12 +980,14 @@
       "cors": "Yes",
       "description": "Crypto prices, market data, and exchange info for thousands of coins.",
       "docs_url": "https://docs.coingecko.com/",
-      "free_tier": "Free plan with rate limits; API key optional.",
+      "free_tier": "Free; 10,000 calls/mo, 100/min",
       "https": true,
       "id": "coingecko",
       "last_checked": "2026-11-14",
       "name": "CoinGecko",
-      "status": "live"
+      "status": "live",
+      "sample_url": "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd",
+      "tier": "freemium"
     },
     {
       "auth": "No",
@@ -175,12 +995,14 @@
       "cors": "Yes",
       "description": "Crypto prices, market cap, and historical data.",
       "docs_url": "https://www.coinlore.com/cryptocurrency-data-api",
-      "free_tier": "Free, no key required.",
+      "free_tier": "Free, no key; ~1 req/sec recommended",
       "https": true,
       "id": "coinlore",
       "last_checked": "2026-11-14",
       "name": "CoinLore",
-      "status": "live"
+      "status": "live",
+      "sample_url": "https://api.coinlore.net/api/tickers/?start=0&limit=1",
+      "tier": "free"
     },
     {
       "auth": "No",
@@ -188,12 +1010,29 @@
       "cors": "Yes",
       "description": "Crypto prices, market caps, and coin metadata.",
       "docs_url": "https://api.coinpaprika.com/",
-      "free_tier": "Free, no key required.",
+      "free_tier": "Free, no key; 20,000 calls/mo, personal use",
       "https": true,
       "id": "coinpaprika",
       "last_checked": "2026-11-14",
       "name": "CoinPaprika",
-      "status": "live"
+      "status": "live",
+      "sample_url": "https://api.coinpaprika.com/v1/tickers/btc-bitcoin",
+      "tier": "freemium"
+    },
+    {
+      "id": "currency-api",
+      "name": "Currency-api",
+      "category": "Currency Exchange",
+      "description": "Free currency exchange rates for 200+ currencies, updated daily.",
+      "docs_url": "https://github.com/fawazahmed0/exchange-api",
+      "auth": "No",
+      "https": true,
+      "cors": "Yes",
+      "free_tier": "Free, no key; no rate limits",
+      "sample_url": "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/usd.json",
+      "status": "live",
+      "last_checked": "2026-11-15",
+      "tier": "free"
     },
     {
       "auth": "apiKey",
@@ -201,12 +1040,13 @@
       "cors": "Unknown",
       "description": "Exchange rates for 160+ currencies, updated daily.",
       "docs_url": "https://www.exchangerate-api.com/docs/free",
-      "free_tier": "Free plan with a free API key; request limits apply.",
+      "free_tier": "Free key; 1,500 req/mo",
       "https": true,
       "id": "exchangerate-api",
       "last_checked": "2026-11-14",
       "name": "ExchangeRate-API",
-      "status": "live"
+      "status": "live",
+      "tier": "freemium"
     },
     {
       "auth": "No",
@@ -214,12 +1054,14 @@
       "cors": "Yes",
       "description": "Foreign exchange rates and currency conversion, powered by the ECB.",
       "docs_url": "https://www.frankfurter.app/docs/",
-      "free_tier": "Free, no key required.",
+      "free_tier": "Free, no key; no quotas, no daily/monthly caps",
       "https": true,
       "id": "frankfurter",
       "last_checked": "2026-11-14",
       "name": "Frankfurter",
-      "status": "live"
+      "status": "live",
+      "sample_url": "https://api.frankfurter.dev/v1/latest?base=USD&symbols=EUR",
+      "tier": "free"
     },
     {
       "auth": "No",
@@ -227,12 +1069,14 @@
       "cors": "Yes",
       "description": "Public holidays for 100+ countries.",
       "docs_url": "https://date.nager.at/",
-      "free_tier": "Free, no key required.",
+      "free_tier": "Free, no key; no rate limits, unlimited",
       "https": true,
       "id": "date-nager",
       "last_checked": "2026-11-14",
       "name": "Date Nager",
-      "status": "live"
+      "status": "live",
+      "sample_url": "https://date.nager.at/api/v3/publicholidays/2026/US",
+      "tier": "free"
     },
     {
       "auth": "No",
@@ -245,7 +1089,9 @@
       "id": "github-rest",
       "last_checked": "2026-11-14",
       "name": "GitHub REST API",
-      "status": "live"
+      "status": "live",
+      "sample_url": "https://api.github.com/repos/octocat/Hello-World",
+      "tier": "free"
     },
     {
       "auth": "No",
@@ -253,12 +1099,14 @@
       "cors": "Yes",
       "description": "Projects, issues, and merge requests on GitLab.",
       "docs_url": "https://docs.gitlab.com/api/",
-      "free_tier": "Free; public endpoints need no key.",
+      "free_tier": "Free, no key; 60 req/hr per IP",
       "https": true,
       "id": "gitlab",
       "last_checked": "2026-11-14",
       "name": "GitLab",
-      "status": "live"
+      "status": "live",
+      "sample_url": "https://gitlab.com/api/v4/projects?per_page=1",
+      "tier": "free"
     },
     {
       "auth": "No",
@@ -266,12 +1114,29 @@
       "cors": "Yes",
       "description": "HTTP request and response testing service.",
       "docs_url": "https://httpbin.org/",
-      "free_tier": "Free, no key required.",
+      "free_tier": "Free, no key; ~17 req/sec per IP",
       "https": true,
       "id": "httpbin",
       "last_checked": "2026-11-14",
       "name": "httpbin",
-      "status": "live"
+      "status": "live",
+      "sample_url": "https://httpbin.org/get",
+      "tier": "free"
+    },
+    {
+      "id": "iconify",
+      "name": "Iconify",
+      "category": "Development",
+      "description": "Over 300,000 open-source icons as SVG data, searchable by icon set.",
+      "docs_url": "https://iconify.design/docs/api/",
+      "auth": "No",
+      "https": true,
+      "cors": "Yes",
+      "free_tier": "Free, no key; fair-use limits, no numbers published",
+      "sample_url": "https://api.iconify.design/mdi.json?icons=home",
+      "status": "live",
+      "last_checked": "2026-11-15",
+      "tier": "free"
     },
     {
       "auth": "No",
@@ -279,12 +1144,29 @@
       "cors": "Yes",
       "description": "Fake REST API for testing and prototyping (posts, users, todos).",
       "docs_url": "https://jsonplaceholder.typicode.com/",
-      "free_tier": "Free, no key required.",
+      "free_tier": "Free, no key; no published limit",
       "https": true,
       "id": "jsonplaceholder",
       "last_checked": "2026-11-14",
       "name": "JSONPlaceholder",
-      "status": "live"
+      "status": "live",
+      "sample_url": "https://jsonplaceholder.typicode.com/posts/1",
+      "tier": "free"
+    },
+    {
+      "id": "osv",
+      "name": "OSV",
+      "category": "Development",
+      "description": "Database of open-source software vulnerabilities — look up a CVE or OSV ID.",
+      "docs_url": "https://google.github.io/osv.dev/api/",
+      "auth": "No",
+      "https": true,
+      "cors": "Yes",
+      "free_tier": "Free, no key; no rate limits",
+      "sample_url": "https://api.osv.dev/v1/vulns/CVE-2021-44228",
+      "status": "live",
+      "last_checked": "2026-11-15",
+      "tier": "free"
     },
     {
       "auth": "No",
@@ -292,12 +1174,14 @@
       "cors": "Yes",
       "description": "Python package metadata, versions, and download stats.",
       "docs_url": "https://docs.pypi.org/",
-      "free_tier": "Free, no key required.",
+      "free_tier": "Free, no key; no rate limit at the edge",
       "https": true,
       "id": "pypi",
       "last_checked": "2026-11-14",
       "name": "PyPI",
-      "status": "live"
+      "status": "live",
+      "sample_url": "https://pypi.org/pypi/requests/json",
+      "tier": "free"
     },
     {
       "auth": "No",
@@ -305,12 +1189,13 @@
       "cors": "Yes",
       "description": "Status badges for READMEs: builds, coverage, versions, and more.",
       "docs_url": "https://shields.io/",
-      "free_tier": "Free, no key required.",
+      "free_tier": "Free, no key; no published limit",
       "https": true,
       "id": "shields-io",
       "last_checked": "2026-11-14",
       "name": "Shields.io",
-      "status": "live"
+      "status": "live",
+      "tier": "free"
     },
     {
       "auth": "No",
@@ -323,7 +1208,9 @@
       "id": "stack-exchange",
       "last_checked": "2026-11-14",
       "name": "Stack Exchange",
-      "status": "live"
+      "status": "live",
+      "sample_url": "https://api.stackexchange.com/2.3/questions?order=desc&sort=activity&site=stackoverflow&pagesize=1",
+      "tier": "free"
     },
     {
       "auth": "No",
@@ -331,12 +1218,13 @@
       "cors": "Yes",
       "description": "Avatar images with user initials, generated from a URL.",
       "docs_url": "https://ui-avatars.com/",
-      "free_tier": "Free, no key required.",
+      "free_tier": "Free, no key; no published limit",
       "https": true,
       "id": "ui-avatars",
       "last_checked": "2026-11-14",
       "name": "UI Avatars",
-      "status": "live"
+      "status": "live",
+      "tier": "free"
     },
     {
       "auth": "No",
@@ -344,12 +1232,14 @@
       "cors": "Yes",
       "description": "Word-finding engine: rhymes, synonyms, and words that sound alike.",
       "docs_url": "https://www.datamuse.com/api/",
-      "free_tier": "Free, no key required.",
+      "free_tier": "Free, no key; 100,000 req/day",
       "https": true,
       "id": "datamuse",
       "last_checked": "2026-11-14",
       "name": "Datamuse",
-      "status": "live"
+      "status": "live",
+      "sample_url": "https://api.datamuse.com/words?ml=ringing+in+the+ears",
+      "tier": "free"
     },
     {
       "auth": "No",
@@ -357,12 +1247,29 @@
       "cors": "Yes",
       "description": "English word definitions, phonetics, and examples.",
       "docs_url": "https://dictionaryapi.dev/",
-      "free_tier": "Free, no key required.",
+      "free_tier": "Free, no key; no published limit",
       "https": true,
       "id": "free-dictionary",
       "last_checked": "2026-11-14",
       "name": "Free Dictionary API",
-      "status": "live"
+      "status": "live",
+      "sample_url": "https://api.dictionaryapi.dev/api/v2/entries/en/hello",
+      "tier": "free"
+    },
+    {
+      "id": "wiktionary",
+      "name": "Wiktionary",
+      "category": "Dictionaries",
+      "description": "Word definitions, pronunciations and translations from the free dictionary.",
+      "docs_url": "https://en.wiktionary.org/w/api.php",
+      "auth": "No",
+      "https": true,
+      "cors": "Yes",
+      "free_tier": "Free, no key; no published limit",
+      "sample_url": "https://en.wiktionary.org/w/api.php?action=query&list=search&srsearch=hello&format=json&origin=*",
+      "status": "live",
+      "last_checked": "2026-11-15",
+      "tier": "free"
     },
     {
       "auth": "apiKey",
@@ -375,7 +1282,23 @@
       "id": "omdb",
       "last_checked": "2026-11-14",
       "name": "OMDb",
-      "status": "live"
+      "status": "live",
+      "tier": "freemium"
+    },
+    {
+      "id": "potterdb",
+      "name": "PotterDB",
+      "category": "Entertainment",
+      "description": "Harry Potter books, movies, characters, spells and potions.",
+      "docs_url": "https://docs.potterdb.com/",
+      "auth": "No",
+      "https": true,
+      "cors": "Yes",
+      "free_tier": "Free, no key; 900 req/hour",
+      "sample_url": "https://api.potterdb.com/v1/books",
+      "status": "live",
+      "last_checked": "2026-11-15",
+      "tier": "free"
     },
     {
       "auth": "No",
@@ -383,12 +1306,14 @@
       "cors": "Yes",
       "description": "Rick and Morty characters, locations, and episodes.",
       "docs_url": "https://rickandmortyapi.com/",
-      "free_tier": "Free, no key required.",
+      "free_tier": "Free, no key; no published limit",
       "https": true,
       "id": "rick-and-morty",
       "last_checked": "2026-11-14",
       "name": "Rick and Morty API",
-      "status": "live"
+      "status": "live",
+      "sample_url": "https://rickandmortyapi.com/api/character/1",
+      "tier": "free"
     },
     {
       "auth": "No",
@@ -396,12 +1321,14 @@
       "cors": "Yes",
       "description": "Star Wars data: people, planets, films, and starships.",
       "docs_url": "https://swapi.dev/",
-      "free_tier": "Free, no key required.",
+      "free_tier": "Free, no key; 10,000 req/day",
       "https": true,
       "id": "swapi",
       "last_checked": "2026-11-14",
       "name": "SWAPI",
-      "status": "live"
+      "status": "live",
+      "sample_url": "https://swapi.dev/api/people/1/",
+      "tier": "free"
     },
     {
       "auth": "apiKey",
@@ -409,12 +1336,13 @@
       "cors": "Unknown",
       "description": "Movie and TV database: trending, search, images, and details.",
       "docs_url": "https://developer.themoviedb.org/docs",
-      "free_tier": "Free with a free API key.",
+      "free_tier": "Free key; ~40 req/s upper limit, non-commercial",
       "https": true,
       "id": "tmdb",
       "last_checked": "2026-11-14",
       "name": "TMDB",
-      "status": "live"
+      "status": "live",
+      "tier": "freemium"
     },
     {
       "auth": "No",
@@ -422,12 +1350,14 @@
       "cors": "Yes",
       "description": "TV show info, episodes, schedules, and cast.",
       "docs_url": "https://www.tvmaze.com/api",
-      "free_tier": "Free, no key required.",
+      "free_tier": "Free, no key; 20 calls/10s per IP",
       "https": true,
       "id": "tvmaze",
       "last_checked": "2026-11-14",
       "name": "TVMaze",
-      "status": "live"
+      "status": "live",
+      "sample_url": "https://api.tvmaze.com/shows/1",
+      "tier": "freemium"
     },
     {
       "auth": "apiKey",
@@ -435,12 +1365,13 @@
       "cors": "Unknown",
       "description": "Open air-quality measurements from stations worldwide.",
       "docs_url": "https://docs.openaq.org/",
-      "free_tier": "Free tier with a free API key.",
+      "free_tier": "Free key; 60 req/min, 2,000/hr",
       "https": true,
       "id": "openaq",
       "last_checked": "2026-11-14",
       "name": "OpenAQ",
-      "status": "live"
+      "status": "live",
+      "tier": "free"
     },
     {
       "auth": "apiKey",
@@ -453,46 +1384,22 @@
       "id": "alpha-vantage",
       "last_checked": "2026-11-14",
       "name": "Alpha Vantage",
-      "status": "live"
-    },
-    {
-      "auth": "No",
-      "category": "Finance",
-      "cors": "Yes",
-      "description": "US SEC filings, company facts, and submissions data.",
-      "docs_url": "https://www.sec.gov/edgar/sec-api-documentation",
-      "free_tier": "Free, no key; fair-access rules apply.",
-      "https": true,
-      "id": "sec-edgar",
-      "last_checked": "2026-11-14",
-      "name": "SEC EDGAR",
-      "status": "reachable"
+      "status": "live",
+      "tier": "freemium"
     },
     {
       "auth": "No",
       "category": "Flights",
-      "cors": "Unknown",
+      "cors": "No",
       "description": "Live flight tracking data from the OpenSky Network.",
       "docs_url": "https://openskynetwork.github.io/opensky-api/",
       "free_tier": "Free, no key; 100 requests/day anonymous, more with a free account.",
       "https": true,
       "id": "opensky",
-      "last_checked": "2026-11-14",
+      "last_checked": "2026-11-17",
       "name": "OpenSky Network",
-      "status": "live"
-    },
-    {
-      "auth": "No",
-      "category": "Food & Drink",
-      "cors": "Yes",
-      "description": "Breweries, beers, and locations across the US and beyond.",
-      "docs_url": "https://www.openbrewerydb.org/",
-      "free_tier": "Free, no key required.",
-      "https": true,
-      "id": "open-brewery-db",
-      "last_checked": "2026-11-14",
-      "name": "Open Brewery DB",
-      "status": "reachable"
+      "status": "live",
+      "tier": "free"
     },
     {
       "auth": "No",
@@ -500,12 +1407,14 @@
       "cors": "Yes",
       "description": "Open database of food products, nutrition, and ingredients.",
       "docs_url": "https://world.openfoodfacts.org/data",
-      "free_tier": "Free, no key required.",
+      "free_tier": "Free, no key; 15 req/min (search 10/min)",
       "https": true,
       "id": "open-food-facts",
       "last_checked": "2026-11-14",
       "name": "Open Food Facts",
-      "status": "live"
+      "status": "live",
+      "sample_url": "https://world.openfoodfacts.org/api/v0/product/3017620422003.json",
+      "tier": "free"
     },
     {
       "auth": "apiKey",
@@ -518,7 +1427,8 @@
       "id": "thecocktaildb",
       "last_checked": "2026-11-14",
       "name": "TheCocktailDB",
-      "status": "live"
+      "status": "live",
+      "tier": "freemium"
     },
     {
       "auth": "apiKey",
@@ -531,7 +1441,518 @@
       "id": "themealdb",
       "last_checked": "2026-11-14",
       "name": "TheMealDB",
-      "status": "live"
+      "status": "live",
+      "tier": "freemium"
+    },
+    {
+      "auth": "No",
+      "category": "Free Agent Tools",
+      "cors": "Unknown",
+      "description": "Blueprints and starter templates for building AI agents",
+      "docs_url": "https://github.com/cporter202/agentic-ai-starters",
+      "free_tier": "Free, open-source (MIT); blueprints only — the Apify + OpenAI stack in the examples is paid",
+      "https": true,
+      "id": "agentic-ai-starters",
+      "last_checked": "2026-11-16",
+      "name": "Agentic AI Starters",
+      "status": "live",
+      "tier": "free"
+    },
+    {
+      "auth": "No",
+      "category": "Free Agent Tools",
+      "cors": "Unknown",
+      "description": "Curated list of 311+ free LLM APIs and AI API keys from 22 providers (Gemini, NVIDIA NIM, Groq, OpenRouter…), with one-click setup for Claude Code, Cursor and Codex.",
+      "docs_url": "https://github.com/open-free-llm-api/awesome-freellm-apis",
+      "free_tier": "Free, open-source (MIT); a curated list, not a router — each API's own free tier applies.",
+      "https": true,
+      "id": "awesome-freellm-apis",
+      "last_checked": "2026-11-18",
+      "name": "awesome-freellm-apis",
+      "status": "live",
+      "tier": "free"
+    },
+    {
+      "auth": "No",
+      "category": "Free Agent Tools",
+      "cors": "Unknown",
+      "description": "Go AI gateway (LLM + MCP + agent gateway): one OpenAI-compatible API across 23+ providers, with failover, load balancing and semantic caching.",
+      "docs_url": "https://github.com/maximhq/bifrost",
+      "free_tier": "Free, open-source (Apache-2.0); self-hosted (Docker/server). Bring your own provider keys.",
+      "https": true,
+      "id": "bifrost",
+      "last_checked": "2026-11-17",
+      "name": "Bifrost",
+      "status": "live",
+      "tier": "free"
+    },
+    {
+      "auth": "No",
+      "category": "Free Agent Tools",
+      "cors": "Unknown",
+      "description": "Official Anthropic GitHub Action — run Claude Code on issues and PRs from a comment",
+      "docs_url": "https://github.com/anthropics/claude-code-action",
+      "free_tier": "Free, open-source (MIT); runs on GitHub Actions, not on the phone — needs a Claude API key or subscription (usage is paid)",
+      "https": true,
+      "id": "claude-code-action",
+      "last_checked": "2026-11-16",
+      "name": "Claude Code Action",
+      "status": "live",
+      "tier": "free"
+    },
+    {
+      "auth": "No",
+      "category": "Free Agent Tools",
+      "cors": "Unknown",
+      "description": "Persistent memory layer for coding agents — records sessions, compresses with AI, injects context into future runs; works with OpenCode, Claude Code, Codex, Hermes and more.",
+      "docs_url": "https://github.com/thedotmack/claude-mem",
+      "free_tier": "Free, open-source (Apache-2.0); compression uses your own key (free gateways work); hosted CMEM Pro (cloud sync) is paid, engine stays free.",
+      "https": true,
+      "id": "claude-mem",
+      "last_checked": "2026-11-17",
+      "name": "Claude-Mem",
+      "status": "live",
+      "tier": "free"
+    },
+    {
+      "auth": "No",
+      "category": "Free Agent Tools",
+      "cors": "Unknown",
+      "description": "Up-to-date documentation MCP server — gives agents current library docs instead of stale training data",
+      "docs_url": "https://github.com/upstash/context7",
+      "free_tier": "Free, open-source (MIT)",
+      "https": true,
+      "id": "context7",
+      "last_checked": "2026-11-16",
+      "name": "Context7",
+      "status": "live",
+      "tier": "free"
+    },
+    {
+      "auth": "No",
+      "category": "Free Agent Tools",
+      "cors": "Unknown",
+      "description": "Self-hosted router aggregating 87 free LLM providers (1,313 endpoints) behind one OpenAI-compatible /v1 API — smart routing, auto-failover, encrypted keys, web dashboard; desktop + Android apps.",
+      "docs_url": "https://github.com/tashfeenahmed/freellmapi",
+      "free_tier": "Free, open-source (MIT); bring your own free provider keys (10.1B tokens/mo assumes all accounts set up). Live catalog $19/yr or $49 once — free gets a monthly snapshot. Personal experimentation only, not production. Official Termux guide (experimental, Node 22.13+) — untested by us.",
+      "https": true,
+      "id": "freellmapi",
+      "last_checked": "2026-11-17",
+      "name": "FreeLLMAPI",
+      "status": "live",
+      "tier": "free"
+    },
+    {
+      "auth": "No",
+      "category": "Free Agent Tools",
+      "cors": "Unknown",
+      "description": "Turns any GitHub repo into an interactive diagram or explainer video",
+      "docs_url": "https://github.com/ahmedkhaleel2004/gitdiagram",
+      "free_tier": "Free, open-source (MIT); diagrams are generated via an external AI API — repo content leaves your machine",
+      "https": true,
+      "id": "gitdiagram",
+      "last_checked": "2026-11-16",
+      "name": "GitDiagram",
+      "status": "live",
+      "tier": "free"
+    },
+    {
+      "auth": "No",
+      "category": "Free Agent Tools",
+      "cors": "Unknown",
+      "description": "Official GitHub MCP server — lets agents read repos, issues and PRs and automate GitHub workflows",
+      "docs_url": "https://github.com/github/github-mcp-server",
+      "free_tier": "Free, open-source (MIT); needs a free GitHub personal access token",
+      "https": true,
+      "id": "github-mcp-server",
+      "last_checked": "2026-11-16",
+      "name": "GitHub MCP Server",
+      "status": "live",
+      "tier": "free"
+    },
+    {
+      "auth": "No",
+      "category": "Free Agent Tools",
+      "cors": "Unknown",
+      "description": "Secret scanner — finds passwords, API keys and tokens in git repos, directories and stdin before they get committed.",
+      "docs_url": "https://github.com/gitleaks/gitleaks",
+      "free_tier": "Free, open-source (MIT); build from source in Termux (pkg install golang + make build); maintenance mode (security patches only).",
+      "https": true,
+      "id": "gitleaks",
+      "last_checked": "2026-11-17",
+      "name": "Gitleaks",
+      "status": "live",
+      "tier": "free"
+    },
+    {
+      "auth": "No",
+      "category": "Free Agent Tools",
+      "cors": "Unknown",
+      "description": "Instant remote MCP server for any public GitHub repo — swap github.com for gitmcp.io and your agent reads the repo in context",
+      "docs_url": "https://github.com/idosal/git-mcp",
+      "free_tier": "Free, open-source (Apache-2.0); public repos only — serves repo content to your agent, so treat untrusted repos with care (prompt-injection risk)",
+      "https": true,
+      "id": "gitmcp",
+      "last_checked": "2026-11-16",
+      "name": "GitMCP",
+      "status": "live",
+      "tier": "free"
+    },
+    {
+      "auth": "No",
+      "category": "Free Agent Tools",
+      "cors": "Unknown",
+      "description": "Open-source observability for LLM apps and agents — traces, evals, prompt management and cost tracking",
+      "docs_url": "https://github.com/langfuse/langfuse",
+      "free_tier": "Free, open-core (MIT core; enterprise features under a separate licence); self-hosted free",
+      "https": true,
+      "id": "langfuse",
+      "last_checked": "2026-11-16",
+      "name": "Langfuse",
+      "status": "live",
+      "tier": "free"
+    },
+    {
+      "auth": "No",
+      "category": "Free Agent Tools",
+      "cors": "Unknown",
+      "description": "Simple terminal UI for git — stage hunks, interactive rebase, cherry-pick, worktrees and commit graph from the terminal.",
+      "docs_url": "https://github.com/jesseduffield/lazygit",
+      "free_tier": "Free, open-source (MIT); official Termux package (apt install lazygit); interactive human TUI, not agent-drivable.",
+      "https": true,
+      "id": "lazygit",
+      "last_checked": "2026-11-17",
+      "name": "Lazygit",
+      "status": "live",
+      "tier": "free"
+    },
+    {
+      "auth": "No",
+      "category": "Free Agent Tools",
+      "cors": "Unknown",
+      "description": "Open-source AI gateway: call 100+ LLMs (OpenAI, Anthropic, Gemini, Groq…) through one OpenAI-compatible API, with cost tracking, guardrails, load balancing and fallbacks.",
+      "docs_url": "https://github.com/BerriAI/litellm",
+      "free_tier": "Free, open-source (MIT core; enterprise/ directory under a separate licence). Library path (pip install litellm) is phone-usable; full proxy is self-hosted.",
+      "https": true,
+      "id": "litellm",
+      "last_checked": "2026-11-17",
+      "name": "LiteLLM",
+      "status": "live",
+      "tier": "free"
+    },
+    {
+      "auth": "No",
+      "category": "Free Agent Tools",
+      "cors": "Unknown",
+      "description": "TypeScript LLM gateway (\"Manifest\") built for agents that don't break: failover-focused routing across providers behind one API.",
+      "docs_url": "https://github.com/mnfst/llm-gateway",
+      "free_tier": "Free, open-source (MIT); self-hosted, cloud-deploy oriented (Render/Railway/AWS/GCP one-click). Newer project (2026, MNFST Inc.).",
+      "https": true,
+      "id": "llm-gateway",
+      "last_checked": "2026-11-17",
+      "name": "Manifest",
+      "status": "live",
+      "tier": "free"
+    },
+    {
+      "auth": "No",
+      "category": "Free Agent Tools",
+      "cors": "Unknown",
+      "description": "Local model router for every agent — point Claude Code, Codex or OpenCode at any provider (incl. free gateways) from one Termux-friendly gateway, with auto-failover when a quota runs out.",
+      "docs_url": "https://github.com/yetone/magpie",
+      "free_tier": "Free, open-source (MIT); bring your own free key — magpie itself grants no models.",
+      "https": true,
+      "id": "magpie",
+      "last_checked": "2026-11-17",
+      "name": "Magpie",
+      "status": "live",
+      "tier": "free"
+    },
+    {
+      "auth": "No",
+      "category": "Free Agent Tools",
+      "cors": "Unknown",
+      "description": "Official Model Context Protocol reference servers: filesystem, GitHub, fetch, memory, time, sequential thinking and more",
+      "docs_url": "https://github.com/modelcontextprotocol/servers",
+      "free_tier": "Free, open-source (Apache-2.0; transitioning from MIT)",
+      "https": true,
+      "id": "mcp-servers",
+      "last_checked": "2026-11-16",
+      "name": "MCP Servers (Official)",
+      "status": "live",
+      "tier": "free"
+    },
+    {
+      "auth": "No",
+      "category": "Free Agent Tools",
+      "cors": "Unknown",
+      "description": "Memory layer for AI agents — remembers user preferences and context across sessions",
+      "docs_url": "https://github.com/mem0ai/mem0",
+      "free_tier": "Free, open-source (Apache-2.0); self-hosted free, hosted platform is paid",
+      "https": true,
+      "id": "mem0",
+      "last_checked": "2026-11-16",
+      "name": "Mem0",
+      "status": "live",
+      "tier": "free"
+    },
+    {
+      "auth": "No",
+      "category": "Free Agent Tools",
+      "cors": "Unknown",
+      "description": "Free multi-provider AI gateway — one endpoint for 394 providers (150+ free) and ~1,400 models, quota-aware auto-fallback, token compression. Runs in Termux (pkg install nodejs && npx -y omniroute).",
+      "docs_url": "https://github.com/cheaper-inference/OmniRoute",
+      "free_tier": "Free, open-source (MIT); bring your own free provider accounts (150+ free tiers incl. DeepSeek, GLM, Kimi, Gemini); runs on your phone, no root.",
+      "https": true,
+      "id": "omniroute",
+      "last_checked": "2026-11-17",
+      "name": "OmniRoute",
+      "status": "live",
+      "tier": "free"
+    },
+    {
+      "auth": "No",
+      "category": "Free Agent Tools",
+      "cors": "Unknown",
+      "description": "Open-source AI gateway (TypeScript): one API for 250+ LLMs with routing, fallbacks, load balancing, guardrails and caching; npm-installable.",
+      "docs_url": "https://github.com/Portkey-AI/gateway",
+      "free_tier": "Free, open-source (MIT); self-host the gateway. Hosted Portkey plans are paid. Note: the project's own pages disagree on model count (repo says 1,600+, README says 250+).",
+      "https": true,
+      "id": "portkey-gateway",
+      "last_checked": "2026-11-17",
+      "name": "Portkey Gateway",
+      "status": "live",
+      "tier": "free"
+    },
+    {
+      "auth": "No",
+      "category": "Free Agent Tools",
+      "cors": "Unknown",
+      "description": "Turn docs sites, GitHub repos, PDFs, videos and wikis into structured AI skills — 18 source types, 22 export targets, CLI + MCP server.",
+      "docs_url": "https://github.com/yusufkaraaslan/Skill_Seekers",
+      "free_tier": "Free, open-source (MIT); pip install skill-seekers, pure Python CLI, no server/GPU; AI-assisted generation may need a model key.",
+      "https": true,
+      "id": "skill-seekers",
+      "last_checked": "2026-11-17",
+      "name": "Skill Seekers",
+      "status": "live",
+      "tier": "free"
+    },
+    {
+      "auth": "No",
+      "category": "Free Agent Tools",
+      "cors": "Unknown",
+      "description": "NVIDIA's open-source security scanner for agent skills — 71 vulnerability patterns across 17 categories, 0-100 risk score; never executes the skill.",
+      "docs_url": "https://github.com/NVIDIA/skillspector",
+      "free_tier": "Free, open-source (Apache-2.0); static scan needs no API key; Alpha stage.",
+      "https": true,
+      "id": "skillspector",
+      "last_checked": "2026-11-17",
+      "name": "SkillSpector",
+      "status": "live",
+      "tier": "free"
+    },
+    {
+      "auth": "No",
+      "category": "Free Agent Tools",
+      "cors": "Unknown",
+      "description": "Web-search MCP server (search + extract) for agents — the search backend OpenCode lacks on the phone",
+      "docs_url": "https://github.com/tavily-ai/tavily-mcp",
+      "free_tier": "Free, open-source (MIT); needs a free Tavily API key — 1,000 credits/mo, no card",
+      "https": true,
+      "id": "tavily-mcp",
+      "last_checked": "2026-11-16",
+      "name": "Tavily MCP",
+      "status": "live",
+      "tier": "free"
+    },
+    {
+      "auth": "No",
+      "category": "Free Agent Tools",
+      "cors": "Unknown",
+      "description": "Local-first AI search engine + MCP server for agents: BM25, vector and hybrid code & docs search from one static binary, offline by default.",
+      "docs_url": "https://github.com/xerj-org/xerj",
+      "free_tier": "Free, open-source (Apache-2.0 engine); static arm64 binary or build from source; neural Query-1 model in release binaries is proprietary (core engine open).",
+      "https": true,
+      "id": "xerj",
+      "last_checked": "2026-11-17",
+      "name": "Xerj",
+      "status": "live",
+      "tier": "free"
+    },
+    {
+      "auth": "No",
+      "category": "Free Agent Tools",
+      "cors": "Unknown",
+      "description": "Feature-rich command-line audio/video downloader for 1000+ sites.",
+      "docs_url": "https://github.com/yt-dlp/yt-dlp",
+      "free_tier": "Free, open-source (Unlicense); pip-installable in Termux, no key, no account.",
+      "https": true,
+      "id": "yt-dlp",
+      "last_checked": "2026-11-17",
+      "name": "yt-dlp",
+      "status": "live",
+      "tier": "free"
+    },
+    {
+      "auth": "apiKey",
+      "category": "FreeLLM API",
+      "cors": "Unknown",
+      "description": "Google's Gemini API via AI Studio: free tier on Flash/Pro models, no card, per-project limits.",
+      "docs_url": "https://ai.google.dev/gemini-api/docs/rate-limits",
+      "free_tier": "Free tier, no card, no expiry: per-model limits shown in AI Studio (not published in public docs) — reports conflict on 2.5 Flash daily cap (500–1,500 RPD); check aistudio.google.com/rate-limit. Free-tier data may be used to train models.",
+      "https": true,
+      "id": "google-ai-studio",
+      "last_checked": "2026-11-16",
+      "name": "Google AI Studio",
+      "status": "live",
+      "tier": "freemium"
+    },
+    {
+      "auth": "apiKey",
+      "category": "FreeLLM API",
+      "cors": "Unknown",
+      "description": "Fastest open-model inference on custom LPU chips; free tier covers gpt-oss and Qwen chat models, OpenAI-compatible.",
+      "docs_url": "https://console.groq.com/docs/rate-limits",
+      "free_tier": "Free tier, no card: per-model limits — chat models (gpt-oss-120b/20b, qwen3.8-27b) 30 RPM / 1,000 RPD / 8K TPM / 200K TPD; Llama chat models are Enterprise-only since Aug 2026",
+      "https": true,
+      "id": "groq",
+      "last_checked": "2026-11-16",
+      "name": "Groq",
+      "status": "live",
+      "tier": "freemium"
+    },
+    {
+      "auth": "apiKey",
+      "category": "FreeLLM API",
+      "cors": "Unknown",
+      "description": "Xinjiang Huancheng public-welfare gateway: one OpenAI-compatible key for Chinese models (DeepSeek, GLM, Qwen, Kimi, Step, MiniMax); free layer via signup + daily check-in.",
+      "docs_url": "https://api.hcnsec.cn/free-api/",
+      "free_tier": "Free via registration credits + daily sign-in quota (amounts not published); free layer incl. DeepSeek-V4-Pro/Flash, Kimi-K3, MiniMax-M3, GLM-5.3-Flash — full GLM 5.3 is on the paid SVIP layer. Third-party proxy, NOT a permanent free tier.",
+      "https": true,
+      "id": "hcnsec",
+      "last_checked": "2026-11-16",
+      "name": "hcnsec",
+      "status": "live",
+      "tier": "freemium"
+    },
+    {
+      "auth": "No",
+      "category": "FreeLLM API",
+      "cors": "No",
+      "description": "OpenAI-compatible gateway from the open-source Kilo Code agent; free models incl. the kilo-auto/free auto-router, no key needed.",
+      "docs_url": "https://kilo.ai/docs/gateway/models-and-providers",
+      "free_tier": "Free models incl. kilo-auto/free router, no key, no signup: 200 requests/hour per IP (anonymous); Auto Free may route to providers that log prompts — no sensitive data",
+      "https": true,
+      "id": "kilo-gateway",
+      "last_checked": "2026-11-17",
+      "name": "Kilo Code Gateway",
+      "status": "live",
+      "tier": "freemium"
+    },
+    {
+      "auth": "apiKey",
+      "category": "FreeLLM API",
+      "cors": "Yes",
+      "description": "One-key OpenAI-compatible LLM API; free token covers chat, image and video models.",
+      "docs_url": "https://docs.llm7.io",
+      "free_tier": "Free token: 100,000 tokens per 24 hours; 60 RPM / 250 req/hour; Pro $12/mo for more. Free quota may shrink without notice.",
+      "https": true,
+      "id": "llm7",
+      "last_checked": "2026-11-17",
+      "name": "LLM7.io",
+      "status": "live",
+      "tier": "freemium",
+      "sample_url": "https://api.llm7.io/v1/models"
+    },
+    {
+      "auth": "apiKey",
+      "category": "FreeLLM API",
+      "cors": "No",
+      "description": "NVIDIA's hosted NIM endpoints: 70+ open-weight models incl. DeepSeek and GLM on one OpenAI-compatible key.",
+      "docs_url": "https://build.nvidia.com",
+      "free_tier": "Free endpoints (70+ models incl. DeepSeek V4.1 Flash, GLM 5.3): published ceiling 40 RPM / 10,000 req/day; BUT phone verification blocks Bangladesh (+880) — not offered there per NVIDIA's own list; manual verification via help@build.nvidia.com is the official route. Prototyping/evaluation only, no production SLA.",
+      "https": true,
+      "id": "nvidia-build",
+      "last_checked": "2026-11-17",
+      "name": "NVIDIA Build",
+      "status": "live",
+      "tier": "freemium"
+    },
+    {
+      "auth": "apiKey",
+      "category": "FreeLLM API",
+      "cors": "Yes",
+      "description": "One-key gateway to 600+ models; free :free models incl. GPT-OSS, Nemotron and Inkling, no card needed.",
+      "docs_url": "https://openrouter.ai/docs",
+      "free_tier": "25+ :free models: 20 RPM; 50 req/day free, 1,000 req/day after $10+ lifetime credit purchase",
+      "https": true,
+      "id": "openrouter",
+      "last_checked": "2026-11-17",
+      "name": "OpenRouter",
+      "status": "live",
+      "tier": "freemium",
+      "sample_url": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "auth": "apiKey",
+      "category": "FreeLLM API",
+      "cors": "Yes",
+      "description": "One-key OpenAI-compatible gateway to 200+ models with auto-failover; free models incl. DeepSeek V4.1 Flash Free and GLM 5.3 Flash Free.",
+      "docs_url": "https://docs.orcarouter.ai",
+      "free_tier": "Hacker plan free forever, no card: $0 free models incl. DeepSeek V4.1 Flash Free + GLM 5.3 Flash Free; 10 RPM / 50 RPD (20 RPM / 800 RPD after $20+ lifetime purchases); lineup rotates",
+      "https": true,
+      "id": "orcarouter",
+      "last_checked": "2026-11-17",
+      "name": "OrcaRouter",
+      "status": "live",
+      "tier": "freemium",
+      "sample_url": "https://api.orcarouter.ai/v1/models"
+    },
+    {
+      "auth": "No",
+      "category": "FreeLLM API",
+      "cors": "Yes",
+      "description": "Open-source gen-AI gateway: keyless text + image generation by URL; new API uses Pollen credits.",
+      "docs_url": "https://pollinations.ai/docs",
+      "free_tier": "Legacy keyless text API (text.pollinations.ai, OpenAI-compatible, gpt-oss-20b): free, no signup — allowance not published; new gen.pollinations.ai API needs a key + Pollen credits (small free Quest Pollen). Free image lane ~1 image/45 sec per IP.",
+      "https": true,
+      "id": "pollinations",
+      "last_checked": "2026-11-17",
+      "name": "Pollinations",
+      "status": "live",
+      "tier": "freemium",
+      "sample_url": "https://text.pollinations.ai/models"
+    },
+    {
+      "auth": "apiKey",
+      "category": "FreeLLM API",
+      "cors": "Yes",
+      "description": "One-key OpenAI-compatible gateway aggregating 150+ free models from ~50 providers; DeepSeek and GLM free.",
+      "docs_url": "https://unorouter.com/docs",
+      "free_tier": "150+ :free models incl. DeepSeek V4.1 Flash + GLM 5.3 Flash: ~1 request/min per model per account, no daily cap; paid models pay-as-you-go from $1",
+      "https": true,
+      "id": "unorouter",
+      "last_checked": "2026-11-17",
+      "name": "UnoRouter",
+      "status": "live",
+      "tier": "freemium",
+      "sample_url": "https://api.unorouter.com/v1/models"
+    },
+    {
+      "id": "cheapshark",
+      "name": "CheapShark",
+      "category": "Games",
+      "description": "PC game prices and deals across stores like Steam, with sale prices and savings.",
+      "docs_url": "https://www.cheapshark.com/api",
+      "auth": "No",
+      "https": true,
+      "cors": "Yes",
+      "free_tier": "Free, no key; rate limits not published",
+      "sample_url": "https://www.cheapshark.com/api/1.0/deals?storeID=1&upperPrice=15",
+      "status": "live",
+      "last_checked": "2026-11-15",
+      "tier": "free"
     },
     {
       "auth": "No",
@@ -539,12 +1960,14 @@
       "cors": "Yes",
       "description": "Chess.com player stats, games, and leaderboards.",
       "docs_url": "https://www.chess.com/news/view/published-data-api",
-      "free_tier": "Free, no key required.",
+      "free_tier": "Free, no key; serial requests unlimited",
       "https": true,
       "id": "chess-com",
       "last_checked": "2026-11-14",
       "name": "Chess.com",
-      "status": "live"
+      "status": "live",
+      "sample_url": "https://api.chess.com/pub/player/erik",
+      "tier": "free"
     },
     {
       "auth": "No",
@@ -552,12 +1975,14 @@
       "cors": "Yes",
       "description": "Virtual deck of cards: shuffle, draw, and reshuffle.",
       "docs_url": "https://deckofcardsapi.com/",
-      "free_tier": "Free, no key required.",
+      "free_tier": "Free, no key; no published limit",
       "https": true,
       "id": "deck-of-cards",
       "last_checked": "2026-11-14",
       "name": "Deck of Cards",
-      "status": "live"
+      "status": "live",
+      "sample_url": "https://deckofcardsapi.com/api/deck/new/shuffle/?deck_count=1",
+      "tier": "free"
     },
     {
       "auth": "No",
@@ -565,12 +1990,14 @@
       "cors": "Yes",
       "description": "Trivia questions across categories and difficulties.",
       "docs_url": "https://opentdb.com/api_config.php",
-      "free_tier": "Free, no key required.",
+      "free_tier": "Free, no key; 1 req/5 sec per IP",
       "https": true,
       "id": "opentdb",
       "last_checked": "2026-11-14",
       "name": "Open Trivia DB",
-      "status": "live"
+      "status": "live",
+      "sample_url": "https://opentdb.com/api.php?amount=1",
+      "tier": "free"
     },
     {
       "auth": "No",
@@ -578,12 +2005,14 @@
       "cors": "Yes",
       "description": "Pokemon data: species, moves, abilities, and games.",
       "docs_url": "https://pokeapi.co/",
-      "free_tier": "Free, no key required.",
+      "free_tier": "Free, no key; no hard limit (fair use)",
       "https": true,
       "id": "pokeapi",
       "last_checked": "2026-11-14",
       "name": "PokeAPI",
-      "status": "live"
+      "status": "live",
+      "sample_url": "https://pokeapi.co/api/v2/pokemon/ditto",
+      "tier": "free"
     },
     {
       "auth": "No",
@@ -591,12 +2020,14 @@
       "cors": "Yes",
       "description": "Free reverse geocoding for client-side apps.",
       "docs_url": "https://www.bigdatacloud.com/docs/api",
-      "free_tier": "Free client-side endpoints, no key.",
+      "free_tier": "Free, no key; unlimited queries, fair use",
       "https": true,
       "id": "bigdatacloud",
       "last_checked": "2026-11-14",
       "name": "BigDataCloud",
-      "status": "live"
+      "status": "live",
+      "sample_url": "https://api.bigdatacloud.net/data/reverse-geocode-client",
+      "tier": "freemium"
     },
     {
       "auth": "apiKey",
@@ -604,12 +2035,38 @@
       "cors": "Unknown",
       "description": "Geocoding, place search, and postal codes worldwide.",
       "docs_url": "http://www.geonames.org/export/web-services.html",
-      "free_tier": "Free with a free username; daily credit limits apply.",
+      "free_tier": "Free username; 30,000 credits/day, 2,000/hr",
       "https": false,
       "id": "geonames",
       "last_checked": "2026-11-14",
       "name": "GeoNames",
-      "status": "live"
+      "status": "live",
+      "tier": "freemium"
+    },
+    {
+      "auth": "apiKey",
+      "category": "Geocoding",
+      "cors": "Unknown",
+      "description": "Maps, geocoding, places and routes — Google's full mapping APIs.",
+      "docs_url": "https://developers.google.com/maps/documentation",
+      "free_tier": "Free monthly caps per SKU — Essentials 10,000/mo (Dynamic Maps, Geocoding), Pro 5,000, Enterprise 1,000; Maps Embed + mobile SDKs unlimited free; billing card required even for free use ($200 credit retired 1 Mar 2025)",
+      "https": true,
+      "id": "google-maps-platform",
+      "last_checked": "2026-11-16",
+      "name": "Google Maps Platform",
+      "status": "live",
+      "tier": "freemium",
+      "access": {
+        "portal": "https://console.cloud.google.com",
+        "portal_label": "Google Cloud Console",
+        "steps": [
+          "Create a Google Cloud project at console.cloud.google.com.",
+          "Enable the Maps APIs you need (Maps JavaScript API, Geocoding API, Places API...).",
+          "Create an API key (APIs & Services → Credentials) and restrict it to your apps.",
+          "Enable billing on the project — required even for free-tier use.",
+          "No-card alternative: an AI Studio demo key allows 100 calls/day."
+        ]
+      }
     },
     {
       "auth": "No",
@@ -622,7 +2079,8 @@
       "id": "ip-api",
       "last_checked": "2026-11-14",
       "name": "ip-api",
-      "status": "live"
+      "status": "live",
+      "tier": "freemium"
     },
     {
       "auth": "No",
@@ -635,7 +2093,9 @@
       "id": "ipapi-co",
       "last_checked": "2026-11-14",
       "name": "ipapi.co",
-      "status": "live"
+      "status": "live",
+      "sample_url": "https://ipapi.co/json/",
+      "tier": "freemium"
     },
     {
       "auth": "No",
@@ -648,7 +2108,9 @@
       "id": "nominatim",
       "last_checked": "2026-11-14",
       "name": "Nominatim (OpenStreetMap)",
-      "status": "live"
+      "status": "live",
+      "sample_url": "https://nominatim.openstreetmap.org/search?q=berlin&format=json&limit=1",
+      "tier": "free"
     },
     {
       "auth": "No",
@@ -656,12 +2118,14 @@
       "cors": "Yes",
       "description": "Postal-code to place lookup for many countries.",
       "docs_url": "http://api.zippopotam.us/",
-      "free_tier": "Free, no key required.",
+      "free_tier": "Free, no key; no published limit",
       "https": false,
       "id": "zippopotam",
       "last_checked": "2026-11-14",
       "name": "Zippopotam",
-      "status": "live"
+      "status": "live",
+      "sample_url": "https://api.zippopotam.us/us/90210",
+      "tier": "free"
     },
     {
       "auth": "No",
@@ -669,12 +2133,14 @@
       "cors": "Yes",
       "description": "COVID-19 and disease statistics by country, updated daily.",
       "docs_url": "https://disease.sh/",
-      "free_tier": "Free, no key required.",
+      "free_tier": "Free, no key; no published limit",
       "https": true,
       "id": "disease-sh",
       "last_checked": "2026-11-14",
       "name": "disease.sh",
-      "status": "live"
+      "status": "live",
+      "sample_url": "https://disease.sh/v3/covid-19/all",
+      "tier": "free"
     },
     {
       "auth": "No",
@@ -682,12 +2148,14 @@
       "cors": "Yes",
       "description": "FDA data on drugs, devices, and food recalls.",
       "docs_url": "https://open.fda.gov/apis/",
-      "free_tier": "Free, no key; higher limits with a free key.",
+      "free_tier": "Free, no key; 240 req/min, 1,000/day",
       "https": true,
       "id": "openfda",
       "last_checked": "2026-11-14",
       "name": "openFDA",
-      "status": "live"
+      "status": "live",
+      "sample_url": "https://api.fda.gov/drug/label.json?limit=1",
+      "tier": "free"
     },
     {
       "auth": "No",
@@ -695,12 +2163,14 @@
       "cors": "Yes",
       "description": "Chuck Norris jokes, random or by category.",
       "docs_url": "https://api.chucknorris.io/",
-      "free_tier": "Free, no key required.",
+      "free_tier": "Free, no key; no published limit",
       "https": true,
       "id": "chuck-norris",
       "last_checked": "2026-11-14",
       "name": "Chuck Norris Jokes",
-      "status": "live"
+      "status": "live",
+      "sample_url": "https://api.chucknorris.io/jokes/random",
+      "tier": "free"
     },
     {
       "auth": "No",
@@ -708,12 +2178,14 @@
       "cors": "Yes",
       "description": "Dad jokes, random or by search term.",
       "docs_url": "https://icanhazdadjoke.com/api",
-      "free_tier": "Free, no key required.",
+      "free_tier": "Free, no key; no published limit",
       "https": true,
       "id": "dad-jokes",
       "last_checked": "2026-11-14",
       "name": "Dad Jokes",
-      "status": "live"
+      "status": "live",
+      "sample_url": "https://icanhazdadjoke.com/",
+      "tier": "free"
     },
     {
       "auth": "No",
@@ -721,25 +2193,28 @@
       "cors": "Yes",
       "description": "Programming and general jokes, single or two-part.",
       "docs_url": "https://jokeapi.dev/",
-      "free_tier": "Free, no key required.",
+      "free_tier": "Free, no key; 120 req/min",
       "https": true,
       "id": "jokeapi",
       "last_checked": "2026-11-14",
       "name": "JokeAPI",
-      "status": "live"
+      "status": "live",
+      "sample_url": "https://v2.jokeapi.dev/joke/Any?type=single",
+      "tier": "free"
     },
     {
       "auth": "No",
       "category": "Music",
-      "cors": "Unknown",
+      "cors": "No",
       "description": "Tracks, albums, artists, and playlists from Deezer.",
       "docs_url": "https://developers.deezer.com/api",
-      "free_tier": "Free, no key for public endpoints.",
+      "free_tier": "Free, no key; no published limit",
       "https": true,
       "id": "deezer",
-      "last_checked": "2026-11-14",
+      "last_checked": "2026-11-17",
       "name": "Deezer",
-      "status": "live"
+      "status": "live",
+      "tier": "free"
     },
     {
       "auth": "No",
@@ -747,25 +2222,44 @@
       "cors": "Yes",
       "description": "Search the iTunes Store for music, podcasts, apps, and more.",
       "docs_url": "https://developer.apple.com/library/archive/documentation/AudioVideo/Conceptual/iTuneSearchAPI/",
-      "free_tier": "Free, no key required.",
+      "free_tier": "Free, no key; no published limit",
       "https": true,
       "id": "itunes-search",
       "last_checked": "2026-11-14",
       "name": "iTunes Search API",
-      "status": "live"
+      "status": "live",
+      "sample_url": "https://itunes.apple.com/search?term=jack+johnson&limit=1",
+      "tier": "free"
     },
     {
       "auth": "No",
       "category": "Music",
-      "cors": "Unknown",
+      "cors": "Yes",
       "description": "Open music encyclopedia: artists, releases, and recordings.",
       "docs_url": "https://musicbrainz.org/doc/MusicBrainz_API",
       "free_tier": "Free, no key; 1 req/sec usage policy.",
       "https": true,
       "id": "musicbrainz",
-      "last_checked": "2026-11-14",
+      "last_checked": "2026-11-17",
       "name": "MusicBrainz",
-      "status": "live"
+      "status": "live",
+      "sample_url": "https://musicbrainz.org/ws/2/artist/?query=artist:beatles&fmt=json&limit=1",
+      "tier": "freemium"
+    },
+    {
+      "id": "radio-browser",
+      "name": "Radio Browser",
+      "category": "Music",
+      "description": "Searchable directory of internet radio stations from around the world.",
+      "docs_url": "https://api.radio-browser.info/",
+      "auth": "No",
+      "https": true,
+      "cors": "Yes",
+      "free_tier": "Free, no key; no published limit",
+      "sample_url": "https://de1.api.radio-browser.info/json/stations/search?name=classic&limit=1",
+      "status": "live",
+      "last_checked": "2026-11-15",
+      "tier": "free"
     },
     {
       "auth": "apiKey",
@@ -773,12 +2267,13 @@
       "cors": "Unknown",
       "description": "News search and headlines from 60,000+ sources.",
       "docs_url": "https://gnews.io/docs/v4",
-      "free_tier": "Free tier listed; limits not verified.",
+      "free_tier": "Free key; 100 req/day, non-commercial",
       "https": true,
       "id": "gnews",
       "last_checked": "2026-11-14",
       "name": "GNews",
-      "status": "live"
+      "status": "live",
+      "tier": "freemium"
     },
     {
       "auth": "No",
@@ -786,12 +2281,14 @@
       "cors": "Yes",
       "description": "Top stories, comments, and user data from Hacker News (Firebase).",
       "docs_url": "https://github.com/HackerNews/API",
-      "free_tier": "Free, no key required.",
+      "free_tier": "Free, no key; no rate limit",
       "https": true,
       "id": "hacker-news",
       "last_checked": "2026-11-14",
       "name": "Hacker News API",
-      "status": "live"
+      "status": "live",
+      "sample_url": "https://hacker-news.firebaseio.com/v0/item/8863.json",
+      "tier": "free"
     },
     {
       "auth": "apiKey",
@@ -804,20 +2301,37 @@
       "id": "newsapi",
       "last_checked": "2026-11-14",
       "name": "NewsAPI",
-      "status": "live"
+      "status": "live",
+      "tier": "freemium"
     },
     {
-      "auth": "No",
+      "auth": "apiKey",
       "category": "News",
       "cors": "Unknown",
       "description": "News aggregation API with no authentication.",
       "docs_url": "https://noozra.com/",
-      "free_tier": "Free, no key required.",
+      "free_tier": "Free key; 100 req/day, non-commercial",
       "https": true,
       "id": "noozra",
       "last_checked": "2026-11-14",
       "name": "Noozra",
-      "status": "live"
+      "status": "live",
+      "tier": "freemium"
+    },
+    {
+      "id": "spaceflight-news",
+      "name": "Spaceflight News",
+      "category": "News",
+      "description": "Latest spaceflight news, blogs and reports from dozens of space sites.",
+      "docs_url": "https://spaceflightnewsapi.net",
+      "auth": "No",
+      "https": true,
+      "cors": "Yes",
+      "free_tier": "Free, no key; no published limit",
+      "sample_url": "https://api.spaceflightnewsapi.net/v4/articles/?limit=1",
+      "status": "live",
+      "last_checked": "2026-11-15",
+      "tier": "free"
     },
     {
       "auth": "No",
@@ -825,12 +2339,14 @@
       "cors": "Yes",
       "description": "Country data: population, capital, languages, flags, and more.",
       "docs_url": "https://restcountries.com/",
-      "free_tier": "Free, no key required.",
+      "free_tier": "Free, no key (v3.1); v5 key 1,000 req/mo",
       "https": true,
       "id": "rest-countries",
       "last_checked": "2026-11-14",
       "name": "REST Countries",
-      "status": "live"
+      "status": "live",
+      "sample_url": "https://restcountries.com/v3.1/alpha/col",
+      "tier": "freemium"
     },
     {
       "auth": "No",
@@ -838,12 +2354,14 @@
       "cors": "Yes",
       "description": "Wikipedia content, search, and page data via the MediaWiki API.",
       "docs_url": "https://www.mediawiki.org/wiki/API:Main_page",
-      "free_tier": "Free, no key required.",
+      "free_tier": "Free, no key; 10 req/min (200 with UA)",
       "https": true,
       "id": "wikipedia",
       "last_checked": "2026-11-14",
       "name": "Wikipedia",
-      "status": "live"
+      "status": "live",
+      "sample_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Albert%20Einstein&format=json&origin=*",
+      "tier": "free"
     },
     {
       "auth": "No",
@@ -851,12 +2369,14 @@
       "cors": "Yes",
       "description": "World development indicators for 200+ countries.",
       "docs_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/889392-about-the-indicators-api-documentation",
-      "free_tier": "Free, no key required.",
+      "free_tier": "Free, no key; no published limit",
       "https": true,
       "id": "world-bank",
       "last_checked": "2026-11-14",
       "name": "World Bank",
-      "status": "live"
+      "status": "live",
+      "sample_url": "https://api.worldbank.org/v2/country/US?format=json",
+      "tier": "free"
     },
     {
       "auth": "No",
@@ -869,7 +2389,9 @@
       "id": "agify",
       "last_checked": "2026-11-14",
       "name": "Agify",
-      "status": "live"
+      "status": "live",
+      "sample_url": "https://api.agify.io/?name=michael",
+      "tier": "freemium"
     },
     {
       "auth": "No",
@@ -882,20 +2404,37 @@
       "id": "genderize",
       "last_checked": "2026-11-14",
       "name": "Genderize",
-      "status": "live"
+      "status": "live",
+      "sample_url": "https://api.genderize.io/?name=peter",
+      "tier": "freemium"
     },
     {
       "auth": "No",
       "category": "Science",
-      "cors": "Unknown",
+      "cors": "No",
       "description": "Search and fetch arXiv research papers.",
       "docs_url": "https://info.arxiv.org/help/api/index.html",
-      "free_tier": "Free, no key required.",
+      "free_tier": "Free, no key; 3-sec delay advised",
       "https": true,
       "id": "arxiv",
-      "last_checked": "2026-11-14",
+      "last_checked": "2026-11-17",
       "name": "arXiv",
-      "status": "live"
+      "status": "live",
+      "tier": "free"
+    },
+    {
+      "id": "mathjs",
+      "name": "MathJS",
+      "category": "Science",
+      "description": "Evaluate math expressions online — algebra, units, matrices and more.",
+      "docs_url": "https://api.mathjs.org/",
+      "auth": "No",
+      "https": true,
+      "cors": "Yes",
+      "free_tier": "Free, no key; no published limit",
+      "status": "live",
+      "last_checked": "2026-11-15",
+      "tier": "free"
     },
     {
       "auth": "apiKey",
@@ -908,7 +2447,8 @@
       "id": "nasa",
       "last_checked": "2026-11-14",
       "name": "NASA Open APIs",
-      "status": "live"
+      "status": "live",
+      "tier": "free"
     },
     {
       "auth": "No",
@@ -916,25 +2456,13 @@
       "cors": "Yes",
       "description": "Live ISS position and people currently in space.",
       "docs_url": "http://open-notify.org/Open-Notify-API/",
-      "free_tier": "Free, no key required.",
+      "free_tier": "Free, no key; no published limit",
       "https": false,
       "id": "open-notify",
       "last_checked": "2026-11-14",
       "name": "Open Notify",
-      "status": "live"
-    },
-    {
-      "auth": "No",
-      "category": "Science",
-      "cors": "Yes",
-      "description": "SpaceX launches, rockets, capsules, and history.",
-      "docs_url": "https://github.com/r-spacex/SpaceX-API",
-      "free_tier": "Free, no key required.",
-      "https": true,
-      "id": "spacex",
-      "last_checked": "2026-11-14",
-      "name": "SpaceX",
-      "status": "live"
+      "status": "live",
+      "tier": "free"
     },
     {
       "auth": "No",
@@ -942,12 +2470,14 @@
       "cors": "Yes",
       "description": "Earthquake data from the US Geological Survey, near real-time.",
       "docs_url": "https://earthquake.usgs.gov/fdsnws/event/1/",
-      "free_tier": "Free, no key required.",
+      "free_tier": "Free, no key; max 20,000 results/query",
       "https": true,
       "id": "usgs-earthquakes",
       "last_checked": "2026-11-14",
       "name": "USGS Earthquakes",
-      "status": "live"
+      "status": "live",
+      "sample_url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&limit=1&orderby=time",
+      "tier": "free"
     },
     {
       "auth": "No",
@@ -955,12 +2485,14 @@
       "cors": "Yes",
       "description": "Public posts, feeds, and profiles from the Bluesky network.",
       "docs_url": "https://docs.bsky.app/",
-      "free_tier": "Free; public endpoints need no auth.",
+      "free_tier": "Free, no key; 3,000 req/5 min per IP",
       "https": true,
       "id": "bluesky",
       "last_checked": "2026-11-14",
       "name": "Bluesky API",
-      "status": "live"
+      "status": "live",
+      "sample_url": "https://public.api.bsky.app/xrpc/app.bsky.actor.searchActors?q=bsky",
+      "tier": "free"
     },
     {
       "auth": "apiKey",
@@ -968,38 +2500,27 @@
       "cors": "Yes",
       "description": "DEV Community articles, users, and comments.",
       "docs_url": "https://developers.forem.com/api",
-      "free_tier": "Free with a free API key.",
+      "free_tier": "Free key; 10 req/30 sec",
       "https": true,
       "id": "dev-to",
       "last_checked": "2026-11-14",
       "name": "Dev.to",
-      "status": "live"
+      "status": "live",
+      "tier": "free"
     },
     {
-      "auth": "OAuth",
-      "category": "Social",
-      "cors": "Unknown",
-      "description": "Posts, comments, and subreddit data (OAuth required since 2023).",
-      "docs_url": "https://www.reddit.com/dev/api/",
-      "free_tier": "Free tier for non-commercial use; app approval required.",
-      "https": true,
-      "id": "reddit",
-      "last_checked": "2026-11-14",
-      "name": "Reddit API",
-      "status": "reachable"
-    },
-    {
-      "auth": "No",
+      "auth": "apiKey",
       "category": "Sports",
       "cors": "Yes",
       "description": "NBA player and game stats.",
       "docs_url": "https://www.balldontlie.io/",
-      "free_tier": "Free, no key required.",
+      "free_tier": "Free key; 5 req/min, NBA teams/players/games",
       "https": true,
       "id": "balldontlie",
       "last_checked": "2026-11-14",
       "name": "balldontlie",
-      "status": "live"
+      "status": "live",
+      "tier": "freemium"
     },
     {
       "auth": "apiKey",
@@ -1012,7 +2533,8 @@
       "id": "football-data",
       "last_checked": "2026-11-14",
       "name": "football-data.org",
-      "status": "live"
+      "status": "live",
+      "tier": "freemium"
     },
     {
       "auth": "apiKey",
@@ -1020,12 +2542,13 @@
       "cors": "Yes",
       "description": "Sports data: teams, players, scores, and schedules.",
       "docs_url": "https://www.thesportsdb.com/api.php",
-      "free_tier": "Free tier key available; limits apply.",
+      "free_tier": "Free key; 30 req/min",
       "https": true,
       "id": "thesportsdb",
       "last_checked": "2026-11-14",
       "name": "TheSportsDB",
-      "status": "live"
+      "status": "live",
+      "tier": "freemium"
     },
     {
       "auth": "No",
@@ -1033,12 +2556,14 @@
       "cors": "Yes",
       "description": "Fake JSON data: products, users, todos, and more.",
       "docs_url": "https://dummyjson.com/",
-      "free_tier": "Free, no key required.",
+      "free_tier": "Free, no key; no published limit",
       "https": true,
       "id": "dummyjson",
       "last_checked": "2026-11-14",
       "name": "DummyJSON",
-      "status": "live"
+      "status": "live",
+      "sample_url": "https://dummyjson.com/products/1",
+      "tier": "free"
     },
     {
       "auth": "No",
@@ -1046,12 +2571,29 @@
       "cors": "Yes",
       "description": "Fake store API: products, carts, and users for e-commerce mockups.",
       "docs_url": "https://fakestoreapi.com/",
-      "free_tier": "Free, no key required.",
+      "free_tier": "Free, no key; no published limit",
       "https": true,
       "id": "fake-store",
       "last_checked": "2026-11-14",
       "name": "Fake Store API",
-      "status": "live"
+      "status": "live",
+      "sample_url": "https://fakestoreapi.com/products/1",
+      "tier": "free"
+    },
+    {
+      "id": "fakerapi",
+      "name": "FakerAPI",
+      "category": "Test Data",
+      "description": "Fake test data — people, companies, products, books and more in JSON.",
+      "docs_url": "https://fakerapi.it/en",
+      "auth": "No",
+      "https": true,
+      "cors": "Yes",
+      "free_tier": "Free, no key; max 1,000 rows per request",
+      "sample_url": "https://fakerapi.it/api/v2/persons?_quantity=1",
+      "status": "live",
+      "last_checked": "2026-11-15",
+      "tier": "free"
     },
     {
       "auth": "No",
@@ -1059,12 +2601,14 @@
       "cors": "Yes",
       "description": "Random quotes with authors and tags.",
       "docs_url": "https://github.com/lukePeavey/quotable",
-      "free_tier": "Free, no key required.",
+      "free_tier": "Free, no key; 180 req/min",
       "https": true,
       "id": "quotable",
       "last_checked": "2026-11-14",
       "name": "Quotable",
-      "status": "live"
+      "status": "live",
+      "sample_url": "https://quotable.vercel.app/random",
+      "tier": "free"
     },
     {
       "auth": "No",
@@ -1072,25 +2616,29 @@
       "cors": "Yes",
       "description": "Random user data generator for prototypes (names, photos, emails).",
       "docs_url": "https://randomuser.me/",
-      "free_tier": "Free, no key required.",
+      "free_tier": "Free, no key; no published limit",
       "https": true,
       "id": "random-user",
       "last_checked": "2026-11-14",
       "name": "Random User",
-      "status": "live"
+      "status": "live",
+      "sample_url": "https://randomuser.me/api/?results=1",
+      "tier": "free"
     },
     {
-      "auth": "No",
+      "auth": "apiKey",
       "category": "Test Data",
       "cors": "Yes",
       "description": "Hosted fake REST API for testing (users, login, delayed responses).",
       "docs_url": "https://reqres.in/",
-      "free_tier": "Free, no key required.",
+      "free_tier": "Free key; 250 req/day",
       "https": true,
       "id": "reqres",
       "last_checked": "2026-11-14",
       "name": "ReqRes",
-      "status": "live"
+      "status": "live",
+      "sample_url": "https://reqres.in/api/users/2",
+      "tier": "freemium"
     },
     {
       "auth": "No",
@@ -1098,25 +2646,37 @@
       "cors": "Yes",
       "description": "Open-source machine translation, self-hostable or via the public instance.",
       "docs_url": "https://libretranslate.com/docs/",
-      "free_tier": "Free public instance; rate-limited without a key.",
+      "free_tier": "Free to self-host; hosted API from $29/mo",
       "https": true,
       "id": "libretranslate",
       "last_checked": "2026-11-14",
       "name": "LibreTranslate",
-      "status": "live"
+      "status": "live",
+      "sample_url": "https://libretranslate.com/languages",
+      "tier": "freemium"
     },
     {
       "auth": "apiKey",
-      "category": "Video",
+      "category": "Social Media",
       "cors": "Unknown",
       "description": "Search videos, channels, comments, and playlists on YouTube.",
       "docs_url": "https://developers.google.com/youtube/v3",
-      "free_tier": "Free quota: 10,000 units/day + 100 search calls/day.",
+      "free_tier": "Free — 100 search/day + 10,000 units/day; quota increase needs manual audit",
       "https": true,
       "id": "youtube",
-      "last_checked": "2026-11-14",
+      "last_checked": "2026-11-15",
       "name": "YouTube Data API v3",
-      "status": "live"
+      "status": "live",
+      "tier": "free",
+      "access": {
+        "portal": "https://console.cloud.google.com/",
+        "portal_label": "Google Cloud Console",
+        "steps": [
+          "Create or select a Cloud project.",
+          "In the API Library, enable \"YouTube Data API v3\".",
+          "Go to Credentials and create an API key for public data, or an OAuth client ID for uploads."
+        ]
+      }
     },
     {
       "auth": "No",
@@ -1124,12 +2684,14 @@
       "cors": "Yes",
       "description": "Weather forecasts from the Norwegian Meteorological Institute.",
       "docs_url": "https://api.met.no/",
-      "free_tier": "Free, no key; identify your app in the User-Agent.",
+      "free_tier": "Free, no key; max 20 req/sec",
       "https": true,
       "id": "met-norway",
       "last_checked": "2026-11-14",
       "name": "MET Norway",
-      "status": "live"
+      "status": "live",
+      "sample_url": "https://api.met.no/weatherapi/locationforecast/2.0/compact?lat=60.10&lon=9.58",
+      "tier": "free"
     },
     {
       "auth": "No",
@@ -1137,12 +2699,14 @@
       "cors": "Yes",
       "description": "Weather forecasts and historical weather, no key needed.",
       "docs_url": "https://open-meteo.com/",
-      "free_tier": "Free, no key required.",
+      "free_tier": "Free, no key; 10,000 calls/day (non-commercial)",
       "https": true,
       "id": "open-meteo",
       "last_checked": "2026-11-14",
       "name": "Open-Meteo",
-      "status": "live"
+      "status": "live",
+      "sample_url": "https://api.open-meteo.com/v1/forecast?latitude=52.52&longitude=13.41&current=temperature_2m",
+      "tier": "freemium"
     },
     {
       "auth": "apiKey",
@@ -1155,7 +2719,8 @@
       "id": "openweathermap",
       "last_checked": "2026-11-14",
       "name": "OpenWeatherMap",
-      "status": "live"
+      "status": "live",
+      "tier": "freemium"
     },
     {
       "auth": "No",
@@ -1163,22 +2728,1687 @@
       "cors": "Yes",
       "description": "Weather in the terminal and JSON, no key needed.",
       "docs_url": "https://github.com/chubin/wttr.in",
-      "free_tier": "Free, no key required.",
+      "free_tier": "Free, no key; no published limit",
       "https": true,
       "id": "wttr-in",
       "last_checked": "2026-11-14",
       "name": "wttr.in",
-      "status": "live"
+      "status": "live",
+      "sample_url": "https://wttr.in/London?format=j1",
+      "tier": "free"
+    },
+    {
+      "id": "discord-api",
+      "name": "Discord API",
+      "category": "Social Media",
+      "description": "Community chat servers — bots, messages, voice and server management.",
+      "docs_url": "https://discord.com/developers/docs/intro",
+      "auth": "apiKey",
+      "https": true,
+      "cors": "Unknown",
+      "free_tier": "Free — 50 req/sec per bot; app verification needed at 100+ servers",
+      "status": "live",
+      "last_checked": "2026-11-15",
+      "tier": "free",
+      "access": {
+        "portal": "https://discord.com/developers/applications",
+        "portal_label": "Discord Developer Portal",
+        "steps": [
+          "Go to the Discord Developer Portal and create a New Application.",
+          "Open the Bot page and click Reset Token — copy it once.",
+          "Toggle any privileged intents you need on the same page.",
+          "Invite the bot via OAuth2 → URL Generator (bot + applications.commands scopes)."
+        ]
+      }
+    },
+    {
+      "id": "facebook-graph-api",
+      "name": "Facebook Graph API",
+      "category": "Social Media",
+      "description": "Read and publish Facebook Pages, posts, photos and comments.",
+      "docs_url": "https://developers.facebook.com/docs/graph-api",
+      "auth": "OAuth",
+      "https": true,
+      "cors": "Unknown",
+      "free_tier": "No fee published — rate limits only; Advanced Access needs App Review + Business Verification",
+      "status": "live",
+      "last_checked": "2026-11-15",
+      "tier": "free",
+      "access": {
+        "portal": "https://developers.facebook.com",
+        "portal_label": "Meta for Developers",
+        "steps": [
+          "Register at Meta for Developers and create a Business app.",
+          "Choose the Pages use case and add a privacy policy URL.",
+          "Request the permissions you need (e.g. pages_manage_posts).",
+          "Log in with Facebook to get a long-lived user token, then a Page token.",
+          "To serve others' Pages: complete Business Verification + App Review."
+        ]
+      }
+    },
+    {
+      "auth": "apiKey",
+      "category": "Social Media",
+      "cors": "Unknown",
+      "description": "Decentralized social protocol (onchain identity, Snapchain) — Neynar is the hosted REST API; self-hosted Snapchain node is the no-key path.",
+      "docs_url": "https://docs.neynar.com/",
+      "free_tier": "Free plan: 10M credits/month, 600 RPM per endpoint (1,000 RPM global), 10 webhooks, 5 apps",
+      "https": true,
+      "id": "farcaster-api",
+      "last_checked": "2026-11-16",
+      "name": "Farcaster",
+      "status": "live",
+      "tier": "freemium",
+      "access": {
+        "portal": "https://dev.neynar.com",
+        "portal_label": "Neynar Developer Portal",
+        "steps": [
+          "Sign up at the Neynar Developer Portal",
+          "Create an app to get an API key",
+          "Send the key as the x-api-key header to api.neynar.com"
+        ]
+      }
+    },
+    {
+      "id": "instagram-graph-api",
+      "name": "Instagram Graph API",
+      "category": "Social Media",
+      "description": "Manage Instagram Business/Creator accounts — media, insights, comments and publishing.",
+      "docs_url": "https://developers.facebook.com/documentation/instagram-platform/overview",
+      "auth": "OAuth",
+      "https": true,
+      "cors": "Unknown",
+      "free_tier": "No fee published — rate limits only (4,800 × impressions/24h); Advanced Access needs App Review + Business Verification",
+      "status": "live",
+      "last_checked": "2026-11-15",
+      "tier": "free",
+      "access": {
+        "portal": "https://developers.facebook.com",
+        "portal_label": "Meta for Developers",
+        "steps": [
+          "Switch your Instagram account to Business or Creator.",
+          "Register at Meta for Developers and create a Business-type app.",
+          "Add the Instagram product and choose the login setup.",
+          "Generate a long-lived token (60 days) from the dashboard.",
+          "To serve accounts you don't own: complete Business Verification + App Review."
+        ]
+      }
+    },
+    {
+      "auth": "OAuth",
+      "category": "Social Media",
+      "cors": "Unknown",
+      "description": "Manage a KakaoTalk business Channel — friends, chats and customers.",
+      "docs_url": "https://developers.kakao.com/docs/latest/en/kakaotalk-channel/common",
+      "free_tier": "No fee published — needs a verified Business Channel + app review (3–5 days); business messages billed per-message",
+      "https": true,
+      "id": "kakaotalk-channel-api",
+      "last_checked": "2026-11-16",
+      "name": "KakaoTalk Channel API",
+      "status": "live",
+      "tier": "free",
+      "access": {
+        "portal": "https://developers.kakao.com",
+        "portal_label": "Kakao Developers",
+        "steps": [
+          "Create an app at Kakao Developers and convert it to a Biz app (register business info).",
+          "Create a KakaoTalk Channel at center-pf.kakao.com and apply for Business Channel certification (review 3–5 business days).",
+          "Connect the channel to the app via App → Request additional features.",
+          "Set the consent item (Kakao Talk Channel addition status) and get user consent."
+        ]
+      }
+    },
+    {
+      "auth": "OAuth",
+      "category": "Social Media",
+      "cors": "Unknown",
+      "description": "Live streams, channels, chat, moderation and events on Kick, the live-streaming platform.",
+      "docs_url": "https://docs.kick.com",
+      "free_tier": "No fee published — self-serve registration, no pricing in official docs; rate limits not published",
+      "https": true,
+      "id": "kick-api",
+      "last_checked": "2026-11-16",
+      "name": "Kick API",
+      "status": "live",
+      "tier": "free",
+      "access": {
+        "portal": "https://kick.com/settings/developer",
+        "portal_label": "Kick Developer settings",
+        "steps": [
+          "Sign up for a Kick account.",
+          "Enable two-factor authentication (required for developer tools).",
+          "Open Account Settings → Developer tab and create an app to get your Client ID and Client Secret.",
+          "Get tokens via OAuth 2.1 with PKCE (id.kick.com); use client credentials for public data."
+        ]
+      }
+    },
+    {
+      "auth": "apiKey",
+      "category": "Social Media",
+      "cors": "Unknown",
+      "description": "Federated link-aggregation and discussion API (Reddit alternative) — REST API on any Lemmy instance; public reads need no auth, writes need a JWT from logging in.",
+      "docs_url": "https://join-lemmy.org/docs/contributors/04-api.html",
+      "free_tier": "Free — open source, no paid tier; per-IP rate limiting, no numeric limits published; API v3 current, v4 in development on main",
+      "https": true,
+      "id": "lemmy-api",
+      "last_checked": "2026-11-16",
+      "name": "Lemmy",
+      "status": "live",
+      "tier": "free",
+      "access": {
+        "portal": "https://lemmy.ml",
+        "portal_label": "Pick a public instance (e.g. lemmy.ml)",
+        "steps": [
+          "Pick a public Lemmy instance and create an account on it",
+          "Log in via POST /api/v3/user/login to get a JWT",
+          "Pass the JWT as the auth field on write calls; public reads work without auth",
+          "Note: API v3 is current on release instances; v4 is in development and may bring breaking changes"
+        ]
+      }
+    },
+    {
+      "auth": "apiKey",
+      "category": "Social Media",
+      "cors": "Unknown",
+      "description": "Send messages and build chatbots on LINE.",
+      "docs_url": "https://developers.line.biz/en/docs/messaging-api/",
+      "free_tier": "Free plan — 200 push msgs/mo (Japan; 300 in Thailand); replies + 1:1 chat free; paid from ¥5,000/mo",
+      "https": true,
+      "id": "line-messaging-api",
+      "last_checked": "2026-11-16",
+      "name": "LINE Messaging API",
+      "status": "live",
+      "tier": "freemium",
+      "access": {
+        "portal": "https://developers.line.biz/console/",
+        "portal_label": "LINE Developers Console",
+        "steps": [
+          "Create a provider and a Messaging API channel in the LINE Developers console.",
+          "Issue a channel access token (long-lived) from the channel's Messaging API tab.",
+          "Set a webhook URL to receive events.",
+          "Reply messages sent with a replyToken are free and don't count against the monthly quota."
+        ]
+      }
+    },
+    {
+      "id": "linkedin-api",
+      "name": "LinkedIn API",
+      "category": "Social Media",
+      "description": "Sign in with LinkedIn, share posts, and manage Company Pages.",
+      "docs_url": "https://learn.microsoft.com/en-us/linkedin/",
+      "auth": "OAuth",
+      "https": true,
+      "cors": "Unknown",
+      "free_tier": "Free — no per-call price; Sign In + Share are self-serve, other products need partner approval",
+      "status": "live",
+      "last_checked": "2026-11-15",
+      "tier": "free",
+      "access": {
+        "portal": "https://www.linkedin.com/developers/apps",
+        "portal_label": "LinkedIn Developers",
+        "steps": [
+          "Create an app (must link a verified Company Page).",
+          "Copy the Client ID + Secret from the Auth tab.",
+          "Enable \"Sign In with LinkedIn\" or \"Share on LinkedIn\" — instant, no review.",
+          "For anything else, request the product and wait for partner review."
+        ]
+      }
+    },
+    {
+      "auth": "OAuth",
+      "category": "Social Media",
+      "cors": "Unknown",
+      "description": "Post, read and manage accounts on any Mastodon server.",
+      "docs_url": "https://docs.joinmastodon.org",
+      "free_tier": "Free — 300 req/5 min per account (defaults; varies by server); no review or fee",
+      "https": true,
+      "id": "mastodon-api",
+      "last_checked": "2026-11-16",
+      "name": "Mastodon API",
+      "status": "live",
+      "tier": "free",
+      "access": {
+        "portal": "https://docs.joinmastodon.org",
+        "portal_label": "Mastodon documentation",
+        "steps": [
+          "Pick a server (e.g. mastodon.social) — each server is its own OAuth provider; there is no central portal.",
+          "Register your app on that server: POST /api/v1/apps → client_id + client_secret.",
+          "Send the user through OAuth (/oauth/authorize, PKCE) → access token (tokens don't expire).",
+          "Call the API on that server's domain."
+        ]
+      }
+    },
+    {
+      "auth": "No",
+      "category": "Social Media",
+      "cors": "Unknown",
+      "description": "Decentralized social protocol — the protocol IS the API (NIPs): keypair-signed events over WebSocket relays, no central company or signup.",
+      "docs_url": "https://github.com/nostr-protocol/nips",
+      "free_tier": "Free — open protocol, no key or signup; limits are set per relay (NIP-11), not centrally",
+      "https": true,
+      "id": "nostr",
+      "last_checked": "2026-11-16",
+      "name": "Nostr",
+      "status": "live",
+      "tier": "free"
+    },
+    {
+      "auth": "No",
+      "category": "Social Media",
+      "cors": "Unknown",
+      "description": "Decentralized video platform on the LBRY network — access content via the free, open-source LBRY SDK JSON-RPC API (local daemon, no key).",
+      "docs_url": "https://lbry.tech/build/",
+      "free_tier": "Free, no key — run the LBRY SDK daemon locally; no fee published",
+      "https": true,
+      "id": "odysee-api",
+      "last_checked": "2026-11-16",
+      "name": "Odysee",
+      "status": "live",
+      "tier": "free",
+      "access": {
+        "portal": "https://lbry.tech/",
+        "portal_label": "LBRY SDK",
+        "steps": [
+          "No signup or API key needed — the API is a local daemon",
+          "Download and install the LBRY SDK from lbry.tech",
+          "Run `lbrynet start` to start the API server and connect to the LBRY network",
+          "Call the JSON-RPC API at localhost:5279 (cURL or an SDK wrapper)",
+          "Note: LBRY Inc. shut down in Oct 2023; Odysee now runs under Forward Research (Arweave) and the SDK docs are aging — last SDK release Jan 2023"
+        ]
+      }
+    },
+    {
+      "auth": "OAuth",
+      "category": "Social Media",
+      "cors": "Yes",
+      "description": "Federated, self-hosted video platform (ActivityPub) — REST API with OpenAPI 3.0 spec; public reads need no auth, OAuth 2.0 for writes.",
+      "docs_url": "https://docs.joinpeertube.org/api/rest-getting-started",
+      "free_tier": "Free, open source — public reads need no auth; instance default rate limit 50 requests / 10 seconds (set per instance)",
+      "https": true,
+      "id": "peertube-api",
+      "last_checked": "2026-11-16",
+      "name": "PeerTube",
+      "status": "live",
+      "tier": "free",
+      "access": {
+        "portal": "https://joinpeertube.org/instances",
+        "portal_label": "Find a PeerTube instance",
+        "steps": [
+          "Pick a public instance from joinpeertube.org/instances, or self-host your own",
+          "Public reads (e.g. GET /api/v1/videos) work with no auth",
+          "For writes, create an account on your chosen instance",
+          "Fetch OAuth client tokens from /api/v1/oauth-clients/local, then a user token from /api/v1/users/token",
+          "Send the access_token as a Bearer token in the Authorization header"
+        ]
+      }
+    },
+    {
+      "auth": "OAuth",
+      "category": "Social Media",
+      "cors": "Unknown",
+      "description": "Create Pins and boards, read analytics on Pinterest.",
+      "docs_url": "https://developers.pinterest.com",
+      "free_tier": "Free — Trial: 1,000 req/day per app (300 writes), pins visible only to you; Standard needs review + demo video",
+      "https": true,
+      "id": "pinterest-api",
+      "last_checked": "2026-11-16",
+      "name": "Pinterest API",
+      "status": "live",
+      "tier": "free",
+      "access": {
+        "portal": "https://developers.pinterest.com",
+        "portal_label": "Pinterest Developers",
+        "steps": [
+          "Log in with a Pinterest business account and accept the Developer Terms.",
+          "Create an app in My apps — Trial access is usually approved in 1–3 business days.",
+          "Complete the OAuth 2.0 flow; access tokens last 30 days (continuous refresh tokens 60 days).",
+          "For public Pins: upgrade to Standard from My apps with a demo video showing the OAuth flow."
+        ]
+      }
+    },
+    {
+      "auth": "OAuth",
+      "category": "Social Media",
+      "cors": "Unknown",
+      "description": "Federated photo-sharing API (Instagram alternative) — Mastodon-compatible plus Pixelfed-only endpoints for collections, stories and DMs; every instance hosts its own API, no central server.",
+      "docs_url": "https://developers.pixelfed.org",
+      "free_tier": "Free — open source, no paid tier; rate limits not published (429 with Retry-After when exceeded)",
+      "https": true,
+      "id": "pixelfed-api",
+      "last_checked": "2026-11-16",
+      "name": "Pixelfed",
+      "status": "live",
+      "tier": "free",
+      "access": {
+        "portal": "https://pixelfed.social",
+        "portal_label": "Pick a public instance (e.g. pixelfed.social)",
+        "steps": [
+          "Pick a public Pixelfed instance and create an account on it",
+          "Register your app on that instance (POST /api/v1/apps) to get a client ID and secret",
+          "Send users through OAuth 2.0 authorization code flow on their instance",
+          "Call the API on the user's instance with Authorization: Bearer <token> — even public timelines need a token"
+        ]
+      }
+    },
+    {
+      "id": "telegram-bot-api",
+      "name": "Telegram Bot API",
+      "category": "Social Media",
+      "description": "Build Telegram bots — send messages, inline keyboards and files.",
+      "docs_url": "https://core.telegram.org/bots/api",
+      "auth": "apiKey",
+      "https": true,
+      "cors": "Unknown",
+      "free_tier": "Free — ~30 msg/sec; paid broadcasts only at 100K+ user scale",
+      "status": "live",
+      "last_checked": "2026-11-15",
+      "tier": "free",
+      "access": {
+        "portal": "https://t.me/BotFather",
+        "portal_label": "BotFather (in the Telegram app)",
+        "steps": [
+          "Open Telegram and chat with @BotFather.",
+          "Send /newbot and pick a name + username ending in \"bot\".",
+          "Copy the token BotFather replies with — that's your API key.",
+          "Test it: api.telegram.org/bot<token>/getMe."
+        ]
+      }
+    },
+    {
+      "auth": "OAuth",
+      "category": "Social Media",
+      "cors": "Unknown",
+      "description": "Publish posts and replies, read insights on Threads.",
+      "docs_url": "https://developers.facebook.com/documentation/threads",
+      "free_tier": "No fee published — 250 posts + 1,000 replies per profile/24h; App Review needed for other accounts",
+      "https": true,
+      "id": "threads-api",
+      "last_checked": "2026-11-16",
+      "name": "Threads API",
+      "status": "live",
+      "tier": "free",
+      "access": {
+        "portal": "https://developers.facebook.com",
+        "portal_label": "Meta for Developers",
+        "steps": [
+          "Register at Meta for Developers and create an app with the Threads use case.",
+          "Add the scopes you need (threads_basic, threads_content_publish, threads_read_replies).",
+          "Complete the OAuth flow and generate a long-lived token (60 days).",
+          "To publish for accounts you don't own: complete App Review."
+        ]
+      }
+    },
+    {
+      "id": "tiktok-api",
+      "name": "TikTok API",
+      "category": "Social Media",
+      "description": "Log in with TikTok and publish videos on behalf of creators.",
+      "docs_url": "https://developers.tiktok.com",
+      "auth": "OAuth",
+      "https": true,
+      "cors": "Unknown",
+      "free_tier": "Free — no paid tier published; app review required, public posts need a separate audit",
+      "status": "live",
+      "last_checked": "2026-11-15",
+      "tier": "free",
+      "access": {
+        "portal": "https://developers.tiktok.com",
+        "portal_label": "TikTok for Developers",
+        "steps": [
+          "Create a developer account and organization.",
+          "Create an app (needs a real website + privacy policy URL).",
+          "Copy your Client Key + Secret.",
+          "Enable Login Kit and the Content Posting API; add the scopes you need.",
+          "Submit the app for review; public posts need a separate audit."
+        ]
+      }
+    },
+    {
+      "auth": "apiKey",
+      "category": "Social Media",
+      "cors": "Unknown",
+      "description": "Read and publish posts on Tumblr blogs.",
+      "docs_url": "https://github.com/tumblr/docs",
+      "free_tier": "Free — 300 req/min per IP; 1,000/hr + 5,000/day per consumer key",
+      "https": true,
+      "id": "tumblr-api",
+      "last_checked": "2026-11-16",
+      "name": "Tumblr API v2",
+      "status": "live",
+      "tier": "free",
+      "access": {
+        "portal": "https://www.tumblr.com/oauth/apps",
+        "portal_label": "Tumblr API apps",
+        "steps": [
+          "Create a Tumblr account.",
+          "Register an app at tumblr.com/oauth/apps — your Consumer Key is your API key, issued instantly, no approval for reads.",
+          "Public reads: pass the key as the api_key parameter.",
+          "Writes and user data: OAuth 1.0a or 2.0 flow."
+        ]
+      }
+    },
+    {
+      "auth": "OAuth",
+      "category": "Social Media",
+      "cors": "Unknown",
+      "description": "Live streams, channels, clips and chat on Twitch.",
+      "docs_url": "https://dev.twitch.tv/docs/api",
+      "free_tier": "Free — 800 points/min Helix rate limit; app registration + OAuth required",
+      "https": true,
+      "id": "twitch-api",
+      "last_checked": "2026-11-16",
+      "name": "Twitch Helix API",
+      "status": "live",
+      "tier": "free",
+      "access": {
+        "portal": "https://dev.twitch.tv/console",
+        "portal_label": "Twitch Developer Console",
+        "steps": [
+          "Enable two-factor authentication on your Twitch account.",
+          "Register an app in the Developer Console and copy the Client ID + secret.",
+          "Get an app access token via the client-credentials flow (POST id.twitch.tv/oauth2/token).",
+          "Call api.twitch.tv/helix with the Client-ID header + Bearer token."
+        ]
+      }
+    },
+    {
+      "auth": "OAuth",
+      "category": "Social Media",
+      "cors": "Unknown",
+      "description": "Users, groups, messages and wall posts on VKontakte.",
+      "docs_url": "https://dev.vk.com/",
+      "free_tier": "No fee published — 3 req/sec per token; some methods need a service token",
+      "https": true,
+      "id": "vk-api",
+      "last_checked": "2026-11-16",
+      "name": "VK API",
+      "status": "live",
+      "tier": "free",
+      "access": {
+        "portal": "https://dev.vk.com/",
+        "portal_label": "VK for Developers",
+        "steps": [
+          "Create a VK account (phone verification may be required).",
+          "Create an app (vk.com/apps?act=manage) and copy the app ID.",
+          "Complete the OAuth 2.0 flow for a user token, or use a service token for public data.",
+          "Call api.vk.com/method/ with the token + API version."
+        ]
+      }
+    },
+    {
+      "auth": "OAuth",
+      "category": "Social Media",
+      "cors": "Unknown",
+      "description": "Post, read your own timeline, comments and profile on Weibo, China's microblogging platform.",
+      "docs_url": "https://open.weibo.com/wiki/API%E6%96%87%E6%A1%A3/en",
+      "free_tier": "Free own-data tier — 100 req/day per authorised user, 15,000 req/hour per IP; search and other users' posts are paid Business API (no fee published)",
+      "https": true,
+      "id": "weibo-api",
+      "last_checked": "2026-11-16",
+      "name": "Sina Weibo API",
+      "status": "live",
+      "tier": "freemium",
+      "access": {
+        "portal": "https://open.weibo.com/apps",
+        "portal_label": "Weibo Open Platform",
+        "steps": [
+          "Create a Weibo account and log in at open.weibo.com.",
+          "Verify your email and phone number to become a developer.",
+          "Create an app to get your App Key and App Secret, and set the redirect URL.",
+          "Authorise users via OAuth 2.0 (tokens last 30 days).",
+          "Submit the app for review to lift the 15-test-account limit."
+        ]
+      }
+    },
+    {
+      "id": "x-api",
+      "name": "X API",
+      "category": "Paid API",
+      "description": "Read and publish posts, users and timelines on X.",
+      "docs_url": "https://docs.x.com/x-api",
+      "auth": "OAuth",
+      "https": true,
+      "cors": "Unknown",
+      "free_tier": "No free tier — pay-per-use from $0.005/read (min $1 purchase); up to $70 one-time starter credits for new paying accounts",
+      "status": "live",
+      "last_checked": "2026-11-15",
+      "tier": "paid",
+      "access": {
+        "portal": "https://developer.x.com",
+        "portal_label": "X Developer Portal",
+        "steps": [
+          "Sign in at the X Developer Portal and create a Project.",
+          "Create an App to get your API key, secret and bearer token.",
+          "Add a payment card and buy credits (min $1).",
+          "Use OAuth 2.0 for user actions; call api.x.com/2/."
+        ]
+      }
+    },
+    {
+      "id": "ahrefs",
+      "name": "Ahrefs",
+      "category": "SEO",
+      "description": "Backlink, keyword, site-audit and rank data via REST API v3.",
+      "docs_url": "https://docs.ahrefs.com",
+      "auth": "apiKey",
+      "https": true,
+      "cors": "Unknown",
+      "free_tier": "Free Domain Rating endpoint with a free API key; full API from Lite $129/mo",
+      "status": "live",
+      "last_checked": "2026-11-15",
+      "tier": "freemium",
+      "access": {
+        "portal": "https://ahrefs.com",
+        "portal_label": "Ahrefs",
+        "steps": [
+          "Create a free Ahrefs account.",
+          "Go to Account Settings → API Keys and create a key.",
+          "Call the free Domain Rating endpoint with the key.",
+          "For the full API, subscribe to Lite ($129/mo) or higher."
+        ]
+      }
+    },
+    {
+      "id": "alsoasked",
+      "name": "AlsoAsked",
+      "category": "SEO",
+      "description": "Turns a keyword into a visual tree of live Google \"People Also Ask\" questions.",
+      "docs_url": "https://developers.alsoasked.com",
+      "auth": "apiKey",
+      "https": true,
+      "cors": "Unknown",
+      "free_tier": "Free sandbox for all users (1,000 credits/day, mock results only); live API from Pro $47/mo annual",
+      "status": "live",
+      "last_checked": "2026-11-15",
+      "tier": "freemium",
+      "access": {
+        "portal": "https://alsoasked.com/developer/keys",
+        "portal_label": "AlsoAsked — API keys",
+        "steps": [
+          "Sign up at AlsoAsked.",
+          "Upgrade to Pro for the live API (sandbox works on the free plan).",
+          "Go to Developers → API keys and create a Live or Sandbox key.",
+          "Send it as the X-Api-Key header."
+        ]
+      }
+    },
+    {
+      "id": "authoritylabs",
+      "name": "AuthorityLabs",
+      "category": "SEO",
+      "description": "Daily rank tracking (Google/Bing/Yahoo, local + mobile) + \"not provided\" keyword recovery.",
+      "docs_url": "https://authoritylabs.docs.apiary.io/",
+      "auth": "apiKey",
+      "https": true,
+      "cors": "Unknown",
+      "free_tier": "14-day free trial, no card; API pricing unclear — official pages conflict ($65/mo Plus vs Enterprise $585/mo, confirm with sales)",
+      "status": "live",
+      "last_checked": "2026-11-15",
+      "tier": "freemium",
+      "access": {
+        "portal": "https://authoritylabs.com/pricing",
+        "portal_label": "AuthorityLabs — pricing",
+        "steps": [
+          "Start the 14-day trial and pick a plan.",
+          "Contact AuthorityLabs to enable the API on your account.",
+          "Read the Interface API docs (Apiary) for the endpoints."
+        ]
+      }
+    },
+    {
+      "id": "awr",
+      "name": "Advanced Web Ranking",
+      "category": "SEO",
+      "description": "Rank tracking data across 4,000+ search engines with white-label reporting.",
+      "docs_url": "https://awr.readme.io/reference/getting-started-with-your-api",
+      "auth": "apiKey",
+      "https": true,
+      "cors": "Unknown",
+      "free_tier": "7-day trial, 150 keywords, no card; API on Agency $279/mo monthly or any yearly plan (Pro yearly ≈ $125/mo)",
+      "status": "live",
+      "last_checked": "2026-11-15",
+      "tier": "freemium",
+      "access": {
+        "portal": "https://advancedwebranking.com",
+        "portal_label": "Advanced Web Ranking",
+        "steps": [
+          "Sign up for the 7-day trial.",
+          "Subscribe to Agency monthly, or any yearly plan.",
+          "Go to Settings → Integrations & Exports → Developer API.",
+          "Copy your token (Reset regenerates it)."
+        ]
+      }
+    },
+    {
+      "id": "bing-webmaster-api",
+      "name": "Bing Webmaster Tools API",
+      "category": "SEO",
+      "description": "Search performance, keywords, backlinks and URL submission for Bing.",
+      "docs_url": "https://learn.microsoft.com/en-us/bingwebmaster/",
+      "auth": "apiKey",
+      "https": true,
+      "cors": "Unknown",
+      "free_tier": "Free — no published rate limit; URL submission quota per site",
+      "status": "live",
+      "last_checked": "2026-11-15",
+      "tier": "free",
+      "access": {
+        "portal": "https://www.bing.com/webmasters",
+        "portal_label": "Bing Webmaster Tools",
+        "steps": [
+          "Sign in with a Microsoft, Google or Facebook ID.",
+          "Add and verify your site (the API only returns data for verified sites).",
+          "Go to Settings → API Access and accept the Terms.",
+          "Click Generate API Key — one key works for all your verified sites."
+        ]
+      }
+    },
+    {
+      "id": "conductor-monitoring",
+      "name": "Conductor Monitoring",
+      "category": "SEO",
+      "description": "Real-time website change-monitoring data (changed pages, broken links, technical issues).",
+      "docs_url": "https://www.conductor.com/docs/other-apis/conductor-monitoring-reporting-api/",
+      "auth": "apiKey",
+      "https": true,
+      "cors": "Unknown",
+      "free_tier": "3-week free trial, full access (API during trial unconfirmed); pricing quote-only",
+      "status": "live",
+      "last_checked": "2026-11-15",
+      "tier": "freemium",
+      "access": {
+        "portal": "https://www.conductor.com/pricing/",
+        "portal_label": "Conductor — pricing",
+        "steps": [
+          "Start the free trial from the pricing page.",
+          "Sign in, add your website.",
+          "Go to Account → Integration Tokens and copy your token.",
+          "Send it as Authorization: token {token}."
+        ]
+      }
+    },
+    {
+      "id": "crux-api",
+      "name": "Chrome UX Report API",
+      "category": "SEO",
+      "description": "Real-user Core Web Vitals field data for any URL or origin.",
+      "docs_url": "https://developer.chrome.com/docs/crux/api",
+      "auth": "apiKey",
+      "https": true,
+      "cors": "Unknown",
+      "free_tier": "Free — 150 queries/min per project; no billing account needed",
+      "status": "live",
+      "last_checked": "2026-11-15",
+      "tier": "free",
+      "access": {
+        "portal": "https://console.cloud.google.com/apis/credentials",
+        "portal_label": "Google Cloud Console — Credentials",
+        "steps": [
+          "Create or select a Cloud project.",
+          "Enable the \"Chrome UX Report API\" from the API Library.",
+          "Go to Credentials and create an API key.",
+          "Append ?key=YOUR_API_KEY to requests. (A key is required — calls fail without one.)"
+        ]
+      }
+    },
+    {
+      "id": "dareboost",
+      "name": "Dareboost",
+      "category": "SEO",
+      "description": "Launch a website speed test and fetch the performance report by API.",
+      "docs_url": "https://www.dareboost.com/vassets/DareBoostAPIUserDocumentation.pdf",
+      "auth": "apiKey",
+      "https": true,
+      "cors": "Unknown",
+      "free_tier": "Free trial (length unverified); plans from ~$22/mo annual (third-party reading)",
+      "status": "live",
+      "last_checked": "2026-11-15",
+      "tier": "freemium",
+      "access": {
+        "portal": "https://www.dareboost.com/en/signup",
+        "portal_label": "Dareboost — sign up",
+        "steps": [
+          "Sign up at Dareboost and pick a plan.",
+          "Log in and get your API token from the backoffice.",
+          "POST to /api/0.2/analysis/launch with token + url."
+        ]
+      }
+    },
+    {
+      "id": "dashword-api",
+      "name": "Dashword API",
+      "category": "SEO",
+      "description": "SEO content briefs and real-time content scoring.",
+      "docs_url": "https://www.dashword.com/api-docs",
+      "auth": "apiKey",
+      "https": true,
+      "cors": "Unknown",
+      "free_tier": "Free on a free account — scoring/retrieval free; 1 free report at signup",
+      "status": "live",
+      "last_checked": "2026-11-15",
+      "tier": "free",
+      "access": {
+        "portal": "https://app.dashword.com/register",
+        "portal_label": "Dashword — sign up",
+        "steps": [
+          "Create a free account (no card required).",
+          "Verify your email — unverified accounts get 401 errors.",
+          "Go to the API tokens page and create a token.",
+          "Send it as \"Authorization: Bearer <token>\" to app.dashword.com/api/v1."
+        ]
+      }
+    },
+    {
+      "id": "dataforseo",
+      "name": "DataForSEO",
+      "category": "SEO",
+      "description": "Pay-as-you-go API for Google search results, keyword volumes, backlinks and domain data.",
+      "docs_url": "https://docs.dataforseo.com/v3/",
+      "auth": "apiKey",
+      "https": true,
+      "cors": "Unknown",
+      "free_tier": "$1 free credit on signup (no card) + free Sandbox; then $50 min top-up, SERP from $0.0006/call",
+      "status": "live",
+      "last_checked": "2026-11-15",
+      "tier": "freemium",
+      "access": {
+        "portal": "https://dataforseo.com",
+        "portal_label": "DataForSEO",
+        "steps": [
+          "Sign up free at DataForSEO.",
+          "Open the dashboard and go to the API Access tab.",
+          "Copy your API login/password (or the ready-made Base64 string).",
+          "Call api.dataforseo.com/v3/ with HTTP Basic auth."
+        ]
+      }
+    },
+    {
+      "id": "frase",
+      "name": "Frase",
+      "category": "SEO",
+      "description": "Generate briefs/articles, run SERP research and site audits, track AI-search visibility.",
+      "docs_url": "https://docs.frase.io/",
+      "auth": "apiKey",
+      "https": true,
+      "cors": "Unknown",
+      "free_tier": "7-day free trial, no card (API during trial unconfirmed); API on every plan from Starter $39/mo yearly",
+      "status": "live",
+      "last_checked": "2026-11-15",
+      "tier": "freemium",
+      "access": {
+        "portal": "https://www.frase.io",
+        "portal_label": "Frase",
+        "steps": [
+          "Sign up at Frase.",
+          "Find your API key in account settings.",
+          "Send it as the X-API-KEY header."
+        ]
+      }
+    },
+    {
+      "id": "google-ads-api",
+      "name": "Google Ads API",
+      "category": "SEO",
+      "description": "Keyword Planner ideas, volumes and forecasts from Google Ads.",
+      "docs_url": "https://developers.google.com/google-ads/api/docs/get-started/introduction",
+      "auth": "OAuth",
+      "https": true,
+      "cors": "Unknown",
+      "free_tier": "Free — Test 15k ops/day; Explorer 2,880/day; Basic 15k/day (Keyword Planner needs brand verification)",
+      "status": "live",
+      "last_checked": "2026-11-15",
+      "tier": "free",
+      "access": {
+        "portal": "https://console.cloud.google.com/",
+        "portal_label": "Google Cloud Console",
+        "steps": [
+          "Create or select a Cloud project and enable the Google Ads API (Test access is automatic).",
+          "On the API Overview page, upgrade to Explorer access.",
+          "Create a service account and download its JSON key.",
+          "Grant the service account access in Google Ads; note your 10-digit customer ID.",
+          "For Keyword Planner: complete brand verification, then apply for Basic access."
+        ]
+      }
+    },
+    {
+      "id": "google-analytics-data-api",
+      "name": "Google Analytics Data API",
+      "category": "SEO",
+      "description": "Pull GA4 report data programmatically.",
+      "docs_url": "https://developers.google.com/analytics/devguides/reporting/data/v1",
+      "auth": "OAuth",
+      "https": true,
+      "cors": "Unknown",
+      "free_tier": "Free — 200,000 Core tokens/day per standard property",
+      "status": "live",
+      "last_checked": "2026-11-15",
+      "tier": "free",
+      "access": {
+        "portal": "https://console.cloud.google.com/",
+        "portal_label": "Google Cloud Console",
+        "steps": [
+          "Create or select a Cloud project.",
+          "Enable the \"Google Analytics Data API\".",
+          "Create a service account and download its JSON key.",
+          "In GA4, add the service account email as Viewer under Property Access Management.",
+          "Call runReport with your numeric GA4 property ID."
+        ]
+      }
+    },
+    {
+      "id": "google-business-profile-api",
+      "name": "Google Business Profile API",
+      "category": "SEO",
+      "description": "Manage Business Profile locations, reviews, posts and photos.",
+      "docs_url": "https://developers.google.com/my-business/content/overview",
+      "auth": "OAuth",
+      "https": true,
+      "cors": "Unknown",
+      "free_tier": "Free after approval (~14-day review); 0 quota before, 300 QPM after",
+      "status": "live",
+      "last_checked": "2026-11-15",
+      "tier": "free",
+      "access": {
+        "portal": "https://console.cloud.google.com/",
+        "portal_label": "Google Cloud Console",
+        "steps": [
+          "Prerequisite: a Business Profile verified 60+ days with a website listed.",
+          "Create a Cloud project and note its Project Number.",
+          "Submit the API access request form from an owner/manager email.",
+          "Wait for review (within 14 days).",
+          "After approval, enable the Business Profile APIs and create an OAuth client ID."
+        ]
+      }
+    },
+    {
+      "id": "google-search-console-api",
+      "name": "Google Search Console API",
+      "category": "SEO",
+      "description": "Search performance, indexing and sitemaps for sites you own.",
+      "docs_url": "https://developers.google.com/webmaster-tools/about",
+      "auth": "OAuth",
+      "https": true,
+      "cors": "Unknown",
+      "free_tier": "Free — 1,200 queries/min per site",
+      "status": "live",
+      "last_checked": "2026-11-15",
+      "tier": "free",
+      "access": {
+        "portal": "https://console.cloud.google.com/",
+        "portal_label": "Google Cloud Console",
+        "steps": [
+          "Verify your website in Search Console first.",
+          "Create or select a Cloud project.",
+          "Enable the \"Google Search Console API\" from the API Library.",
+          "Set up the OAuth consent screen.",
+          "Create an OAuth client ID and copy the Client ID + Secret. (A plain API key does not work.)"
+        ]
+      }
+    },
+    {
+      "id": "gtmetrix",
+      "name": "GTmetrix",
+      "category": "SEO",
+      "description": "Run website speed tests (Lighthouse + Core Web Vitals) and fetch results by API.",
+      "docs_url": "https://gtmetrix.com/api/docs/2.0/",
+      "auth": "apiKey",
+      "https": true,
+      "cors": "Unknown",
+      "free_tier": "Trial API credits included on free accounts; plans from Lite $5.99/mo",
+      "status": "live",
+      "last_checked": "2026-11-15",
+      "tier": "freemium",
+      "access": {
+        "portal": "https://gtmetrix.com",
+        "portal_label": "GTmetrix",
+        "steps": [
+          "Create a free GTmetrix account and validate your email.",
+          "Generate an API key (top of the API docs page or Account Settings).",
+          "Call gtmetrix.com/api/2.0/ with HTTP Basic auth (key as username)."
+        ]
+      }
+    },
+    {
+      "id": "jetoctopus",
+      "name": "JetOctopus",
+      "category": "SEO",
+      "description": "JS crawls and log-file analyses — crawl data, GSC/GA4 and AI-bot traffic by API.",
+      "docs_url": "https://api.jetoctopus.com/doc.html",
+      "auth": "apiKey",
+      "https": true,
+      "cors": "Unknown",
+      "free_tier": "Free trial after a demo, no card; plans from Growth €299/$349 per month annual",
+      "status": "live",
+      "last_checked": "2026-11-15",
+      "tier": "freemium",
+      "access": {
+        "portal": "https://my.jetoctopus.com/register",
+        "portal_label": "JetOctopus — register",
+        "steps": [
+          "Book a demo / register — a trial account is created after the demo.",
+          "Log in and click your account icon → API.",
+          "Copy your API key (Reset regenerates it)."
+        ]
+      }
+    },
+    {
+      "id": "keysearch",
+      "name": "KeySearch",
+      "category": "SEO",
+      "description": "Keyword lists and difficulty scores for keywords already searched in the app (read-only).",
+      "docs_url": "https://www.keysearch.co/api/documentation",
+      "auth": "apiKey",
+      "https": true,
+      "cors": "Unknown",
+      "free_tier": "7-day free trial, no card (API during trial not explicitly confirmed); plans from Starter $24/mo",
+      "status": "live",
+      "last_checked": "2026-11-15",
+      "tier": "freemium",
+      "access": {
+        "portal": "https://keysearch.co/user/register",
+        "portal_label": "KeySearch — register",
+        "steps": [
+          "Register at KeySearch.",
+          "Search keywords in the app first (the API only returns already-searched keywords).",
+          "Copy your key from the account dashboard.",
+          "Call keysearch.co/api with the key parameter."
+        ]
+      }
+    },
+    {
+      "id": "mangools",
+      "name": "Mangools",
+      "category": "SEO",
+      "description": "Keyword difficulty, SERP analysis, rank tracking and backlink lookups.",
+      "docs_url": "https://apidocs.mangools.com",
+      "auth": "apiKey",
+      "https": true,
+      "cors": "Unknown",
+      "free_tier": "Free account: one-time 100 keyword + 100 SERP lookups, no card; API from Basic $61/mo",
+      "status": "live",
+      "last_checked": "2026-11-15",
+      "tier": "freemium",
+      "access": {
+        "portal": "https://mangools.com/api-token",
+        "portal_label": "Mangools — API token",
+        "steps": [
+          "Sign up for a free Mangools account.",
+          "Open the API token page and copy your key.",
+          "Send it as the X-Access-Token header."
+        ]
+      }
+    },
+    {
+      "id": "moz-api",
+      "name": "Moz API",
+      "category": "SEO",
+      "description": "Domain Authority, link metrics and keyword data from Moz.",
+      "docs_url": "https://dc8hdnsmzapvm.cloudfront.net/api/docs/guides/getting-started",
+      "auth": "apiKey",
+      "https": true,
+      "cors": "Unknown",
+      "free_tier": "Free tier: 50 rows/mo (1 req/10s); a card may be required at signup — verify",
+      "status": "live",
+      "last_checked": "2026-11-15",
+      "tier": "free",
+      "access": {
+        "portal": "https://moz.com/products/api/pricing",
+        "portal_label": "Moz API — pricing & signup",
+        "steps": [
+          "Go to the Moz API pricing page and choose the free plan.",
+          "Create a Moz account and complete the free-plan checkout.",
+          "Open the API dashboard and generate a token (up to 5 per account).",
+          "Send it as the x-moz-token header to api.moz.com."
+        ]
+      }
+    },
+    {
+      "id": "neuronwriter",
+      "name": "NeuronWriter",
+      "category": "SEO",
+      "description": "Create content analyses in bulk and get NLP term, heading and length recommendations.",
+      "docs_url": "https://neuronwriter.com/faqs/neuronwriter-api-how-to-use/",
+      "auth": "apiKey",
+      "https": true,
+      "cors": "Unknown",
+      "free_tier": "7-day free trial under Gold terms, no card (API key during trial unconfirmed); API from Gold $69/mo",
+      "status": "live",
+      "last_checked": "2026-11-15",
+      "tier": "freemium",
+      "access": {
+        "portal": "https://neuronwriter.com",
+        "portal_label": "NeuronWriter",
+        "steps": [
+          "Sign up at NeuronWriter.",
+          "Subscribe to Gold or higher.",
+          "Go to your profile → \"Neuron API access\" tab and copy the key.",
+          "Send it as the X-API-KEY header."
+        ]
+      }
+    },
+    {
+      "id": "nightwatch",
+      "name": "Nightwatch",
+      "category": "SEO",
+      "description": "Rank tracking + AI visibility data (daily positions, AI prompts, citation intelligence).",
+      "docs_url": "https://apidocs.nightwatch.io/",
+      "auth": "apiKey",
+      "https": true,
+      "cors": "Unknown",
+      "free_tier": "14-day trial, no card (REST API during trial not explicitly confirmed); API from Professional €159/mo annual",
+      "status": "live",
+      "last_checked": "2026-11-15",
+      "tier": "freemium",
+      "access": {
+        "portal": "https://nightwatch.io",
+        "portal_label": "Nightwatch",
+        "steps": [
+          "Sign up at Nightwatch (14-day trial).",
+          "Subscribe to Professional or higher.",
+          "POST your email + password to /api/v1/token to get an access token."
+        ]
+      }
+    },
+    {
+      "id": "nozzle",
+      "name": "Nozzle",
+      "category": "SEO",
+      "description": "Full Google SERP data (top 5 pages, 630 fields/result) for tracked keywords.",
+      "docs_url": "https://nozzle.io/docs/",
+      "auth": "apiKey",
+      "https": true,
+      "cors": "Unknown",
+      "free_tier": "14-day free trial, no card, full access; API included on every plan from Basic $49/mo annual",
+      "status": "live",
+      "last_checked": "2026-11-15",
+      "tier": "freemium",
+      "access": {
+        "portal": "https://app.nozzle.io/sign-up",
+        "portal_label": "Nozzle — sign up",
+        "steps": [
+          "Sign up at Nozzle.",
+          "Pick a plan (API is included on every plan).",
+          "Go to Settings → Users → Create API Token (shown once).",
+          "Call api.nozzle.app with the Authorization: Token header."
+        ]
+      }
+    },
+    {
+      "auth": "No",
+      "category": "SEO",
+      "cors": "Unknown",
+      "description": "Open-source Semrush/Ahrefs alternative (keyword research, rank tracking, backlinks, site audits, AI visibility) with MCP + agent skills; hosted web app usable from a phone browser.",
+      "docs_url": "https://github.com/every-app/open-seo",
+      "free_tier": "Freemium: $0.50 free-trial credits, no card, then $10/mo hosted; self-host needs a DataForSEO key ($1 trial, then $50 min top-up). Google Search Console data is free forever.",
+      "https": true,
+      "id": "open-seo",
+      "last_checked": "2026-11-17",
+      "name": "Open SEO",
+      "status": "live",
+      "tier": "freemium"
+    },
+    {
+      "id": "pagespeed-insights-api",
+      "name": "PageSpeed Insights API",
+      "category": "SEO",
+      "description": "Runs Lighthouse on a URL — lab and field performance data.",
+      "docs_url": "https://developers.google.com/speed/docs/insights/v5/get-started",
+      "auth": "apiKey",
+      "https": true,
+      "cors": "Unknown",
+      "free_tier": "Free, no card — daily quota applies (25,000/day widely reported; not stated on the current docs page)",
+      "status": "live",
+      "last_checked": "2026-11-15",
+      "tier": "free",
+      "access": {
+        "portal": "https://developers.google.com/speed/docs/insights/v5/get-started",
+        "portal_label": "PageSpeed Insights — Get a Key",
+        "steps": [
+          "Open the get-started page and click \"Get a Key\".",
+          "Sign in, pick or create a Cloud project, and click Next.",
+          "Copy the generated key.",
+          "Append ?key=YOUR_API_KEY to your requests."
+        ]
+      }
+    },
+    {
+      "id": "pingdom",
+      "name": "Pingdom",
+      "category": "SEO",
+      "description": "Website uptime and speed monitoring — checks, outages and uptime stats by API.",
+      "docs_url": "https://docs.pingdom.com/api/",
+      "auth": "apiKey",
+      "https": true,
+      "cors": "Unknown",
+      "free_tier": "14-day free trial; plans from ~$16.50/mo annual (third-party reading)",
+      "status": "live",
+      "last_checked": "2026-11-15",
+      "tier": "freemium",
+      "access": {
+        "portal": "https://www.pingdom.com/pricing/",
+        "portal_label": "Pingdom — pricing",
+        "steps": [
+          "Start the free trial or pick a plan.",
+          "Log in and go to Settings → Pingdom API.",
+          "Generate a token and send it as Authorization: Bearer."
+        ]
+      }
+    },
+    {
+      "id": "raven-tools",
+      "name": "Raven Tools",
+      "category": "SEO",
+      "description": "Rank tracking, audit and backlink data for agency reporting.",
+      "docs_url": "https://api.raventools.com/docs/",
+      "auth": "apiKey",
+      "https": true,
+      "cors": "Unknown",
+      "free_tier": "7-day free trial (API during trial not explicitly stated); plans from Small Biz $39/mo annual",
+      "status": "live",
+      "last_checked": "2026-11-15",
+      "tier": "freemium",
+      "access": {
+        "portal": "https://raventools.com",
+        "portal_label": "Raven Tools",
+        "steps": [
+          "Sign up at Raven Tools.",
+          "Go to Preferences → Profile Manager and open a profile.",
+          "Click \"Get New API Key\"."
+        ]
+      }
+    },
+    {
+      "id": "se-ranking",
+      "name": "SE Ranking",
+      "category": "SEO",
+      "description": "Rank tracking, keyword/backlink research and audit data.",
+      "docs_url": "https://seranking.com/api.html",
+      "auth": "apiKey",
+      "https": true,
+      "cors": "Unknown",
+      "free_tier": "14-day trial, 100k credits, full API, no card; then Wallet PAYG $50 one-time or Core $129/mo",
+      "status": "live",
+      "last_checked": "2026-11-15",
+      "tier": "freemium",
+      "access": {
+        "portal": "https://seranking.com",
+        "portal_label": "SE Ranking",
+        "steps": [
+          "Sign up at SE Ranking and confirm your email.",
+          "Open the API section (left menu / API Dashboard).",
+          "Click Create API Key and copy it."
+        ]
+      }
+    },
+    {
+      "id": "seo-powersuite-api",
+      "name": "SEO PowerSuite Backlinks API",
+      "category": "SEO",
+      "description": "Backlink index data (the desktop suite itself has no API).",
+      "docs_url": "https://www.link-assistant.com/upload/pdf/seo-powersuite-backlink-api.pdf",
+      "auth": "apiKey",
+      "https": true,
+      "cors": "Unknown",
+      "free_tier": "Full-featured free trial (length unstated); plans from $149/mo (5M units)",
+      "status": "live",
+      "last_checked": "2026-11-15",
+      "tier": "freemium",
+      "access": {
+        "portal": "https://link-assistant.com/backlink-api.html",
+        "portal_label": "SEO PowerSuite — Backlinks API",
+        "steps": [
+          "Open the Backlinks API page and request a trial or buy a subscription.",
+          "Your API key is issued after signup.",
+          "Call the API with the key as an apikey parameter."
+        ]
+      }
+    },
+    {
+      "id": "serpstat",
+      "name": "Serpstat",
+      "category": "SEO",
+      "description": "Keyword, rank-tracking, audit and backlink data (JSON-RPC 2.0).",
+      "docs_url": "https://api-docs.serpstat.com",
+      "auth": "apiKey",
+      "https": true,
+      "cors": "Unknown",
+      "free_tier": "7-day Team trial includes API (card required, $1 verification refunded); API from Team $100/mo annual",
+      "status": "live",
+      "last_checked": "2026-11-15",
+      "tier": "freemium",
+      "access": {
+        "portal": "https://serpstat.com",
+        "portal_label": "Serpstat",
+        "steps": [
+          "Sign up at Serpstat (Team trial or plan).",
+          "Go to your profile page and generate an API token.",
+          "Call the JSON-RPC API with the token."
+        ]
+      }
+    },
+    {
+      "id": "woorank",
+      "name": "WooRank",
+      "category": "SEO",
+      "description": "Run WooRank website reviews (SEO audits) by API and pull scores into your own tools.",
+      "docs_url": "https://www.woorank.com/en/api",
+      "auth": "apiKey",
+      "https": true,
+      "cors": "Unknown",
+      "free_tier": "Free trial (length disputed: 3 vs 14 days); API on all plans from Pro $89.99/mo",
+      "status": "live",
+      "last_checked": "2026-11-15",
+      "tier": "freemium",
+      "access": {
+        "portal": "https://www.woorank.com/en/p/pricing",
+        "portal_label": "WooRank — pricing",
+        "steps": [
+          "Pick a plan from the pricing page.",
+          "Log in and go to My Account → API.",
+          "Generate a key under Key Management."
+        ]
+      }
+    },
+    {
+      "id": "yandex-webmaster-api",
+      "name": "Yandex Webmaster API",
+      "category": "SEO",
+      "description": "Indexing, queries and diagnostics for Yandex search.",
+      "docs_url": "https://yandex.com/dev/webmaster/doc/en/",
+      "auth": "OAuth",
+      "https": true,
+      "cors": "Unknown",
+      "free_tier": "Free — no quota published",
+      "status": "live",
+      "last_checked": "2026-11-15",
+      "tier": "free",
+      "access": {
+        "portal": "https://oauth.yandex.com",
+        "portal_label": "Yandex OAuth",
+        "steps": [
+          "Sign in with a Yandex ID.",
+          "Create an app for API access and select the Yandex Webmaster permissions.",
+          "Copy the Client ID from the app page.",
+          "Open the authorize URL, approve, and copy the token from the redirect URL.",
+          "Send it as \"Authorization: OAuth <token>\" to api.webmaster.yandex.net."
+        ]
+      }
+    },
+    {
+      "id": "brightedge",
+      "name": "BrightEdge",
+      "category": "Paid API",
+      "description": "SEO, AI-search and content performance data for BI/analytics tools.",
+      "docs_url": "https://help.brightedge.com/technology/integration/connect-api",
+      "auth": "apiKey",
+      "https": true,
+      "cors": "Unknown",
+      "free_tier": "Paid only — quote-only, no trial, no self-serve signup",
+      "status": "live",
+      "last_checked": "2026-11-15",
+      "tier": "paid",
+      "access": {
+        "portal": "https://www.brightedge.com",
+        "portal_label": "BrightEdge",
+        "steps": [
+          "Request a demo on brightedge.com.",
+          "Sign an enterprise contract.",
+          "Ask your rep to enable API permissions on your account."
+        ]
+      }
+    },
+    {
+      "id": "conductor",
+      "name": "Conductor",
+      "category": "Paid API",
+      "description": "Rank, keyword and AI-search visibility data.",
+      "docs_url": "https://www.conductor.com/docs/api/introduction/",
+      "auth": "apiKey",
+      "https": true,
+      "cors": "Unknown",
+      "free_tier": "Paid only — quote-only enterprise pricing, no published price",
+      "status": "live",
+      "last_checked": "2026-11-15",
+      "tier": "paid",
+      "access": {
+        "portal": "https://www.conductor.com",
+        "portal_label": "Conductor",
+        "steps": [
+          "Request a demo on conductor.com.",
+          "Sign an enterprise contract.",
+          "Get your Bearer token from Integrations → API in-platform."
+        ]
+      }
+    },
+    {
+      "id": "inlinks",
+      "name": "InLinks",
+      "category": "Paid API",
+      "description": "Entity-based SEO — send a URL to get entities, a score and ready-made schema markup.",
+      "docs_url": "https://inlinks.com/api/",
+      "auth": "apiKey",
+      "https": true,
+      "cors": "Unknown",
+      "free_tier": "Paid only — API from Agency (level 4+) ~$196/mo (re-check price — no live pricing page)",
+      "status": "live",
+      "last_checked": "2026-11-15",
+      "tier": "paid",
+      "access": {
+        "portal": "https://inlinks.com",
+        "portal_label": "InLinks",
+        "steps": [
+          "Sign up at InLinks and subscribe to Agency or higher.",
+          "Go to Dashboard → My account.",
+          "Copy your API key + customer ID (sent as query params)."
+        ]
+      }
+    },
+    {
+      "id": "keyword-tool",
+      "name": "Keyword Tool",
+      "category": "Paid API",
+      "description": "Autocomplete keyword suggestions (750+/search) from 17 platforms.",
+      "docs_url": "https://keywordtool.io/api",
+      "auth": "apiKey",
+      "https": true,
+      "cors": "Unknown",
+      "free_tier": "Paid only — no free trial (30-day money-back); API from Starter $68/mo annual",
+      "status": "live",
+      "last_checked": "2026-11-15",
+      "tier": "paid",
+      "access": {
+        "portal": "https://keywordtool.io/pro",
+        "portal_label": "Keyword Tool — Pro",
+        "steps": [
+          "Subscribe to a Pro plan.",
+          "Your API key is issued with the subscription — find it in your account.",
+          "Send it as the apikey parameter."
+        ]
+      }
+    },
+    {
+      "id": "keywords-everywhere",
+      "name": "Keywords Everywhere",
+      "category": "Paid API",
+      "description": "Keyword volume, CPC and competition data for any keyword (14 endpoints).",
+      "docs_url": "https://keywordseverywhere.com/api-documentation.html",
+      "auth": "apiKey",
+      "https": true,
+      "cors": "Unknown",
+      "free_tier": "Paid only — no free credits; Bronze $84/year (100,000 credits/year)",
+      "status": "live",
+      "last_checked": "2026-11-15",
+      "tier": "paid",
+      "access": {
+        "portal": "https://keywordseverywhere.com/ctl/subscriptions",
+        "portal_label": "Keywords Everywhere — subscriptions",
+        "steps": [
+          "Get a free API key at the signup page.",
+          "Buy a plan with credits (Bronze $84/year).",
+          "Send the key as Authorization: Bearer."
+        ]
+      }
+    },
+    {
+      "id": "linkody",
+      "name": "Linkody",
+      "category": "Paid API",
+      "description": "Track backlinks to your sites (new, lost, changed links) and pull link data by API.",
+      "docs_url": "https://www.linkody.com/api/v1/docs",
+      "auth": "apiKey",
+      "https": true,
+      "cors": "Unknown",
+      "free_tier": "Paid only — any paid plan from Webmaster $14.90/mo; trial has no API",
+      "status": "live",
+      "last_checked": "2026-11-15",
+      "tier": "paid",
+      "access": {
+        "portal": "https://www.linkody.com",
+        "portal_label": "Linkody",
+        "steps": [
+          "Sign up at Linkody and subscribe to a paid plan.",
+          "Your token is issued after subscribing.",
+          "Send it as the X-AUTH-TOKEN header."
+        ]
+      }
+    },
+    {
+      "id": "lumar",
+      "name": "Lumar",
+      "category": "Paid API",
+      "description": "Pull crawl, indexation and technical-SEO data from Lumar's site crawls.",
+      "docs_url": "https://api-docs.lumar.io/docs/",
+      "auth": "apiKey",
+      "https": true,
+      "cors": "Unknown",
+      "free_tier": "Paid only — quote-only, no published price",
+      "status": "live",
+      "last_checked": "2026-11-15",
+      "tier": "paid",
+      "access": {
+        "portal": "https://www.lumar.io/request-demo/",
+        "portal_label": "Lumar — request demo",
+        "steps": [
+          "Request a demo and sign up via sales.",
+          "Log in and generate an API user key.",
+          "Exchange it for a 30-day session token (x-auth-token header)."
+        ]
+      }
+    },
+    {
+      "id": "majestic",
+      "name": "Majestic",
+      "category": "Paid API",
+      "description": "Backlink intelligence (Trust Flow / Citation Flow) from one of the largest link indexes.",
+      "docs_url": "https://developer-support.majestic.com",
+      "auth": "apiKey",
+      "https": true,
+      "cors": "Unknown",
+      "free_tier": "Paid only — API plan £319.99/mo (excl. VAT); Lite/Pro have no API",
+      "status": "live",
+      "last_checked": "2026-11-15",
+      "tier": "paid",
+      "access": {
+        "portal": "https://majestic.com/plans-pricing",
+        "portal_label": "Majestic — plans & pricing",
+        "steps": [
+          "Sign up at Majestic.",
+          "Buy the API plan.",
+          "Go to My Account → API Keys → Create a New Key."
+        ]
+      }
+    },
+    {
+      "id": "oncrawl",
+      "name": "OnCrawl",
+      "category": "Paid API",
+      "description": "Start and read website crawls and log-file analyses by API.",
+      "docs_url": "https://help.oncrawl.com/en/articles/1148410-getting-started-with-the-oncrawl-api",
+      "auth": "apiKey",
+      "https": true,
+      "cors": "Unknown",
+      "free_tier": "Paid only — quote-only; API is a paid add-on",
+      "status": "live",
+      "last_checked": "2026-11-15",
+      "tier": "paid",
+      "access": {
+        "portal": "https://www.oncrawl.com",
+        "portal_label": "OnCrawl",
+        "steps": [
+          "Book a demo — ask for the API option in your subscription.",
+          "Log in at app.oncrawl.com.",
+          "Go to the tokens page → \"Add API access token\"."
+        ]
+      }
+    },
+    {
+      "id": "semrush",
+      "name": "SEMrush",
+      "category": "Paid API",
+      "description": "Keyword, backlink, rank-tracking and competitor/traffic data.",
+      "docs_url": "https://developer.semrush.com",
+      "auth": "apiKey",
+      "https": true,
+      "cors": "Unknown",
+      "free_tier": "Paid only — API on Advanced plan (custom pricing) + unit packages",
+      "status": "live",
+      "last_checked": "2026-11-15",
+      "tier": "paid",
+      "access": {
+        "portal": "https://semrush.com",
+        "portal_label": "SEMrush",
+        "steps": [
+          "Sign up at Semrush.",
+          "Contact sales for the Advanced plan and buy a unit package.",
+          "Go to your profile → API keys and create a v4 key."
+        ]
+      }
+    },
+    {
+      "id": "seoclarity",
+      "name": "seoClarity",
+      "category": "Paid API",
+      "description": "Rank-tracking, keyword-research, backlink and content-gap data.",
+      "docs_url": "https://kb.seoclarity.net/portal/en/kb/articles/api-documentation",
+      "auth": "apiKey",
+      "https": true,
+      "cors": "Unknown",
+      "free_tier": "Paid only — packages from $2,500/mo (representative pricing)",
+      "status": "live",
+      "last_checked": "2026-11-15",
+      "tier": "paid",
+      "access": {
+        "portal": "https://seoclarity.net",
+        "portal_label": "seoClarity",
+        "steps": [
+          "Buy a package via sales/demo.",
+          "Log in as admin → Settings → Integrations → API access card.",
+          "Generate your token."
+        ]
+      }
+    },
+    {
+      "id": "similarweb",
+      "name": "Similarweb",
+      "category": "Paid API",
+      "description": "Estimated website/app traffic, engagement, keywords and audience data for any domain.",
+      "docs_url": "https://docs.similarweb.com/api-v5/",
+      "auth": "apiKey",
+      "https": true,
+      "cors": "Unknown",
+      "free_tier": "Paid only — quote-only; self-serve plans exclude API",
+      "status": "live",
+      "last_checked": "2026-11-15",
+      "tier": "paid",
+      "access": {
+        "portal": "https://similarweb.com/corp/developer/",
+        "portal_label": "Similarweb — developers",
+        "steps": [
+          "Contact sales via the developer page.",
+          "Log in as admin → Settings & Help → Account → Data Credit Management → API Keys.",
+          "Generate a key and switch Activation ON."
+        ]
+      }
+    },
+    {
+      "id": "spyfu",
+      "name": "SpyFu",
+      "category": "Paid API",
+      "description": "Competitor keyword, ad and backlink history.",
+      "docs_url": "https://developer.spyfu.com",
+      "auth": "apiKey",
+      "https": true,
+      "cors": "Unknown",
+      "free_tier": "Paid only — API from Pro + AI $119/mo monthly; usage $0.20–$5.00/1k rows",
+      "status": "live",
+      "last_checked": "2026-11-15",
+      "tier": "paid",
+      "access": {
+        "portal": "https://spyfu.com",
+        "portal_label": "SpyFu",
+        "steps": [
+          "Sign up at SpyFu and subscribe to Pro + AI.",
+          "Go to My Account → API Usage tab for your key."
+        ]
+      }
+    },
+    {
+      "id": "surfer",
+      "name": "Surfer SEO",
+      "category": "Paid API",
+      "description": "Create/manage content editors, generate outlines and AI content, pull SERP/audit data.",
+      "docs_url": "https://docs.surferseo.com/en/articles/5700335-surfer-api-introduction",
+      "auth": "apiKey",
+      "https": true,
+      "cors": "Unknown",
+      "free_tier": "Paid only — API on Peace of Mind $299/mo annual or Enterprise; 7-day trial is Pro-only (no API)",
+      "status": "live",
+      "last_checked": "2026-11-15",
+      "tier": "paid",
+      "access": {
+        "portal": "https://surfer.ai",
+        "portal_label": "Surfer",
+        "steps": [
+          "Sign up and subscribe to Peace of Mind.",
+          "As account owner, request an API key via Live Chat or support.",
+          "Send it as the API-KEY header."
+        ]
+      }
+    },
+    {
+      "id": "trueranker",
+      "name": "TrueRanker",
+      "category": "Paid API",
+      "description": "Pull your projects, keywords and Google ranking history (plus competitor ranks).",
+      "docs_url": "https://trueranker.com/docs/trueranker-api-documentation/",
+      "auth": "apiKey",
+      "https": true,
+      "cors": "Unknown",
+      "free_tier": "Paid only — API is Agency-only, $129/mo annual; trial covers Starter only",
+      "status": "live",
+      "last_checked": "2026-11-15",
+      "tier": "paid",
+      "access": {
+        "portal": "https://app.trueranker.com/en/signup",
+        "portal_label": "TrueRanker — sign up",
+        "steps": [
+          "Sign up and verify your email.",
+          "Subscribe to the Agency plan.",
+          "Copy your API key from account Settings.",
+          "Call app.trueranker.com/data with ?key=."
+        ]
+      }
+    },
+    {
+      "id": "wordtracker",
+      "name": "Wordtracker",
+      "category": "Paid API",
+      "description": "Turn one seed keyword into up to 2,000 related keywords with volumes and SEO metrics.",
+      "docs_url": "https://wordtracker.docs.apiary.io/",
+      "auth": "apiKey",
+      "https": true,
+      "cors": "Unknown",
+      "free_tier": "Paid only — Standard $60/mo (500 calls); free plan appears discontinued",
+      "status": "live",
+      "last_checked": "2026-11-15",
+      "tier": "paid",
+      "access": {
+        "portal": "https://my.wordtracker.com/sign-up",
+        "portal_label": "Wordtracker — sign up",
+        "steps": [
+          "Create an account.",
+          "Choose the Standard plan on wordtracker.com/api.",
+          "Get your credentials from the account dashboard.",
+          "Call the /search and /fetch endpoints."
+        ]
+      }
     }
   ],
   "description": "A verified directory of free public APIs. Every entry is link-checked; status and last_checked are updated by scripts/verify.py.",
   "name": "Live API Hub",
   "status_meaning": {
-    "down": "Docs URL failed, timed out, or returned 5xx on the last check.",
-    "live": "Docs URL answered 2xx/3xx on the last check.",
-    "reachable": "Server answered 401/403/429 (up, but blocks anonymous checks).",
-    "unknown": "Not checked yet."
+    "live": "Docs URL answered 2xx/3xx on the last check."
   },
-  "updated": "2026-11-14",
-  "version": "0.2.0"
+  "updated": "2026-11-18",
+  "version": "0.6.7"
 }
