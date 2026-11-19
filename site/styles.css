@@ -906,3 +906,107 @@ body {
   transition: opacity 0.15s, transform 0.15s;
 }
 .open-best-btn:hover { opacity: 0.9; transform: translateY(-1px); }
+
+/* Free-token strip (vibe-coder traffic batch): one-line banner under the hero */
+.token-strip {
+  background: var(--accent-soft);
+  border-bottom: 1px solid var(--border);
+  padding: 12px 0;
+}
+
+.token-strip p { margin: 0; font-size: 0.95rem; }
+.token-strip a { color: var(--accent); font-weight: 700; text-decoration: none; }
+.token-strip a:hover { text-decoration: underline; }
+
+/* Free-token guide page (guide-free-tokens.html) */
+.back-link { margin: 0 0 12px; font-size: 0.92rem; }
+.back-link a { color: rgba(255, 255, 255, 0.9); text-decoration: none; font-weight: 600; }
+.back-link a:hover { text-decoration: underline; }
+
+.guide { max-width: 760px; margin: 0 auto; padding: 24px 20px 8px; }
+
+.guide h2 {
+  font-family: var(--font-display);
+  font-size: 1.45rem;
+  letter-spacing: -0.02em;
+  margin: 28px 0 10px;
+}
+
+.guide h3 { font-size: 1.05rem; margin: 20px 0 6px; }
+.guide p { margin: 0 0 10px; }
+.guide a { color: var(--accent); font-weight: 600; text-decoration: none; }
+.guide a:hover { text-decoration: underline; }
+
+.guide code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  background: var(--accent-soft);
+  border-radius: 4px;
+  padding: 1px 5px;
+  font-size: 0.85em;
+}
+
+.guide pre {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 12px 14px;
+  overflow-x: auto;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  margin: 8px 0 12px;
+}
+
+.guide pre code { background: none; padding: 0; font-size: inherit; }
+
+.guide .path {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 16px 18px;
+  margin: 18px 0;
+  box-shadow: var(--shadow);
+}
+
+.guide .path h2 { margin-top: 0; }
+
+.guide .callout {
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--accent);
+  border-radius: 10px;
+  padding: 10px 14px;
+  background: var(--accent-soft);
+  font-size: 0.9rem;
+  margin: 12px 0;
+}
+
+.guide .callout p { margin: 0; }
+
+.guide .table-wrap { overflow-x: auto; margin: 12px 0; }
+
+.guide table {
+  border-collapse: collapse;
+  width: 100%;
+  min-width: 520px;
+  font-size: 0.85rem;
+}
+
+.guide th,
+.guide td {
+  border: 1px solid var(--border);
+  padding: 8px 10px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.guide th { background: var(--accent-soft); font-weight: 700; }
+
+.guide .path-list,
+.guide .app-list { margin: 10px 0; padding-left: 22px; }
+.guide .path-list li,
+.guide .app-list li { margin-bottom: 8px; }
+
+@media (max-width: 640px) {
+  .guide { padding: 20px 16px 8px; }
+  .guide h2 { font-size: 1.3rem; }
+  .guide .path { padding: 14px; }
+}

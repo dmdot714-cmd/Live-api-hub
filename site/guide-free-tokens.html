@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Free tokens for vibe coders — Live API Hub</title>
+<meta name="description" content="Running out of LLM tokens while vibe coding on your phone? Three free paths: OpenCode in Termux + a free router, no-key free gateways, and free Android automation apps.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'><stop offset='0' stop-color='%236d28d9'/><stop offset='1' stop-color='%23d946ef'/></linearGradient></defs><rect width='64' height='64' rx='14' fill='url(%23g)'/><text x='32' y='45' font-family='Arial,sans-serif' font-size='36' font-weight='700' fill='white' text-anchor='middle'>L</text></svg>">
+<meta property="og:title" content="Free tokens for vibe coders — Live API Hub">
+<meta property="og:description" content="Three free paths to keep coding on your phone when the tokens run out: OpenCode in Termux + a free router, no-key free gateways, and free Android automation apps.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://dmdot714-cmd.github.io/Live-api-hub/guide-free-tokens.html">
+<meta name="twitter:card" content="summary">
+<script>
+(function(){try{var t=localStorage.getItem('lah-theme');if(t){document.documentElement.setAttribute('data-theme',t);}}catch(e){}})();
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="hero">
+  <div class="wrap hero-inner">
+    <p class="back-link"><a href="index.html">&larr; Live API Hub</a></p>
+    <h1>Free tokens for vibe coders</h1>
+    <p class="tagline">Your agent stops when the tokens run out. These three free paths keep it going — all on your phone, no PC, no payment.</p>
+  </div>
+</header>
+
+<main class="guide">
+  <section>
+    <h2>The token problem</h2>
+    <p>Vibe coding burns tokens fast: every prompt, every fix, every "try again" costs tokens, and the free quota on a single provider runs out in the middle of a project. The fix is not one bigger free tier — it is <strong>stacking free tiers</strong>: a router that pools many providers, gateways that need no key at all, and apps that run the agent on your phone. All three paths below are free and open-source where stated, and every tool is listed in the <a href="index.html">Live API Hub directory</a> with its free tier verified.</p>
+    <ol class="path-list">
+      <li><a href="#path-1">Path 1 — OpenCode in Termux + FreeLLMAPI</a>: the biggest free pool, some setup.</li>
+      <li><a href="#path-2">Path 2 — No-key free gateways</a>: working in minutes, smaller limits.</li>
+      <li><a href="#path-3">Path 3 — Free automation on Android</a>: which app to use for what.</li>
+    </ol>
+  </section>
+
+  <section class="path" id="path-1">
+    <h2>Path 1 — OpenCode in Termux + FreeLLMAPI</h2>
+    <p>Run the <a href="https://github.com/anomalyco/opencode">OpenCode</a> coding agent on your phone in Termux, pointed at <a href="https://github.com/tashfeenahmed/freellmapi">FreeLLMAPI</a> — a self-hosted router that aggregates free LLM providers behind one OpenAI-compatible API. OpenCode itself already has 13 free models built in (GLM-5.3-Flash Free, DeepSeek V4.1 Flash Free), so it works free out of the box; the router adds the pooled capacity of many more providers.</p>
+
+    <h3>Step 1 — Install OpenCode for Termux</h3>
+    <p>Do <strong>not</strong> use plain <code>npm i -g opencode-ai</code> — it does not work reliably in Termux. Use the native aarch64 build, <a href="https://github.com/guysoft/opencode-termux">OpenCode for Termux</a> (free, open-source, MIT): a standalone zip, pacman or .deb from its releases page. It needs ripgrep:</p>
+    <pre><code>pkg install ripgrep</code></pre>
+
+    <h3>Step 2 — Install FreeLLMAPI</h3>
+    <p>Follow the project's <a href="https://github.com/tashfeenahmed/freellmapi">official Termux guide</a>. It needs Node.js 22.13+ (Termux ships Node 26, so the version requirement is met), Android 7+, about 1&nbsp;GB of storage, and Termux from F-Droid. The guide's install steps:</p>
+    <pre><code>pkg install -y nodejs-lts git
+git clone https://github.com/tashfeenahmed/freellmapi
+cd freellmapi
+npm install
+npm run dev</code></pre>
+    <p>The dashboard runs at <code>localhost:5173</code> and the API at <code>localhost:3001/v1</code>.</p>
+    <div class="callout">
+      <p><strong>Experimental.</strong> FreeLLMAPI's own Termux guide is marked <em>experimental and community-supported</em> by the project, and we have not tested the install ourselves. If it breaks, the project's repo is the place to ask.</p>
+    </div>
+
+    <h3>Step 3 — Point OpenCode at the router</h3>
+    <p>In OpenCode's provider settings, point it at the router's local API endpoint (<code>http://localhost:3001/v1</code>) and use the router's unified key. Then add your own free provider keys in the FreeLLMAPI dashboard — the router pools the free tiers you sign up for.</p>
+
+    <h3>The honest numbers</h3>
+    <p>FreeLLMAPI's own README claims <strong>10.1 billion tokens per month</strong> of listed free-tier capacity, across <strong>87 providers</strong> and <strong>1,313 endpoints</strong>. That is the project's own figure: it counts the listed free-tier capacity of every provider, including rate-limit estimates, and it assumes you set up accounts with all of them. It is not a guaranteed allowance. The live catalog costs $19/year or $49 once; the free version gets a monthly snapshot. The project states it is for personal experimentation only, not production.</p>
+  </section>
+
+  <section class="path" id="path-2">
+    <h2>Path 2 — No-key free gateways</h2>
+    <p>No install, no server: these gateways are OpenAI-compatible, so any agent that takes a base URL and a key can use them. Pick one, or rotate between them when one limit runs out. Limits are from each provider's own docs, as listed in the Hub's <a href="index.html">FreeLLM API</a> category.</p>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr><th>Gateway</th><th>Free limit</th><th>Key needed?</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><a href="https://kilo.ai/docs/gateway/models-and-providers">Kilo Code Gateway</a></td>
+            <td>200 requests/hour per IP (anonymous, kilo-auto/free router)</td>
+            <td>No — no key, no signup</td>
+          </tr>
+          <tr>
+            <td><a href="https://docs.llm7.io">LLM7.io</a></td>
+            <td>100,000 tokens per 24 hours; 60 RPM / 250 req/hour</td>
+            <td>Free token</td>
+          </tr>
+          <tr>
+            <td><a href="https://unorouter.com/docs">UnoRouter</a></td>
+            <td>~1 request/min per model per account, no daily cap; 150+ free models incl. DeepSeek V4.1 Flash + GLM 5.3 Flash</td>
+            <td>Free API key</td>
+          </tr>
+          <tr>
+            <td><a href="https://docs.orcarouter.ai">OrcaRouter</a></td>
+            <td>10 RPM / 50 requests per day free; DeepSeek V4.1 Flash Free + GLM 5.3 Flash Free, no card</td>
+            <td>Free API key</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="callout">
+      <p><strong>Privacy note.</strong> Kilo's Auto Free router may send requests to providers that log prompts and outputs — do not send sensitive data through it. LLM7.io states its free quota may shrink without notice, so treat these limits as "today's", not permanent.</p>
+    </div>
+  </section>
+
+  <section class="path" id="path-3">
+    <h2>Path 3 — Free automation on Android</h2>
+    <p>Which app depends on what you want the agent to do. All five are free and open-source, listed in the Hub's <a href="index.html">Agent For Android</a> category.</p>
+    <ul class="app-list">
+      <li><strong><a href="https://github.com/jieapi/AiCode">AiCode</a> — for coding.</strong> A full AI coding agent on Android: built-in Alpine Linux container, terminal, code editor and Git, with MCP support, sub-agents and skills. Model-agnostic — bring your own key; works with OpenAI/Anthropic/Gemini-compatible endpoints, including free gateways.</li>
+      <li><strong><a href="https://github.com/rikkahub/rikkahub">RikkaHub</a> — for phone automation + coding.</strong> Native Android LLM client with a proot Linux agent workspace and Phone Use — the AI operates your phone. MCP, Skills and web search built in. Multi-provider: custom API/URL/models for any OpenAI/Google/Anthropic-compatible endpoint, including free gateways.</li>
+      <li><strong><a href="https://github.com/jackwener/DSH-Android">DSH-Android</a> — for operating the phone.</strong> DeepSeek Harness as a single APK: operates apps, files and system settings, with automation triggers and a built-in Linux environment. No root, no Termux. Unofficial community port, no DeepSeek affiliation. Play Protect may flag the APK — verify the SHA-256.</li>
+      <li><strong><a href="https://github.com/mithun50/openclaw-termux">OpenClaw App</a> — for a one-tap agent gateway.</strong> The OpenClaw AI gateway as a standalone Android app: Flutter UI with built-in terminal and web dashboard, one-tap setup, no root (Ubuntu via proot). Multi-model via the gateway — works with free gateways. Android 10+.</li>
+      <li><strong><a href="https://github.com/a-ghorbani/pocketpal-ai">PocketPal AI</a> — for private, offline chat.</strong> Chat with GGUF models fully offline, with voice, tools and Hugging Face model downloads. Honest note: it is local-only — it runs small models on-device and has no cloud models or gateway path, so it is not a coding-agent backend. Optional PocketPal Plus purchase in store builds; included free in the GitHub APK.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Where to go next</h2>
+    <p>Every tool on this page is in the <a href="index.html">Live API Hub directory</a> — browse the <strong>FreeLLM API</strong> category for gateways, <strong>Agent For Termux</strong> for terminal agents, and <strong>Agent For Android</strong> for apps. Each entry shows its free tier and is checked live every week.</p>
+  </section>
+
+  <footer class="site-footer">
+    <a class="github-btn" href="index.html">&larr; Back to Live API Hub</a>
+    <p>Figures on this page come from each project's own README/docs, as listed in the directory. Free tiers change — check the provider's docs before relying on a limit.</p>
+  </footer>
+</main>
+</body>
+</html>
