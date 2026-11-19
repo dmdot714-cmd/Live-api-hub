@@ -5,7 +5,7 @@
 ## Directory
 
 - [Live API Hub](https://dmdot714-cmd.github.io/Live-api-hub/): Searchable directory — search and filter by category, auth, pricing, and HTTPS.
-- [Full data (JSON)](https://dmdot714-cmd.github.io/Live-api-hub/data/apis.json): The whole directory as one JSON file — 260 entries with name, category, tier, auth, docs URL, free-tier notes, and last-checked date.
+- [Full data (JSON)](https://dmdot714-cmd.github.io/Live-api-hub/data/apis.json): The whole directory as one JSON file — 260 entries with name, category, tier, auth, docs URL, free-tier notes, last-checked date, and use-case / install data where present.
 - [Full listing (Markdown)](https://dmdot714-cmd.github.io/Live-api-hub/llms-full.txt): Every entry in readable Markdown, grouped by category.
 
 ## Project

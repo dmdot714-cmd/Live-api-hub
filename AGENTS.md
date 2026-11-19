@@ -4,11 +4,77 @@ This file tells coding agents how to work on this project. If you are an
 agent reading this repo, follow it. If you are a person, the human-facing
 guide is [README.md](README.md) and [CONTRIBUTING.md](CONTRIBUTING.md).
 
+## You received this repo link from a user — use the directory for them
+
+If a user gave you this repo (or its link), they want you to use the
+directory **for their work** — not to edit the directory. This works in
+your default free setup — no paid model or paid key is needed to start.
+The same flow applies to any AI agent that receives the link, not just
+OpenCode.
+
+Follow this flow, in order. Ask before you act — never search, suggest,
+or install anything before step 2:
+
+1. **Analyze the directory first.** Read this file and skim
+   `data/apis.json` (or `site/llms-full.txt`) so you know what the
+   directory actually holds before you promise anything.
+2. **Ask the user questions first.** Before searching or installing
+   anything, ask:
+   - What do you want to build? What problem are you facing?
+   - Do you have an existing project on your phone you want to work on?
+     Which one?
+   - What do you already have? Check their agent config if you can
+     (`opencode.json`, `.mcp.json`, `~/.claude.json`,
+     `.agents/skills/`, `~/.claude/skills/`); if you cannot see their
+     setup, ask them what plugins, MCP servers, and skills they already
+     use.
+   The directory cannot know what the user works on by itself — their
+   answers are what make the match possible. Typical work here: data
+   scraping, product research, website building, SEO, YouTube video
+   making, coding in Termux.
+3. **Find the gap, then show the most useful matches.** Match their
+   answers to entries by `use_cases` — the work each entry serves and
+   how it enhances it — not by category name. Show the few matches
+   that would help them most, ranked (for example, a user running out
+   of tokens needs the free-token path, not a list of every LLM entry).
+   If nothing in the directory matches what they need, say so honestly
+   — never invent a match or force one.
+4. **Ask what they want to do with it.** Once they have seen the
+   matches, ask which one they want to use and what they want to do
+   with it.
+5. **Tell them, then set it up for yourself.** Say what you will
+   install or use before you do it. Then set up only what fills the
+   gap, using the entry's `install` field (method, commands, runtime,
+   requirements, first run). If an entry has no `install` field yet,
+   read its `docs_url` before suggesting setup steps — never invent an
+   install command. Then use it for the user's work.
+
+Rules for picking:
+
+- **Free only.** Pick `tier: "free"` entries, or a freemium entry's free
+  tier. Never pick a `paid` entry for this user's work.
+- **One tool per job.** Never suggest a second tool that does the same job
+  as one the user already has. Two entries sharing a use-case do the same
+  job — keep the one they have, skip the other.
+- **Minimal is secure.** Every extra tool is another key to manage, another
+  thing that can break, another attack surface. Suggest the smallest set
+  that fills the gap — nothing extra.
+- **Phone-first.** The user works from a phone (Termux/Android). Prefer
+  entries that run there; check the install notes for Termux caveats.
+- **Never invent.** Install commands, limits, and requirements come from
+  the entry's `install` field or its official docs — never from memory.
+
+The machine-readable data is `data/apis.json` in this repo (or fetch it:
+`https://dmdot714-cmd.github.io/Live-api-hub/data/apis.json`). The
+`use_cases` and `install` fields are being added entry by entry (pilot:
+6 entries) — entries without them still have a description, free-tier
+note, and docs link to work from.
+
 ## What this project is
 
 Live API Hub is a **verified directory of free public APIs, mobile agents,
 agent skills, and free LLM gateways** — 260 entries across 36 categories
-(data v0.6.7, 2026-11-18). Every entry is link-checked live and tagged by
+(data v0.6.8, 2026-11-19). Every entry is link-checked live and tagged by
 free tier (178 fully free, 65 freemium, 17 paid). It is a **static site**
 (vanilla HTML/CSS/JS, no build step, no dependencies) served from `site/`
 on GitHub Pages: https://dmdot714-cmd.github.io/Live-api-hub/
@@ -86,6 +152,8 @@ Entry schema (see the full table in the README):
 | `sample_url` | string | Optional. Example GET for the Try-it button — no-key APIs only, and only after verifying it returns JSON in the browser (CORS) |
 | `tier` | string | `free` / `freemium` / `paid` — classified from the official pricing page |
 | `access` | object | Optional. For platform APIs: `{"portal": "URL", "portal_label": "name", "steps": ["..."]}` |
+| `use_cases` | array of strings | Optional. The work the entry serves and how it enhances it — this is what agents match the user's gap against. Keep each item one line: the job, then how it helps. |
+| `install` | object | Optional. For git projects: `{"method", "commands"[], "runtime", "requires", "first_run", "notes"}` — every command verified against the project's own README/docs, never invented. `method` is one of `deb`, `source`, `remote-mcp`, `npx`, `npx-skills`, or a plain word describing the route. |
 
 Rules:
 
@@ -142,12 +210,16 @@ browsers block `fetch` from local files. Always use the server command
 
 ## For agents that want to USE the directory (not edit it)
 
-Fetch the data, don't scrape the page:
+See the top section ("You received this repo link from a user") for the
+full flow: understand the user's work, inventory what they have, find the
+gap, match by `use_cases`, set up only what fills it from the `install`
+field. Fetch the data, don't scrape the page:
 
 ```bash
 curl https://dmdot714-cmd.github.io/Live-api-hub/data/apis.json
 ```
 
 Or read `llms-full.txt` at the same base URL for the whole directory in
-Markdown. See the "For AI agents" section in the README for the schema
-and filtering. Data is MIT-licensed.
+Markdown (entries with `use_cases` / `install` show them inline). See the
+"For AI agents" section in the README for the schema and filtering. Data
+is MIT-licensed.

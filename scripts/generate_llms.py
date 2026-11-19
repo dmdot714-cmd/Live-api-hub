@@ -15,7 +15,8 @@ and writes both files into site/ (which is what GitHub Pages serves).
 - llms-full.txt: the complete directory in readable Markdown — one
   section per category, every entry with name, tier, auth,
   description, free-tier note, docs URL, and Try-it / access links
-  where present.
+  where present. Entries that carry `use_cases` / `install` fields
+  (the agent self-use pilot) show them inline.
 """
 
 import json
@@ -61,7 +62,8 @@ def build_llms_txt(n_entries, n_cats, n_free, n_freemium, n_paid):
         "by category, auth, pricing, and HTTPS.",
         f"- [Full data (JSON)]({BASE_URL}/data/apis.json): The whole directory as "
         f"one JSON file — {n_entries} entries with name, category, tier, auth, "
-        "docs URL, free-tier notes, and last-checked date.",
+        "docs URL, free-tier notes, last-checked date, and use-case / install "
+        "data where present.",
         f"- [Full listing (Markdown)]({BASE_URL}/llms-full.txt): Every entry in "
         "readable Markdown, grouped by category.",
         "",
@@ -101,6 +103,27 @@ def entry_line(entry):
             f"Access: {clean(access.get('portal_label', 'Portal'))} — "
             f"{access.get('portal', '')}"
         )
+    use_cases = entry.get("use_cases")
+    if use_cases:
+        parts.append(
+            "Use cases: "
+            + "; ".join(clean(u).rstrip(".") for u in use_cases)
+            + "."
+        )
+    install = entry.get("install")
+    if install:
+        inst = f"Install ({install.get('method', '?')}): " + "; ".join(
+            clean(c) for c in install.get("commands", [])
+        )
+        if install.get("runtime"):
+            inst += f" | Runtime: {clean(install['runtime'])}"
+        if install.get("requires"):
+            inst += f" | Requires: {clean(install['requires'])}"
+        if install.get("first_run"):
+            inst += f" | First run: {clean(install['first_run'])}"
+        if install.get("notes"):
+            inst += f" | Note: {clean(install['notes']).rstrip('.')}"
+        parts.append(inst + ".")
     return " ".join(parts)
 
 

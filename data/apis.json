@@ -446,8 +446,24 @@
       "cors": "Unknown",
       "free_tier": "Free, open-source (MIT); standalone zip, pacman or .deb from releases; needs ripgrep",
       "status": "live",
-      "last_checked": "2026-11-18",
-      "tier": "free"
+      "last_checked": "2026-11-19",
+      "tier": "free",
+      "use_cases": [
+        "Coding agent in Termux — run OpenCode natively on the phone, no PC",
+        "Free AI coding — 13 free models built in, no API key needed"
+      ],
+      "install": {
+        "method": "deb",
+        "commands": [
+          "curl -LO https://github.com/guysoft/opencode-termux/releases/latest/download/opencode-aarch64.deb",
+          "dpkg -i opencode-aarch64.deb",
+          "pkg install ripgrep"
+        ],
+        "runtime": "none — standalone aarch64 binary",
+        "requires": "Termux on Android aarch64; ripgrep",
+        "first_run": "opencode",
+        "notes": "Standalone zip and pacman routes are also in the README. v2 pre-release installs side by side as opencode2. Plain npm install of opencode does NOT work in Termux — use this build."
+      }
     },
     {
       "id": "pi",
@@ -640,10 +656,26 @@
       "free_tier": "Free, open-source (MIT); needs ffmpeg 6.1+ and python3 on PATH (pkg install ffmpeg python); encoding is slow on a phone.",
       "https": true,
       "id": "ffmpeg-skill",
-      "last_checked": "2026-11-17",
+      "last_checked": "2026-11-19",
       "name": "ffmpeg-skill",
       "status": "live",
-      "tier": "free"
+      "tier": "free",
+      "use_cases": [
+        "YouTube video making — cut, caption, reframe and export videos locally on the phone",
+        "Video editing for agents — 42 FFmpeg tools, no cloud, no API keys"
+      ],
+      "install": {
+        "method": "npx",
+        "commands": [
+          "pkg install ffmpeg python",
+          "npx ffmpeg-skill --codex",
+          "npx ffmpeg-skill doctor"
+        ],
+        "runtime": "Node.js for npx; ffmpeg 6.1+ and python3 on PATH",
+        "requires": "none — no API keys; captions need pip install faster-whisper (optional, runs locally)",
+        "first_run": "ask the agent to edit a video, e.g. cut interview.mp4 to a 60-second Reel",
+        "notes": "Encoding is slow on a phone. --codex installs to ~/.agents/skills/ffmpeg-skill, the cross-client skills location. MCP server option: npx -y ffmpeg-skill mcp."
+      }
     },
     {
       "auth": "No",
@@ -696,10 +728,24 @@
       "free_tier": "Free, open-source (MIT)",
       "https": true,
       "id": "last30days-skill",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-19",
       "name": "Last30Days",
       "status": "live",
-      "tier": "free"
+      "tier": "free",
+      "use_cases": [
+        "Product research — grounded last-30-days briefs from Reddit, X, YouTube, Hacker News",
+        "Topic research — what people actually say about a product or topic right now"
+      ],
+      "install": {
+        "method": "npx-skills",
+        "commands": [
+          "npx skills add mvanhorn/last30days-skill -g"
+        ],
+        "runtime": "Node.js 22.20+ for the installer; Python 3 + Go for the engine",
+        "requires": "none for Reddit/Hacker News; X/YouTube/TikTok need API keys",
+        "first_run": "/last30days <topic>",
+        "notes": "Untested in Termux. Claude Code route: /plugin marketplace add mvanhorn/last30days-skill. Direct engine: python3 skills/last30days/scripts/last30days.py \"<topic>\"."
+      }
     },
     {
       "auth": "No",
@@ -1537,10 +1583,30 @@
       "free_tier": "Free, open-source (MIT); bring your own free provider keys (10.1B tokens/mo assumes all accounts set up). Live catalog $19/yr or $49 once — free gets a monthly snapshot. Personal experimentation only, not production. Official Termux guide (experimental, Node 22.13+) — untested by us.",
       "https": true,
       "id": "freellmapi",
-      "last_checked": "2026-11-17",
+      "last_checked": "2026-11-19",
       "name": "FreeLLMAPI",
       "status": "live",
-      "tier": "free"
+      "tier": "free",
+      "use_cases": [
+        "Free LLM tokens — one API for 87 free providers, fixes the token problem",
+        "Free models for coding agents — point OpenCode at http://localhost:3001/v1"
+      ],
+      "install": {
+        "method": "source",
+        "commands": [
+          "pkg update",
+          "pkg upgrade -y",
+          "pkg install -y nodejs-lts git",
+          "git clone https://github.com/tashfeenahmed/freellmapi.git",
+          "cd freellmapi",
+          "npm install --no-audit --no-fund",
+          "npm run dev"
+        ],
+        "runtime": "Node.js 22.13+ (Node 24 LTS recommended; Termux ships 26)",
+        "requires": "About 1 GB free storage; Termux from F-Droid (Play Store build is outdated); free provider API keys, added on the Keys page at http://localhost:5173",
+        "first_run": "npm run dev, then open http://localhost:5173 and add provider keys; the unified key works at http://localhost:3001/v1",
+        "notes": "Official Termux guide is experimental and community-supported, untested by us. The Docker one-liner does NOT work on a phone. Use termux-wake-lock to keep the server awake; never expose the dashboard to the internet."
+      }
     },
     {
       "auth": "No",
@@ -1761,10 +1827,24 @@
       "free_tier": "Free, open-source (MIT); needs a free Tavily API key — 1,000 credits/mo, no card",
       "https": true,
       "id": "tavily-mcp",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-19",
       "name": "Tavily MCP",
       "status": "live",
-      "tier": "free"
+      "tier": "free",
+      "use_cases": [
+        "Web search for agents — gives OpenCode the search it lacks",
+        "Data scraping and product research — search, extract, map and crawl pages"
+      ],
+      "install": {
+        "method": "remote-mcp",
+        "commands": [
+          "Add remote MCP server: https://mcp.tavily.com/mcp/?tavilyApiKey=<your-api-key>"
+        ],
+        "runtime": "none — remote server, nothing to install locally",
+        "requires": "free Tavily API key from tavily.com (1,000 credits/mo, no card)",
+        "first_run": "use the tavily-search tool",
+        "notes": "Tools: tavily-search, tavily-extract, tavily-map, tavily-crawl. The key can also go in an Authorization: Bearer header. A local npx install exists but the remote URL is the documented path."
+      }
     },
     {
       "auth": "No",
@@ -2664,7 +2744,7 @@
       "free_tier": "Free — 100 search/day + 10,000 units/day; quota increase needs manual audit",
       "https": true,
       "id": "youtube",
-      "last_checked": "2026-11-15",
+      "last_checked": "2026-11-19",
       "name": "YouTube Data API v3",
       "status": "live",
       "tier": "free",
@@ -2676,7 +2756,11 @@
           "In the API Library, enable \"YouTube Data API v3\".",
           "Go to Credentials and create an API key for public data, or an OAuth client ID for uploads."
         ]
-      }
+      },
+      "use_cases": [
+        "YouTube video research — search videos, channels, comments and playlists",
+        "Product research — find what reviewers and users say on YouTube"
+      ]
     },
     {
       "auth": "No",
@@ -4409,6 +4493,6 @@
   "status_meaning": {
     "live": "Docs URL answered 2xx/3xx on the last check."
   },
-  "updated": "2026-11-18",
-  "version": "0.6.7"
+  "updated": "2026-11-19",
+  "version": "0.6.8"
 }
