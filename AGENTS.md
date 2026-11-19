@@ -18,20 +18,30 @@ or install anything before step 2:
 1. **Analyze the directory first.** Read this file and skim
    `data/apis.json` (or `site/llms-full.txt`) so you know what the
    directory actually holds before you promise anything.
-2. **Ask the user questions first.** Before searching or installing
-   anything, ask:
-   - What do you want to build? What problem are you facing?
+2. **Ask the user questions first — with options, not open questions.**
+   Before searching or installing anything, ask using your agent's
+   interactive question tool (in OpenCode: the `question` tool; other
+   agents have an equivalent). Present each question with a short list
+   of concrete choices — the user selects a choice, they do not type a
+   full answer. A free-form answer stays available for when no choice
+   fits. Build the choices from the directory and from what you actually
+   found on the user's phone — never invent options:
+   - What do you want to build? What problem are you facing? Choices
+     from the work this directory serves, for example: running out of
+     tokens (the free-token path), YouTube video making, SEO, data
+     scraping, website building, product research.
    - Do you have an existing project on your phone you want to work on?
-     Which one?
+     Which one? Choices are the projects you actually found on their
+     phone (from their directories, not from memory).
    - What do you already have? Check their agent config if you can
      (`opencode.json`, `.mcp.json`, `~/.claude.json`,
-     `.agents/skills/`, `~/.claude/skills/`); if you cannot see their
-     setup, ask them what plugins, MCP servers, and skills they already
-     use.
+     `.agents/skills/`, `~/.claude/skills/`) and offer what you found
+     as choices to confirm or correct; if you cannot see their setup,
+     offer choices such as "OpenCode in Termux", "a different agent",
+     "nothing set up yet".
    The directory cannot know what the user works on by itself — their
-   answers are what make the match possible. Typical work here: data
-   scraping, product research, website building, SEO, YouTube video
-   making, coding in Termux.
+   answers are what make the match possible. Wait for their answers
+   before moving to step 3.
 3. **Find the gap, then show the most useful matches.** Match their
    answers to entries by `use_cases` — the work each entry serves and
    how it enhances it — not by category name. Show the few matches
@@ -211,9 +221,10 @@ browsers block `fetch` from local files. Always use the server command
 ## For agents that want to USE the directory (not edit it)
 
 See the top section ("You received this repo link from a user") for the
-full flow: understand the user's work, inventory what they have, find the
-gap, match by `use_cases`, set up only what fills it from the `install`
-field. Fetch the data, don't scrape the page:
+full flow: analyze the directory, ask the user questions first (with
+options, using your question tool), show the most useful matches, then
+set up only what fills the gap from the `install` field. Fetch the data,
+don't scrape the page:
 
 ```bash
 curl https://dmdot714-cmd.github.io/Live-api-hub/data/apis.json
