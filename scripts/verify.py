@@ -21,6 +21,7 @@ import datetime
 import json
 import shutil
 import sys
+import time
 import urllib.error
 import urllib.request
 from pathlib import Path
@@ -31,22 +32,38 @@ SITE_DATA_FILE = ROOT / "site" / "data" / "apis.json"
 
 USER_AGENT = "Mozilla/5.0 (compatible; LiveAPIHub-Verifier/0.1)"
 TIMEOUT = 12
+MAX_ATTEMPTS = 3  # first try + 2 retries, for transient failures only
+RETRY_DELAY = 5  # seconds between attempts (same as discover.py)
 
 
 def check_url(url):
-    """Return (status, http_code_or_error)."""
-    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
-    try:
-        with urllib.request.urlopen(req, timeout=TIMEOUT) as resp:
-            return "live", resp.status
-    except urllib.error.HTTPError as e:
-        if e.code in (401, 403, 429):
-            return "reachable", e.code
-        if 200 <= e.code < 400:
-            return "live", e.code
-        return "down", e.code
-    except Exception as e:  # timeout, DNS, SSL, connection errors
-        return "down", type(e).__name__
+    """Return (status, http_code_or_error).
+
+    Retries transient failures only (connection errors, timeouts, 5xx,
+    429): up to MAX_ATTEMPTS tries with RETRY_DELAY between them. A
+    definite answer (2xx/3xx, 401/403, 404) returns at once — no retry,
+    so a genuinely dead docs URL is still removed on the first run.
+    """
+    last = ("down", "no attempt")
+    for attempt in range(1, MAX_ATTEMPTS + 1):
+        req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+        try:
+            with urllib.request.urlopen(req, timeout=TIMEOUT) as resp:
+                return "live", resp.status
+        except urllib.error.HTTPError as e:
+            if e.code in (401, 403):
+                return "reachable", e.code
+            if 200 <= e.code < 400:
+                return "live", e.code
+            if e.code in (429,) or 500 <= e.code < 600:
+                last = ("down", e.code)
+            else:
+                return "down", e.code
+        except Exception as e:  # timeout, DNS, SSL, connection errors
+            last = ("down", type(e).__name__)
+        if attempt < MAX_ATTEMPTS:
+            time.sleep(RETRY_DELAY)
+    return last
 
 
 def main():

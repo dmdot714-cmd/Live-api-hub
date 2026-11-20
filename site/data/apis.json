@@ -446,7 +446,7 @@
       "cors": "Unknown",
       "free_tier": "Free, open-source (MIT); standalone zip, pacman or .deb from releases; needs ripgrep",
       "status": "live",
-      "last_checked": "2026-11-19",
+      "last_checked": "2026-11-20",
       "tier": "free",
       "use_cases": [
         "Coding agent in Termux — run OpenCode natively on the phone, no PC",
@@ -455,8 +455,8 @@
       "install": {
         "method": "deb",
         "commands": [
-          "curl -LO https://github.com/guysoft/opencode-termux/releases/latest/download/opencode-aarch64.deb",
-          "dpkg -i opencode-aarch64.deb",
+          "curl -LO https://github.com/guysoft/opencode-termux/releases/latest/download/opencode_1.17.9_aarch64.deb",
+          "dpkg -i opencode_1.17.9_aarch64.deb",
           "pkg install ripgrep"
         ],
         "runtime": "none — standalone aarch64 binary",
@@ -4493,6 +4493,6 @@
   "status_meaning": {
     "live": "Docs URL answered 2xx/3xx on the last check."
   },
-  "updated": "2026-11-19",
-  "version": "0.6.8"
+  "updated": "2026-11-20",
+  "version": "0.6.9"
 }
