@@ -1,11 +1,11 @@
 # Live API Hub
 
-> A verified directory of free public APIs, mobile agents, agent skills, and free LLM gateways — 260 entries across 36 categories, all link-checked live and tagged by free tier (178 fully free, 65 freemium, 17 paid). Built for phone-first builders: every entry works from a phone (Termux/Android) or a browser, with no PC needed.
+> A verified directory of free public APIs, mobile agents, agent skills, and free LLM gateways — 259 entries across 36 categories, all link-checked live and tagged by free tier (177 fully free, 65 freemium, 17 paid). Built for phone-first builders: every entry works from a phone (Termux/Android) or a browser, with no PC needed.
 
 ## Directory
 
 - [Live API Hub](https://dmdot714-cmd.github.io/Live-api-hub/): Searchable directory — search and filter by category, auth, pricing, and HTTPS.
-- [Full data (JSON)](https://dmdot714-cmd.github.io/Live-api-hub/data/apis.json): The whole directory as one JSON file — 260 entries with name, category, tier, auth, docs URL, free-tier notes, last-checked date, and use-case / install data where present.
+- [Full data (JSON)](https://dmdot714-cmd.github.io/Live-api-hub/data/apis.json): The whole directory as one JSON file — 259 entries with name, category, tier, auth, docs URL, free-tier notes, last-checked date, and use-case / install data where present.
 - [Full listing (Markdown)](https://dmdot714-cmd.github.io/Live-api-hub/llms-full.txt): Every entry in readable Markdown, grouped by category.
 
 ## Project

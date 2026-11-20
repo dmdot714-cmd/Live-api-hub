@@ -250,9 +250,9 @@ const COMPARISON_GROUPS = {
     },
   },
   "android-agents": {
-    ids: ["aicode", "android-ad-cleaner", "autoglm-android", "chatbox", "concat", "dsh-android", "locus", "mika", "openclaw-app", "plain-app", "pocketpal-ai", "rikkahub", "voice-studio"],
+    ids: ["aicode", "android-ad-cleaner", "chatbox", "concat", "dsh-android", "locus", "mika", "openclaw-app", "plain-app", "pocketpal-ai", "rikkahub", "voice-studio"],
     primary: "min_android",
-    note: "SCORES: 1 point per attribute won; ties share the win. RANKING FAVOURS AI AGENTS: multi-model and free-path don't apply to the 4 utility apps (VoiceStudio, Concat, Plain App, Android Ad Cleaner), so those can score at most 3 of 5 points — compare apps against apps on Min Android, install sources and open-source status. MIN ANDROID is the install minimum: Mika installs on Android 11 but app control needs 12+ (14+ recommended). MIN-ANDROID SOURCES VARY: README statements, app build files (minSdk), project docs and the official website — all the projects' own pages. AUTOGLM's repo is confirmed gone (GitHub 404, Nov 2026) — its values are blank and it ranks last; the entry itself is under review. INSTALL SOURCES count distinct Android channels only (Play, F-Droid, GitHub APK, website APK, Termux/npm); Obtainium is an update tracker, not a source. POCKETPAL counts as multi-model via on-device GGUF models plus remote OpenAI-compatible servers.",
+    note: "SCORES: 1 point per attribute won; ties share the win. RANKING FAVOURS AI AGENTS: multi-model and free-path don't apply to the 4 utility apps (VoiceStudio, Concat, Plain App, Android Ad Cleaner), so those can score at most 3 of 5 points — compare apps against apps on Min Android, install sources and open-source status. MIN ANDROID is the install minimum: Mika installs on Android 11 but app control needs 12+ (14+ recommended). MIN-ANDROID SOURCES VARY: README statements, app build files (minSdk), project docs and the official website — all the projects' own pages. INSTALL SOURCES count distinct Android channels only (Play, F-Droid, GitHub APK, website APK, Termux/npm); Obtainium is an update tracker, not a source. POCKETPAL counts as multi-model via on-device GGUF models plus remote OpenAI-compatible servers.",
     attributes: [
       { key: "multi_model", label: "Multi-model", type: "boolean", higherBetter: true },
       { key: "free_path", label: "Free path", type: "boolean", higherBetter: true },
@@ -263,7 +263,6 @@ const COMPARISON_GROUPS = {
     data: {
       aicode: { multi_model: true, free_path: true, min_android: 8, install_sources: ["GitHub APK"], open_source: true },
       "android-ad-cleaner": { multi_model: null, free_path: null, min_android: 11, install_sources: ["GitHub APK"], open_source: true },
-      "autoglm-android": { multi_model: null, free_path: null, min_android: null, install_sources: null, open_source: null },
       chatbox: { multi_model: true, free_path: true, min_android: null, install_sources: ["Google Play", "Website APK"], open_source: true },
       concat: { multi_model: null, free_path: null, min_android: 8, install_sources: ["Website", "GitHub APK"], open_source: true },
       "dsh-android": { multi_model: true, free_path: true, min_android: 10, install_sources: ["GitHub APK"], open_source: true },

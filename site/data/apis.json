@@ -47,20 +47,6 @@
       "auth": "No",
       "category": "Agent For Android",
       "cors": "Unknown",
-      "description": "Native Android phone-use agent based on Open-AutoGLM — control your phone with natural language, no PC or ADB needed (uses Shizuku)",
-      "docs_url": "https://github.com/Luokavin/AutoGLM-For-Android",
-      "free_tier": "Free, open-source (MIT); Android 7.0+; multi-model — any OpenAI-format vision-capable API, incl. free gateways; needs the Shizuku app for system permissions",
-      "https": true,
-      "id": "autoglm-android",
-      "last_checked": "2026-11-16",
-      "name": "AutoGLM For Android",
-      "status": "live",
-      "tier": "free"
-    },
-    {
-      "auth": "No",
-      "category": "Agent For Android",
-      "cors": "Unknown",
       "description": "Multi-provider AI client for Android (and desktop) — ChatGPT, Claude, Gemini, DeepSeek, OpenRouter and more in one app, keys stored on-device",
       "docs_url": "https://github.com/chatboxai/chatbox",
       "free_tier": "Free, open-source (GPL-3.0, Community Edition); Google Play + APK; free with your own API key, incl. free gateways; optional hosted plans from $3.99/mo",
@@ -4494,5 +4480,5 @@
     "live": "Docs URL answered 2xx/3xx on the last check."
   },
   "updated": "2026-11-20",
-  "version": "0.6.9"
+  "version": "0.6.10"
 }

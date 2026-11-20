@@ -1,18 +1,17 @@
 # Live API Hub
 
-> A verified directory of free public APIs, mobile agents, agent skills, and free LLM gateways — 260 entries across 36 categories, all link-checked live and tagged by free tier (178 fully free, 65 freemium, 17 paid). Built for phone-first builders: every entry works from a phone (Termux/Android) or a browser, with no PC needed.
+> A verified directory of free public APIs, mobile agents, agent skills, and free LLM gateways — 259 entries across 36 categories, all link-checked live and tagged by free tier (177 fully free, 65 freemium, 17 paid). Built for phone-first builders: every entry works from a phone (Termux/Android) or a browser, with no PC needed.
 
-Generated from data/apis.json (v0.6.9, updated 2026-11-20). The canonical machine-readable copy is https://dmdot714-cmd.github.io/Live-api-hub/data/apis.json — fetch that for structured access; this file is the human- and agent-readable listing. Data is MIT-licensed and re-verified weekly (dead entries are removed).
+Generated from data/apis.json (v0.6.10, updated 2026-11-20). The canonical machine-readable copy is https://dmdot714-cmd.github.io/Live-api-hub/data/apis.json — fetch that for structured access; this file is the human- and agent-readable listing. Data is MIT-licensed and re-verified weekly (dead entries are removed).
 
 ## Advice (1)
 
 - **Advice Slip** (free, No auth) — Random life advice, one slip at a time. Free tier: Free, no key; no published limit. Docs: https://api.adviceslip.com/ Try it: https://api.adviceslip.com/advice
 
-## Agent For Android (13)
+## Agent For Android (12)
 
 - **AiCode** (free, No auth) — AI coding agent for Android — built-in Alpine Linux container, terminal, code editor and Git; MCP support, sub-agents and skills. Free tier: Free, open-source (GPL-3.0); Android APK from GitHub releases; model-agnostic — bring your own key, works with OpenAI/Anthropic/Gemini-compatible endpoints incl. free gateways. Docs: https://github.com/jieapi/AiCode
 - **Android Ad Cleaner** (free, No auth) — Switch off system ads, hot-search, news recommendations and marketing pushes on Chinese-brand Android phones (Vivo, OPPO, Xiaomi, Honor, OnePlus, Realme) — no root, no PC, fully reversible. Free tier: Free, open-source (MIT); Android 11+ APK; README is Chinese-language. Docs: https://github.com/rddmwmddr/android-ad-cleaner
-- **AutoGLM For Android** (free, No auth) — Native Android phone-use agent based on Open-AutoGLM — control your phone with natural language, no PC or ADB needed (uses Shizuku). Free tier: Free, open-source (MIT); Android 7.0+; multi-model — any OpenAI-format vision-capable API, incl. free gateways; needs the Shizuku app for system permissions. Docs: https://github.com/Luokavin/AutoGLM-For-Android
 - **ChatBox** (free, No auth) — Multi-provider AI client for Android (and desktop) — ChatGPT, Claude, Gemini, DeepSeek, OpenRouter and more in one app, keys stored on-device. Free tier: Free, open-source (GPL-3.0, Community Edition); Google Play + APK; free with your own API key, incl. free gateways; optional hosted plans from $3.99/mo. Docs: https://github.com/chatboxai/chatbox
 - **Concat** (free, No auth) — Free open-source local-first video editor — auto-captions, TTS + voice cloning, background removal, keyframes, 4K export; scriptable via JSON-RPC API & MCP. No watermark, no account, no subscription. Free tier: Free, open-source (AGPL-3.0); Android 8.0+ APK, 4 GB RAM min; Beta — phone TTS/voice-cloning features lag desktop. Docs: https://github.com/jub0t/Concat
 - **DSH-Android** (free, No auth) — DeepSeek Harness as a single Android APK — operates apps, files and system settings, with automation triggers and a built-in Linux environment; no root or Termux. Free tier: Free, open-source (Apache-2.0); unofficial community port, no DeepSeek affiliation; DeepSeek account or API key, plus OpenRouter/GLM/Qwen or any OpenAI-compatible endpoint; Play Protect may flag the APK — verify SHA-256. Docs: https://github.com/jackwener/DSH-Android
