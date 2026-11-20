@@ -83,9 +83,9 @@ note, and docs link to work from.
 ## What this project is
 
 Live API Hub is a **verified directory of free public APIs, mobile agents,
-agent skills, and free LLM gateways** — 259 entries across 36 categories
-(data v0.6.10, 2026-11-20). Every entry is link-checked live and tagged by
-free tier (177 fully free, 65 freemium, 17 paid). It is a **static site**
+agent skills, and free LLM gateways** — 301 entries across 40 categories
+(data v0.6.12, 2026-11-20). Every entry is link-checked live and tagged by
+free tier (201 fully free, 83 freemium, 17 paid). It is a **static site**
 (vanilla HTML/CSS/JS, no build step, no dependencies) served from `site/`
 on GitHub Pages: https://dmdot714-cmd.github.io/Live-api-hub/
 
