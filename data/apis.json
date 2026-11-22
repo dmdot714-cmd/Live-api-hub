@@ -9,7 +9,7 @@
       "free_tier": "Free, no key; no published limit",
       "https": true,
       "id": "advice-slip",
-      "last_checked": "2026-11-14",
+      "last_checked": "2026-11-22",
       "name": "Advice Slip",
       "status": "live",
       "sample_url": "https://api.adviceslip.com/advice",
@@ -24,7 +24,7 @@
       "free_tier": "Free, open-source (GPL-3.0); Android APK from GitHub releases; model-agnostic — bring your own key, works with OpenAI/Anthropic/Gemini-compatible endpoints incl. free gateways",
       "https": true,
       "id": "aicode",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-22",
       "name": "AiCode",
       "status": "live",
       "tier": "free"
@@ -38,7 +38,7 @@
       "free_tier": "Free, open-source (MIT); Android 11+ APK; README is Chinese-language.",
       "https": true,
       "id": "android-ad-cleaner",
-      "last_checked": "2026-11-17",
+      "last_checked": "2026-11-22",
       "name": "Android Ad Cleaner",
       "status": "live",
       "tier": "free"
@@ -52,7 +52,7 @@
       "free_tier": "Free, open-source (GPL-3.0, Community Edition); Google Play + APK; free with your own API key, incl. free gateways; optional hosted plans from $3.99/mo",
       "https": true,
       "id": "chatbox",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-22",
       "name": "ChatBox",
       "status": "live",
       "tier": "free"
@@ -66,7 +66,7 @@
       "free_tier": "Free, open-source (AGPL-3.0); Android 8.0+ APK, 4 GB RAM min; Beta — phone TTS/voice-cloning features lag desktop.",
       "https": true,
       "id": "concat",
-      "last_checked": "2026-11-17",
+      "last_checked": "2026-11-22",
       "name": "Concat",
       "status": "live",
       "tier": "free"
@@ -80,7 +80,7 @@
       "free_tier": "Free, open-source (Apache-2.0); unofficial community port, no DeepSeek affiliation; DeepSeek account or API key, plus OpenRouter/GLM/Qwen or any OpenAI-compatible endpoint; Play Protect may flag the APK — verify SHA-256",
       "https": true,
       "id": "dsh-android",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-22",
       "name": "DSH-Android",
       "status": "live",
       "tier": "free"
@@ -94,7 +94,7 @@
       "free_tier": "Free, open-source (AGPL-3.0). Models via configured provider: DeepSeek account/key (paid) or any OpenAI/Anthropic/Responses-compatible custom provider (Base URL + API key) — free gateways (FreeLLMAPI, OrcaRouter, Kilo) are a practical free path. Native Android app (APK sideload, Android 8+, arm64).",
       "https": true,
       "id": "dsh-go",
-      "last_checked": "2026-11-20",
+      "last_checked": "2026-11-22",
       "name": "dsh-Go",
       "status": "live",
       "tier": "free"
@@ -108,7 +108,7 @@
       "free_tier": "Free, open-source (AGPL-3.0); APK from GitHub releases; any OpenAI-compatible server, ChatGPT plan, or on-device Gemma/GGUF; Android 8.0+; very new project (Oct 2026)",
       "https": true,
       "id": "locus",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-22",
       "name": "Locus",
       "status": "live",
       "tier": "free"
@@ -122,7 +122,7 @@
       "free_tier": "Free, open-source (Apache-2.0); APK from GitHub releases; 20+ providers incl. OpenRouter, Groq and any OpenAI-compatible endpoint; Android 12+ for app control (14+ recommended); early public beta",
       "https": true,
       "id": "mika",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-22",
       "name": "Mika",
       "status": "live",
       "tier": "free"
@@ -136,7 +136,7 @@
       "free_tier": "Free, open-source (MIT); APK from GitHub releases; multi-model via the OpenClaw gateway — works with free gateways; Android 10+",
       "https": true,
       "id": "openclaw-app",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-22",
       "name": "OpenClaw App",
       "status": "live",
       "tier": "free"
@@ -150,7 +150,7 @@
       "free_tier": "Free, open-source (AGPL-3.0); free and ad-free, no purchases or upsells.",
       "https": true,
       "id": "plain-app",
-      "last_checked": "2026-11-17",
+      "last_checked": "2026-11-22",
       "name": "Plain App",
       "status": "live",
       "tier": "free"
@@ -164,7 +164,7 @@
       "free_tier": "Free, open-source (MIT); Google Play + GitHub APK; runs small models on-device only — no cloud models; optional PocketPal Plus purchase in store builds, included free in the GitHub APK",
       "https": true,
       "id": "pocketpal-ai",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-22",
       "name": "PocketPal AI",
       "status": "live",
       "tier": "free"
@@ -178,7 +178,7 @@
       "free_tier": "Free, open-source (AGPL-3.0); Google Play + website APK; multi-provider — custom API/URL/models for any OpenAI/Google/Anthropic-compatible endpoint, incl. free gateways",
       "https": true,
       "id": "rikkahub",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-22",
       "name": "RikkaHub",
       "status": "live",
       "tier": "free"
@@ -192,7 +192,7 @@
       "free_tier": "Free, open-source (AGPL-3.0); Android build is Preview; optional Pro plan (commercial licence + multi-device) — the AGPL app stays free.",
       "https": true,
       "id": "voice-studio",
-      "last_checked": "2026-11-17",
+      "last_checked": "2026-11-22",
       "name": "VoiceStudio",
       "status": "live",
       "tier": "free"
@@ -208,7 +208,7 @@
       "cors": "Unknown",
       "free_tier": "Free, open-source (Apache-2.0/MIT); official Termux package: pkg install aichat; works with free gateways or local Ollama",
       "status": "live",
-      "last_checked": "2026-11-15",
+      "last_checked": "2026-11-22",
       "tier": "free"
     },
     {
@@ -222,7 +222,7 @@
       "cors": "Unknown",
       "free_tier": "Free, open-source (Apache-2.0); pip install (heavy deps may need clang/rust); free via OpenAI-compatible gateways (OpenRouter :free, OrcaRouter, Kilo) — add any API key",
       "status": "live",
-      "last_checked": "2026-11-15",
+      "last_checked": "2026-11-22",
       "tier": "free"
     },
     {
@@ -236,7 +236,7 @@
       "cors": "Unknown",
       "free_tier": "Free, open-source (MIT); single static binary, no runtime deps",
       "status": "live",
-      "last_checked": "2026-11-15",
+      "last_checked": "2026-11-22",
       "tier": "free"
     },
     {
@@ -250,7 +250,7 @@
       "cors": "Unknown",
       "free_tier": "Free, open-source (MIT); built for Termux",
       "status": "live",
-      "last_checked": "2026-11-15",
+      "last_checked": "2026-11-22",
       "tier": "free"
     },
     {
@@ -262,7 +262,7 @@
       "free_tier": "Free, open-source (MIT); free via any free gateway (OrcaRouter, Kilo, LLM7); Termux install needs native modules compiled — community installer available (10-30 min).",
       "https": true,
       "id": "deepseek-harness",
-      "last_checked": "2026-11-17",
+      "last_checked": "2026-11-22",
       "name": "DeepSeek Harness",
       "status": "live",
       "tier": "free"
@@ -278,7 +278,7 @@
       "cors": "Unknown",
       "free_tier": "Free, open-source (MIT); go install (Go is a Termux pkg); free via OpenAI-compatible gateways — add any API key",
       "status": "live",
-      "last_checked": "2026-11-15",
+      "last_checked": "2026-11-22",
       "tier": "free"
     },
     {
@@ -292,7 +292,7 @@
       "cors": "Unknown",
       "free_tier": "Free, open-source (Apache-2.0); npm install -g freebuff; no subscription, credits or API key needed — ad-supported free models",
       "status": "live",
-      "last_checked": "2026-11-15",
+      "last_checked": "2026-11-22",
       "tier": "free"
     },
     {
@@ -306,7 +306,7 @@
       "cors": "Unknown",
       "free_tier": "Free, open-source (Apache-2.0); official Termux support — install script auto-picks the musl aarch64 build; works with local Ollama or OpenRouter free models",
       "status": "live",
-      "last_checked": "2026-11-15",
+      "last_checked": "2026-11-22",
       "tier": "free"
     },
     {
@@ -320,7 +320,7 @@
       "cors": "Unknown",
       "free_tier": "Free, open-source (MIT); pip install gptme; free via OpenRouter :free models or any OpenAI-compatible gateway",
       "status": "live",
-      "last_checked": "2026-11-15",
+      "last_checked": "2026-11-22",
       "tier": "free"
     },
     {
@@ -334,7 +334,7 @@
       "cors": "Unknown",
       "free_tier": "Free, open-source (MIT); free via OpenRouter :free models or any free gateway — no Nous subscription needed. Termux install currently broken per official docs (fix in progress)",
       "status": "live",
-      "last_checked": "2026-11-15",
+      "last_checked": "2026-11-22",
       "tier": "free"
     },
     {
@@ -348,7 +348,7 @@
       "cors": "Unknown",
       "free_tier": "Free, open-source (MIT); npm install -g @moonshot-ai/kimi-code (needs Node 22.19+); free via any OpenAI-compatible gateway — default Kimi models need a paid membership",
       "status": "live",
-      "last_checked": "2026-11-15",
+      "last_checked": "2026-11-22",
       "tier": "free"
     },
     {
@@ -362,7 +362,7 @@
       "cors": "Unknown",
       "free_tier": "Free, open-source (Apache-2.0); pip install llm; works with free gateways or local Ollama",
       "status": "live",
-      "last_checked": "2026-11-15",
+      "last_checked": "2026-11-22",
       "tier": "free"
     },
     {
@@ -376,7 +376,7 @@
       "cors": "Unknown",
       "free_tier": "Free, open-source (MIT); official Termux package: pkg install ollama",
       "status": "live",
-      "last_checked": "2026-11-15",
+      "last_checked": "2026-11-22",
       "tier": "free"
     },
     {
@@ -390,7 +390,7 @@
       "cors": "Unknown",
       "free_tier": "Free, open-source (Apache-2.0); install script ships an aarch64 musl binary; free via 117 hosted providers or any OpenAI-compatible gateway",
       "status": "live",
-      "last_checked": "2026-11-15",
+      "last_checked": "2026-11-22",
       "tier": "free"
     },
     {
@@ -404,7 +404,7 @@
       "cors": "Unknown",
       "free_tier": "Free, open-source (MIT); npm install -g openclaw (needs Node 22+); free via OpenRouter :free models or any OpenAI-compatible gateway",
       "status": "live",
-      "last_checked": "2026-11-15",
+      "last_checked": "2026-11-22",
       "tier": "free"
     },
     {
@@ -418,7 +418,7 @@
       "cors": "Unknown",
       "free_tier": "Free, open-source (MIT); installer script sets up OpenClaw in a Debian proot on Termux; needs 4GB+ RAM",
       "status": "live",
-      "last_checked": "2026-11-15",
+      "last_checked": "2026-11-22",
       "tier": "free"
     },
     {
@@ -432,7 +432,7 @@
       "cors": "Unknown",
       "free_tier": "Free, open-source (MIT); runs in Termux via the opencode-termux build; 13 free models built in (GLM-5.3-Flash Free, DeepSeek V4.1 Flash Free) + 75+ providers via API key",
       "status": "live",
-      "last_checked": "2026-11-18",
+      "last_checked": "2026-11-22",
       "tier": "free"
     },
     {
@@ -446,7 +446,7 @@
       "cors": "Unknown",
       "free_tier": "Free, open-source (MIT); standalone zip, pacman or .deb from releases; needs ripgrep",
       "status": "live",
-      "last_checked": "2026-11-20",
+      "last_checked": "2026-11-22",
       "tier": "free",
       "use_cases": [
         "Coding agent in Termux — run OpenCode natively on the phone, no PC",
@@ -476,7 +476,7 @@
       "cors": "Unknown",
       "free_tier": "Free, open-source (MIT); npm install -g @earendil-works/pi-coding-agent (needs Node 22.19+); free via OpenRouter :free models (dedicated provider) or local Ollama",
       "status": "live",
-      "last_checked": "2026-11-15",
+      "last_checked": "2026-11-22",
       "tier": "free"
     },
     {
@@ -490,7 +490,7 @@
       "cors": "Unknown",
       "free_tier": "Free, open-source (MIT); pip install shell-gpt; free via OpenAI-compatible gateways through the LiteLLM extra — add any API key",
       "status": "live",
-      "last_checked": "2026-11-15",
+      "last_checked": "2026-11-22",
       "tier": "free"
     },
     {
@@ -504,7 +504,7 @@
       "cors": "Unknown",
       "free_tier": "Free, open-source (AGPL-3.0); built for Termux (Python); small/new project",
       "status": "live",
-      "last_checked": "2026-11-15",
+      "last_checked": "2026-11-22",
       "tier": "free"
     },
     {
@@ -518,7 +518,7 @@
       "cors": "Unknown",
       "free_tier": "Free, open-source (GPL-3.0); go install or prebuilt binary; some backends need no key",
       "status": "live",
-      "last_checked": "2026-11-15",
+      "last_checked": "2026-11-22",
       "tier": "free"
     },
     {
@@ -530,7 +530,7 @@
       "free_tier": "Free, open-source (MIT)",
       "https": true,
       "id": "agency-agents",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-22",
       "name": "Agency Agents",
       "status": "live",
       "tier": "free"
@@ -544,7 +544,7 @@
       "free_tier": "Free, open-source (MIT); imported skills retain upstream licences — 1,836 index entries declare no licence; install from GitHub (npm publishing paused).",
       "https": true,
       "id": "agentic-awesome-skills",
-      "last_checked": "2026-11-17",
+      "last_checked": "2026-11-22",
       "name": "Agentic Awesome Skills",
       "status": "live",
       "tier": "free"
@@ -558,7 +558,7 @@
       "free_tier": "Free, open-source (Apache-2.0)",
       "https": true,
       "id": "agentmemory",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-22",
       "name": "agentmemory",
       "status": "live",
       "tier": "free"
@@ -572,7 +572,7 @@
       "free_tier": "Free, open-source (Apache-2.0)",
       "https": true,
       "id": "anthropic-cybersecurity-skills",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-22",
       "name": "Anthropic Cybersecurity Skills",
       "status": "live",
       "tier": "free"
@@ -586,7 +586,7 @@
       "free_tier": "Free, open-source (MIT). Skills are markdown (phone-friendly); CLI needs Node 20.12+. A filter, not a style guide — needs a DESIGN.md for direction.",
       "https": true,
       "id": "anti-slop",
-      "last_checked": "2026-11-20",
+      "last_checked": "2026-11-22",
       "name": "anti-slop",
       "status": "live",
       "tier": "free"
@@ -600,7 +600,7 @@
       "free_tier": "Free, open-source (Apache-2.0); zero runtime deps beyond Node; works with OpenCode, Claude Code, Codex CLI, Cursor.",
       "https": true,
       "id": "archify",
-      "last_checked": "2026-11-17",
+      "last_checked": "2026-11-22",
       "name": "Archify",
       "status": "live",
       "tier": "free"
@@ -614,7 +614,7 @@
       "free_tier": "Free, open-source (MIT); install by clone/copy skill folders or via skills.sh. Distinct from ComposioHQ/awesome-claude-skills.",
       "https": true,
       "id": "awesome-agent-skills",
-      "last_checked": "2026-11-17",
+      "last_checked": "2026-11-22",
       "name": "Awesome Agent Skills",
       "status": "live",
       "tier": "free"
@@ -628,7 +628,7 @@
       "free_tier": "Free, open-source (Apache-2.0 per README; individual skills may differ)",
       "https": true,
       "id": "awesome-claude-skills",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-22",
       "name": "Awesome Claude Skills",
       "status": "live",
       "tier": "free"
@@ -642,7 +642,7 @@
       "free_tier": "Free, open-source (MIT — code and docs; reference frames are included for style study only). Requires Remotion (free for individuals/≤3) and Claude Code (paid subscription). Desktop-only — ~1.3GB temp churn per render. 19 days old, 2 commits — very early.",
       "https": true,
       "id": "claude-animated-shorts",
-      "last_checked": "2026-11-20",
+      "last_checked": "2026-11-22",
       "name": "Claude Animated Shorts",
       "status": "live",
       "tier": "free"
@@ -656,7 +656,7 @@
       "free_tier": "Free, open-source (MIT)",
       "https": true,
       "id": "diagram-design",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-22",
       "name": "Diagram Design",
       "status": "live",
       "tier": "free"
@@ -670,7 +670,7 @@
       "free_tier": "Free, open-source (MIT); full install adds ~27k tokens of standing context; ECC Pro (hosted GitHub App) is paid but the toolkit is not gated.",
       "https": true,
       "id": "ecc",
-      "last_checked": "2026-11-17",
+      "last_checked": "2026-11-22",
       "name": "ECC",
       "status": "live",
       "tier": "free"
@@ -684,7 +684,7 @@
       "free_tier": "Free, open-source (MIT); needs ffmpeg 6.1+ and python3 on PATH (pkg install ffmpeg python); encoding is slow on a phone.",
       "https": true,
       "id": "ffmpeg-skill",
-      "last_checked": "2026-11-19",
+      "last_checked": "2026-11-22",
       "name": "ffmpeg-skill",
       "status": "live",
       "tier": "free",
@@ -714,7 +714,7 @@
       "free_tier": "Free, open-source (MIT)",
       "https": true,
       "id": "gsd-core",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-22",
       "name": "GSD Core",
       "status": "live",
       "tier": "free"
@@ -728,7 +728,7 @@
       "free_tier": "Free, open-source (MIT)",
       "https": true,
       "id": "gstack",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-22",
       "name": "GStack",
       "status": "live",
       "tier": "free"
@@ -742,7 +742,7 @@
       "free_tier": "Free, open-source (MIT); browser-check (sloplint) needs desktop Chrome (unavailable on a phone) — core skill works without it.",
       "https": true,
       "id": "hallmark",
-      "last_checked": "2026-11-17",
+      "last_checked": "2026-11-22",
       "name": "Hallmark",
       "status": "live",
       "tier": "free"
@@ -756,7 +756,7 @@
       "free_tier": "Free, open-source (MIT)",
       "https": true,
       "id": "last30days-skill",
-      "last_checked": "2026-11-19",
+      "last_checked": "2026-11-22",
       "name": "Last30Days",
       "status": "live",
       "tier": "free",
@@ -784,7 +784,7 @@
       "free_tier": "Free, open-source (MIT)",
       "https": true,
       "id": "marketingskills",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-22",
       "name": "Marketing Skills",
       "status": "live",
       "tier": "free"
@@ -798,7 +798,7 @@
       "free_tier": "Free, open-source (MIT); skills are Markdown, pasteable into any agent; GSC/GA4-based skills free — free allowance for DataForSEO-backed skills unverified.",
       "https": true,
       "id": "open-seo-mcp-skills",
-      "last_checked": "2026-11-17",
+      "last_checked": "2026-11-22",
       "name": "Open SEO MCP Skills",
       "status": "live",
       "tier": "free"
@@ -812,7 +812,7 @@
       "free_tier": "Free, open-source (MIT)",
       "https": true,
       "id": "ponytail",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-22",
       "name": "Ponytail",
       "status": "live",
       "tier": "free"
@@ -826,7 +826,7 @@
       "free_tier": "Free, open-source (MIT)",
       "https": true,
       "id": "scientific-agent-skills",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-22",
       "name": "Scientific Agent Skills",
       "status": "live",
       "tier": "free"
@@ -840,7 +840,7 @@
       "free_tier": "Free, open-source (MIT); scripts need Node 22+; browser-check needs desktop Chrome (unavailable on a phone) — core skill works without it.",
       "https": true,
       "id": "taste-skill",
-      "last_checked": "2026-11-17",
+      "last_checked": "2026-11-22",
       "name": "Taste Skill",
       "status": "live",
       "tier": "free"
@@ -854,7 +854,7 @@
       "free_tier": "Free, open-source (CC-BY-4.0, incl. commercial use, attribution required); install by git clone + copy into ~/.claude/skills.",
       "https": true,
       "id": "unslop",
-      "last_checked": "2026-11-17",
+      "last_checked": "2026-11-22",
       "name": "Unslop",
       "status": "live",
       "tier": "free"
@@ -868,7 +868,7 @@
       "free_tier": "Free, no key; no published limit",
       "https": true,
       "id": "cat-facts",
-      "last_checked": "2026-11-14",
+      "last_checked": "2026-11-22",
       "name": "Cat Facts",
       "status": "live",
       "sample_url": "https://catfact.ninja/fact",
@@ -883,7 +883,7 @@
       "free_tier": "Free, no key; no published limit",
       "https": true,
       "id": "cataas",
-      "last_checked": "2026-11-14",
+      "last_checked": "2026-11-22",
       "name": "Cataas",
       "status": "live",
       "sample_url": "https://cataas.com/cat?json=true",
@@ -898,7 +898,7 @@
       "free_tier": "Free, no key; no published limit",
       "https": true,
       "id": "dog-ceo",
-      "last_checked": "2026-11-14",
+      "last_checked": "2026-11-22",
       "name": "Dog CEO",
       "status": "live",
       "sample_url": "https://dog.ceo/api/breeds/image/random",
@@ -913,7 +913,7 @@
       "free_tier": "Free, no key; no published limit",
       "https": true,
       "id": "randomfox",
-      "last_checked": "2026-11-14",
+      "last_checked": "2026-11-22",
       "name": "RandomFox",
       "status": "live",
       "sample_url": "https://randomfox.ca/floof/",
@@ -928,7 +928,7 @@
       "free_tier": "Free key; no published limit",
       "https": true,
       "id": "thecatapi",
-      "last_checked": "2026-11-14",
+      "last_checked": "2026-11-22",
       "name": "TheCatAPI",
       "status": "live",
       "tier": "freemium"
@@ -942,7 +942,7 @@
       "free_tier": "Free, no key; 60 req/min, 3 req/sec",
       "https": true,
       "id": "jikan",
-      "last_checked": "2026-11-14",
+      "last_checked": "2026-11-22",
       "name": "Jikan",
       "status": "live",
       "tier": "free"
@@ -959,7 +959,7 @@
       "free_tier": "Free, no key; no published limit",
       "sample_url": "https://ghibliapi.vercel.app/films",
       "status": "live",
-      "last_checked": "2026-11-15",
+      "last_checked": "2026-11-22",
       "tier": "free"
     },
     {
@@ -971,7 +971,7 @@
       "free_tier": "Free key; no published limit",
       "https": true,
       "id": "google-books",
-      "last_checked": "2026-11-14",
+      "last_checked": "2026-11-22",
       "name": "Google Books",
       "status": "live",
       "tier": "free"
@@ -985,7 +985,7 @@
       "free_tier": "Free, no key; no published limit",
       "https": true,
       "id": "gutendex",
-      "last_checked": "2026-11-14",
+      "last_checked": "2026-11-22",
       "name": "Gutendex",
       "status": "live",
       "tier": "free"
@@ -999,7 +999,7 @@
       "free_tier": "Free, no key; 1 req/sec (3/sec identified)",
       "https": true,
       "id": "open-library",
-      "last_checked": "2026-11-14",
+      "last_checked": "2026-11-22",
       "name": "Open Library",
       "status": "live",
       "sample_url": "https://openlibrary.org/search.json?q=the+lord+of+the+rings&limit=1",
@@ -1017,7 +1017,7 @@
       "free_tier": "Free, no key; no published limit",
       "sample_url": "https://poetrydb.org/random",
       "status": "live",
-      "last_checked": "2026-11-15",
+      "last_checked": "2026-11-22",
       "tier": "free"
     },
     {
@@ -1029,7 +1029,7 @@
       "free_tier": "Free; 6,000 weight/min per IP",
       "https": true,
       "id": "binance",
-      "last_checked": "2026-11-14",
+      "last_checked": "2026-11-22",
       "name": "Binance",
       "status": "live",
       "tier": "free"
@@ -1043,7 +1043,7 @@
       "free_tier": "Free key; 500 credits/mo, 5 req/min",
       "https": true,
       "id": "coincap",
-      "last_checked": "2026-11-14",
+      "last_checked": "2026-11-22",
       "name": "CoinCap",
       "status": "live",
       "tier": "freemium"
@@ -1057,7 +1057,7 @@
       "free_tier": "Free; 10,000 calls/mo, 100/min",
       "https": true,
       "id": "coingecko",
-      "last_checked": "2026-11-14",
+      "last_checked": "2026-11-22",
       "name": "CoinGecko",
       "status": "live",
       "sample_url": "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd",
@@ -1072,7 +1072,7 @@
       "free_tier": "Free, no key; ~1 req/sec recommended",
       "https": true,
       "id": "coinlore",
-      "last_checked": "2026-11-14",
+      "last_checked": "2026-11-22",
       "name": "CoinLore",
       "status": "live",
       "sample_url": "https://api.coinlore.net/api/tickers/?start=0&limit=1",
@@ -1087,7 +1087,7 @@
       "free_tier": "Free, no key; 20,000 calls/mo, personal use",
       "https": true,
       "id": "coinpaprika",
-      "last_checked": "2026-11-14",
+      "last_checked": "2026-11-22",
       "name": "CoinPaprika",
       "status": "live",
       "sample_url": "https://api.coinpaprika.com/v1/tickers/btc-bitcoin",
@@ -1105,7 +1105,7 @@
       "free_tier": "Free, no key; no rate limits",
       "sample_url": "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/usd.json",
       "status": "live",
-      "last_checked": "2026-11-15",
+      "last_checked": "2026-11-22",
       "tier": "free"
     },
     {
@@ -1117,7 +1117,7 @@
       "free_tier": "Free key; 1,500 req/mo",
       "https": true,
       "id": "exchangerate-api",
-      "last_checked": "2026-11-14",
+      "last_checked": "2026-11-22",
       "name": "ExchangeRate-API",
       "status": "live",
       "tier": "freemium"
@@ -1131,7 +1131,7 @@
       "free_tier": "Free, no key; no quotas, no daily/monthly caps",
       "https": true,
       "id": "frankfurter",
-      "last_checked": "2026-11-14",
+      "last_checked": "2026-11-22",
       "name": "Frankfurter",
       "status": "live",
       "sample_url": "https://api.frankfurter.dev/v1/latest?base=USD&symbols=EUR",
@@ -1146,7 +1146,7 @@
       "free_tier": "Free, no key; no rate limits, unlimited",
       "https": true,
       "id": "date-nager",
-      "last_checked": "2026-11-14",
+      "last_checked": "2026-11-22",
       "name": "Date Nager",
       "status": "live",
       "sample_url": "https://date.nager.at/api/v3/publicholidays/2026/US",
@@ -1161,7 +1161,7 @@
       "free_tier": "Free, no auth key, no account. Per-IP rate limits documented on the API overview page.",
       "https": true,
       "id": "csr-plus",
-      "last_checked": "2026-11-20",
+      "last_checked": "2026-11-22",
       "name": "CSR.plus",
       "status": "live",
       "tier": "free"
@@ -1175,7 +1175,7 @@
       "free_tier": "60 req/hour without a key; 5,000/hour with a free token.",
       "https": true,
       "id": "github-rest",
-      "last_checked": "2026-11-14",
+      "last_checked": "2026-11-22",
       "name": "GitHub REST API",
       "status": "live",
       "sample_url": "https://api.github.com/repos/octocat/Hello-World",
@@ -1190,7 +1190,7 @@
       "free_tier": "Free, no key; 60 req/hr per IP",
       "https": true,
       "id": "gitlab",
-      "last_checked": "2026-11-14",
+      "last_checked": "2026-11-22",
       "name": "GitLab",
       "status": "live",
       "sample_url": "https://gitlab.com/api/v4/projects?per_page=1",
@@ -1205,7 +1205,7 @@
       "free_tier": "Free, no key; ~17 req/sec per IP",
       "https": true,
       "id": "httpbin",
-      "last_checked": "2026-11-14",
+      "last_checked": "2026-11-22",
       "name": "httpbin",
       "status": "live",
       "sample_url": "https://httpbin.org/get",
@@ -1223,7 +1223,7 @@
       "free_tier": "Free, no key; fair-use limits, no numbers published",
       "sample_url": "https://api.iconify.design/mdi.json?icons=home",
       "status": "live",
-      "last_checked": "2026-11-15",
+      "last_checked": "2026-11-22",
       "tier": "free"
     },
     {
@@ -1235,7 +1235,7 @@
       "free_tier": "Free, no auth key, no account. 2,000 full checks/day per IP + uncapped fast checks.",
       "https": true,
       "id": "iplogs",
-      "last_checked": "2026-11-20",
+      "last_checked": "2026-11-22",
       "name": "IPLogs",
       "status": "live",
       "tier": "free"
@@ -1249,7 +1249,7 @@
       "free_tier": "Free, no key; no published limit",
       "https": true,
       "id": "jsonplaceholder",
-      "last_checked": "2026-11-14",
+      "last_checked": "2026-11-22",
       "name": "JSONPlaceholder",
       "status": "live",
       "sample_url": "https://jsonplaceholder.typicode.com/posts/1",
@@ -1267,7 +1267,7 @@
       "free_tier": "Free, no key; no rate limits",
       "sample_url": "https://api.osv.dev/v1/vulns/CVE-2021-44228",
       "status": "live",
-      "last_checked": "2026-11-15",
+      "last_checked": "2026-11-22",
       "tier": "free"
     },
     {
@@ -1279,9 +1279,9 @@
       "free_tier": "Free, no auth key, no account, no published request cap.",
       "https": true,
       "id": "presend",
-      "last_checked": "2026-11-20",
+      "last_checked": "2026-11-22",
       "name": "Presend",
-      "status": "live",
+      "status": "down",
       "tier": "free"
     },
     {
@@ -1293,7 +1293,7 @@
       "free_tier": "Free, no key; no rate limit at the edge",
       "https": true,
       "id": "pypi",
-      "last_checked": "2026-11-14",
+      "last_checked": "2026-11-22",
       "name": "PyPI",
       "status": "live",
       "sample_url": "https://pypi.org/pypi/requests/json",
@@ -1308,7 +1308,7 @@
       "free_tier": "Free, no key; no published limit",
       "https": true,
       "id": "shields-io",
-      "last_checked": "2026-11-14",
+      "last_checked": "2026-11-22",
       "name": "Shields.io",
       "status": "live",
       "tier": "free"
@@ -1322,7 +1322,7 @@
       "free_tier": "Free, no key; 300 req/day without key, 10,000 with a free key.",
       "https": true,
       "id": "stack-exchange",
-      "last_checked": "2026-11-14",
+      "last_checked": "2026-11-22",
       "name": "Stack Exchange",
       "status": "live",
       "sample_url": "https://api.stackexchange.com/2.3/questions?order=desc&sort=activity&site=stackoverflow&pagesize=1",
@@ -1337,7 +1337,7 @@
       "free_tier": "Free, no key; no published limit",
       "https": true,
       "id": "ui-avatars",
-      "last_checked": "2026-11-14",
+      "last_checked": "2026-11-22",
       "name": "UI Avatars",
       "status": "live",
       "tier": "free"
@@ -1351,7 +1351,7 @@
       "free_tier": "Free, no key; 100,000 req/day",
       "https": true,
       "id": "datamuse",
-      "last_checked": "2026-11-14",
+      "last_checked": "2026-11-22",
       "name": "Datamuse",
       "status": "live",
       "sample_url": "https://api.datamuse.com/words?ml=ringing+in+the+ears",
@@ -1366,7 +1366,7 @@
       "free_tier": "Free, no key; no published limit",
       "https": true,
       "id": "free-dictionary",
-      "last_checked": "2026-11-14",
+      "last_checked": "2026-11-22",
       "name": "Free Dictionary API",
       "status": "live",
       "sample_url": "https://api.dictionaryapi.dev/api/v2/entries/en/hello",
@@ -1384,7 +1384,7 @@
       "free_tier": "Free, no key; no published limit",
       "sample_url": "https://en.wiktionary.org/w/api.php?action=query&list=search&srsearch=hello&format=json&origin=*",
       "status": "live",
-      "last_checked": "2026-11-15",
+      "last_checked": "2026-11-22",
       "tier": "free"
     },
     {
@@ -1396,7 +1396,7 @@
       "free_tier": "Free key; 1,000 requests/day.",
       "https": true,
       "id": "omdb",
-      "last_checked": "2026-11-14",
+      "last_checked": "2026-11-22",
       "name": "OMDb",
       "status": "live",
       "tier": "freemium"
@@ -1413,7 +1413,7 @@
       "free_tier": "Free, no key; 900 req/hour",
       "sample_url": "https://api.potterdb.com/v1/books",
       "status": "live",
-      "last_checked": "2026-11-15",
+      "last_checked": "2026-11-22",
       "tier": "free"
     },
     {
@@ -1425,7 +1425,7 @@
       "free_tier": "Free, no key; no published limit",
       "https": true,
       "id": "rick-and-morty",
-      "last_checked": "2026-11-14",
+      "last_checked": "2026-11-22",
       "name": "Rick and Morty API",
       "status": "live",
       "sample_url": "https://rickandmortyapi.com/api/character/1",
@@ -1440,7 +1440,7 @@
       "free_tier": "Free, no key; 10,000 req/day",
       "https": true,
       "id": "swapi",
-      "last_checked": "2026-11-14",
+      "last_checked": "2026-11-22",
       "name": "SWAPI",
       "status": "live",
       "sample_url": "https://swapi.dev/api/people/1/",
@@ -1455,7 +1455,7 @@
       "free_tier": "Free key; ~40 req/s upper limit, non-commercial",
       "https": true,
       "id": "tmdb",
-      "last_checked": "2026-11-14",
+      "last_checked": "2026-11-22",
       "name": "TMDB",
       "status": "live",
       "tier": "freemium"
@@ -1469,7 +1469,7 @@
       "free_tier": "Free, no key; 20 calls/10s per IP",
       "https": true,
       "id": "tvmaze",
-      "last_checked": "2026-11-14",
+      "last_checked": "2026-11-22",
       "name": "TVMaze",
       "status": "live",
       "sample_url": "https://api.tvmaze.com/shows/1",
@@ -1484,7 +1484,7 @@
       "free_tier": "Free key; 60 req/min, 2,000/hr",
       "https": true,
       "id": "openaq",
-      "last_checked": "2026-11-14",
+      "last_checked": "2026-11-22",
       "name": "OpenAQ",
       "status": "live",
       "tier": "free"
@@ -1498,7 +1498,7 @@
       "free_tier": "Free key; 25 requests/day.",
       "https": true,
       "id": "alpha-vantage",
-      "last_checked": "2026-11-14",
+      "last_checked": "2026-11-22",
       "name": "Alpha Vantage",
       "status": "live",
       "tier": "freemium"
@@ -1512,7 +1512,7 @@
       "free_tier": "Free, no key; 100 requests/day anonymous, more with a free account.",
       "https": true,
       "id": "opensky",
-      "last_checked": "2026-11-17",
+      "last_checked": "2026-11-22",
       "name": "OpenSky Network",
       "status": "live",
       "tier": "free"
@@ -1526,7 +1526,7 @@
       "free_tier": "Free, no key; 15 req/min (search 10/min)",
       "https": true,
       "id": "open-food-facts",
-      "last_checked": "2026-11-14",
+      "last_checked": "2026-11-22",
       "name": "Open Food Facts",
       "status": "live",
       "sample_url": "https://world.openfoodfacts.org/api/v0/product/3017620422003.json",
@@ -1541,7 +1541,7 @@
       "free_tier": "Free test key '1'; own free key available.",
       "https": true,
       "id": "thecocktaildb",
-      "last_checked": "2026-11-14",
+      "last_checked": "2026-11-22",
       "name": "TheCocktailDB",
       "status": "live",
       "tier": "freemium"
@@ -1555,7 +1555,7 @@
       "free_tier": "Free test key '1'; own free key available.",
       "https": true,
       "id": "themealdb",
-      "last_checked": "2026-11-14",
+      "last_checked": "2026-11-22",
       "name": "TheMealDB",
       "status": "live",
       "tier": "freemium"
@@ -1569,7 +1569,7 @@
       "free_tier": "Free, open-source (Apache-2.0). Desktop only — needs Chrome for Testing, which won't run in Termux; CDP attach to phone Chrome needs USB debugging.",
       "https": true,
       "id": "agent-browser",
-      "last_checked": "2026-11-20",
+      "last_checked": "2026-11-22",
       "name": "Agent Browser",
       "status": "live",
       "tier": "free"
@@ -1583,7 +1583,7 @@
       "free_tier": "Free, open-source (MIT). Scraping-based — check each platform's terms before use; untested on a phone (pure Python, pip-installable in theory).",
       "https": true,
       "id": "agent-reach",
-      "last_checked": "2026-11-20",
+      "last_checked": "2026-11-22",
       "name": "Agent Reach",
       "status": "live",
       "tier": "free"
@@ -1597,7 +1597,7 @@
       "free_tier": "Free, open-source (MIT); blueprints only — the Apify + OpenAI stack in the examples is paid",
       "https": true,
       "id": "agentic-ai-starters",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-22",
       "name": "Agentic AI Starters",
       "status": "live",
       "tier": "free"
@@ -1611,7 +1611,7 @@
       "free_tier": "Free, open-source (MIT); a curated list, not a router — each API's own free tier applies.",
       "https": true,
       "id": "awesome-freellm-apis",
-      "last_checked": "2026-11-18",
+      "last_checked": "2026-11-22",
       "name": "awesome-freellm-apis",
       "status": "live",
       "tier": "free"
@@ -1625,7 +1625,7 @@
       "free_tier": "Free, open-source (Apache-2.0); self-hosted (Docker/server). Bring your own provider keys.",
       "https": true,
       "id": "bifrost",
-      "last_checked": "2026-11-17",
+      "last_checked": "2026-11-22",
       "name": "Bifrost",
       "status": "live",
       "tier": "free"
@@ -1639,7 +1639,7 @@
       "free_tier": "Freemium: 5,000 credits once (~50 box-hours, valid 90 days); 100 credits/hour. Paid from $19/mo. Box sleeps when idle; deleted after 14 idle days (30 if ever paid).",
       "https": true,
       "id": "box-simular",
-      "last_checked": "2026-11-20",
+      "last_checked": "2026-11-22",
       "name": "box by Simular",
       "status": "live",
       "tier": "freemium"
@@ -1653,7 +1653,7 @@
       "free_tier": "Free, open-source (MIT); runs on GitHub Actions, not on the phone — needs a Claude API key or subscription (usage is paid)",
       "https": true,
       "id": "claude-code-action",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-22",
       "name": "Claude Code Action",
       "status": "live",
       "tier": "free"
@@ -1667,7 +1667,7 @@
       "free_tier": "Free, open-source (Apache-2.0); compression uses your own key (free gateways work); hosted CMEM Pro (cloud sync) is paid, engine stays free.",
       "https": true,
       "id": "claude-mem",
-      "last_checked": "2026-11-17",
+      "last_checked": "2026-11-22",
       "name": "Claude-Mem",
       "status": "live",
       "tier": "free"
@@ -1681,7 +1681,7 @@
       "free_tier": "Free, open-source (MIT)",
       "https": true,
       "id": "context7",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-22",
       "name": "Context7",
       "status": "live",
       "tier": "free"
@@ -1695,7 +1695,7 @@
       "free_tier": "Free, open-source (AGPL-3.0). The server needs a computer — no Termux/Android path documented; the phone is a client (Discord/Telegram control). Free-token claims are the project's own (1.3B+/mo).",
       "https": true,
       "id": "free-claude-code",
-      "last_checked": "2026-11-20",
+      "last_checked": "2026-11-22",
       "name": "Free Claude Code",
       "status": "live",
       "tier": "free"
@@ -1709,7 +1709,7 @@
       "free_tier": "Free, open-source (MIT); bring your own free provider keys (10.1B tokens/mo assumes all accounts set up). Live catalog $19/yr or $49 once — free gets a monthly snapshot. Personal experimentation only, not production. Official Termux guide (experimental, Node 22.13+) — untested by us.",
       "https": true,
       "id": "freellmapi",
-      "last_checked": "2026-11-19",
+      "last_checked": "2026-11-22",
       "name": "FreeLLMAPI",
       "status": "live",
       "tier": "free",
@@ -1743,7 +1743,7 @@
       "free_tier": "Free, open-source (MIT); diagrams are generated via an external AI API — repo content leaves your machine",
       "https": true,
       "id": "gitdiagram",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-22",
       "name": "GitDiagram",
       "status": "live",
       "tier": "free"
@@ -1757,7 +1757,7 @@
       "free_tier": "Free, open-source (MIT); needs a free GitHub personal access token",
       "https": true,
       "id": "github-mcp-server",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-22",
       "name": "GitHub MCP Server",
       "status": "live",
       "tier": "free"
@@ -1771,7 +1771,7 @@
       "free_tier": "Free, open-source (MIT). Web service + CLI; repo moved from cyclotruc/gitingest to coderamp-labs/gitingest.",
       "https": true,
       "id": "gitingest",
-      "last_checked": "2026-11-20",
+      "last_checked": "2026-11-22",
       "name": "Gitingest",
       "status": "live",
       "tier": "free"
@@ -1785,7 +1785,7 @@
       "free_tier": "Free, open-source (MIT); build from source in Termux (pkg install golang + make build); maintenance mode (security patches only).",
       "https": true,
       "id": "gitleaks",
-      "last_checked": "2026-11-17",
+      "last_checked": "2026-11-22",
       "name": "Gitleaks",
       "status": "live",
       "tier": "free"
@@ -1799,7 +1799,7 @@
       "free_tier": "Free, open-source (Apache-2.0); public repos only — serves repo content to your agent, so treat untrusted repos with care (prompt-injection risk)",
       "https": true,
       "id": "gitmcp",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-22",
       "name": "GitMCP",
       "status": "live",
       "tier": "free"
@@ -1813,7 +1813,7 @@
       "free_tier": "Free, open-core (MIT core; enterprise features under a separate licence); self-hosted free",
       "https": true,
       "id": "langfuse",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-22",
       "name": "Langfuse",
       "status": "live",
       "tier": "free"
@@ -1827,7 +1827,7 @@
       "free_tier": "Free, open-source (MIT); official Termux package (apt install lazygit); interactive human TUI, not agent-drivable.",
       "https": true,
       "id": "lazygit",
-      "last_checked": "2026-11-17",
+      "last_checked": "2026-11-22",
       "name": "Lazygit",
       "status": "live",
       "tier": "free"
@@ -1841,7 +1841,7 @@
       "free_tier": "Free, open-source (AGPL-3.0). No native phone build — the Linux aarch64 binary needs the glibc loader, which Android lacks; proot-distro chroot is an untested path. Performance claims are the project's own benchmarks.",
       "https": true,
       "id": "lightpanda",
-      "last_checked": "2026-11-20",
+      "last_checked": "2026-11-22",
       "name": "Lightpanda Browser",
       "status": "live",
       "tier": "free"
@@ -1855,7 +1855,7 @@
       "free_tier": "Free, open-source (MIT core; enterprise/ directory under a separate licence). Library path (pip install litellm) is phone-usable; full proxy is self-hosted.",
       "https": true,
       "id": "litellm",
-      "last_checked": "2026-11-17",
+      "last_checked": "2026-11-22",
       "name": "LiteLLM",
       "status": "live",
       "tier": "free"
@@ -1869,7 +1869,7 @@
       "free_tier": "Free, open-source (MIT); self-hosted, cloud-deploy oriented (Render/Railway/AWS/GCP one-click). Newer project (2026, MNFST Inc.).",
       "https": true,
       "id": "llm-gateway",
-      "last_checked": "2026-11-17",
+      "last_checked": "2026-11-22",
       "name": "Manifest",
       "status": "live",
       "tier": "free"
@@ -1883,7 +1883,7 @@
       "free_tier": "Free, open-source (MIT); bring your own free key — magpie itself grants no models.",
       "https": true,
       "id": "magpie",
-      "last_checked": "2026-11-17",
+      "last_checked": "2026-11-22",
       "name": "Magpie",
       "status": "live",
       "tier": "free"
@@ -1897,7 +1897,7 @@
       "free_tier": "Free, open-source (Apache-2.0; transitioning from MIT)",
       "https": true,
       "id": "mcp-servers",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-22",
       "name": "MCP Servers (Official)",
       "status": "live",
       "tier": "free"
@@ -1911,7 +1911,7 @@
       "free_tier": "Free, open-source (Apache-2.0); self-hosted free, hosted platform is paid",
       "https": true,
       "id": "mem0",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-22",
       "name": "Mem0",
       "status": "live",
       "tier": "free"
@@ -1925,7 +1925,7 @@
       "free_tier": "Free, open-source (MIT); bring your own free provider accounts (150+ free tiers incl. DeepSeek, GLM, Kimi, Gemini); runs on your phone, no root.",
       "https": true,
       "id": "omniroute",
-      "last_checked": "2026-11-17",
+      "last_checked": "2026-11-22",
       "name": "OmniRoute",
       "status": "live",
       "tier": "free"
@@ -1939,7 +1939,7 @@
       "free_tier": "Free, open-source (GPL-3.0). Desktop only — no Android app, no Termux path; needs a computer or VPS. Performance claims are the project's own benchmarks, not independently verified.",
       "https": true,
       "id": "openhuman",
-      "last_checked": "2026-11-20",
+      "last_checked": "2026-11-22",
       "name": "OpenHuman",
       "status": "live",
       "tier": "free"
@@ -1953,7 +1953,7 @@
       "free_tier": "Free, open-source (MIT). Server-only (Docker-first, Chromium engine, 2GB RAM min, 24/7 uptime) — won't run natively in Termux. Unofficial client: the README warns of a non-zero risk of account restriction or ban; use a dedicated number, never your primary.",
       "https": true,
       "id": "openwa",
-      "last_checked": "2026-11-20",
+      "last_checked": "2026-11-22",
       "name": "OpenWA",
       "status": "live",
       "tier": "free"
@@ -1967,7 +1967,7 @@
       "free_tier": "Free, open-source (Apache-2.0). No paid tier. Go install path verified (Go is available in Termux); also ships prebuilt binaries. On-device run untested.",
       "https": true,
       "id": "osv-scanner",
-      "last_checked": "2026-11-20",
+      "last_checked": "2026-11-22",
       "name": "OSV-Scanner",
       "status": "live",
       "tier": "free"
@@ -1981,7 +1981,7 @@
       "free_tier": "Free, open-source (Apache-2.0). No paid tier. Pure pip install pip-audit; no binary deps. On-device run untested.",
       "https": true,
       "id": "pip-audit",
-      "last_checked": "2026-11-20",
+      "last_checked": "2026-11-22",
       "name": "pip-audit",
       "status": "live",
       "tier": "free"
@@ -1995,7 +1995,7 @@
       "free_tier": "Free, open-source (MIT); self-host the gateway. Hosted Portkey plans are paid. Note: the project's own pages disagree on model count (repo says 1,600+, README says 250+).",
       "https": true,
       "id": "portkey-gateway",
-      "last_checked": "2026-11-17",
+      "last_checked": "2026-11-22",
       "name": "Portkey Gateway",
       "status": "live",
       "tier": "free"
@@ -2009,7 +2009,7 @@
       "free_tier": "Free, open-source (MIT); pip install skill-seekers, pure Python CLI, no server/GPU; AI-assisted generation may need a model key.",
       "https": true,
       "id": "skill-seekers",
-      "last_checked": "2026-11-17",
+      "last_checked": "2026-11-22",
       "name": "Skill Seekers",
       "status": "live",
       "tier": "free"
@@ -2023,7 +2023,7 @@
       "free_tier": "Free, open-source (Apache-2.0); static scan needs no API key; Alpha stage.",
       "https": true,
       "id": "skillspector",
-      "last_checked": "2026-11-17",
+      "last_checked": "2026-11-22",
       "name": "SkillSpector",
       "status": "live",
       "tier": "free"
@@ -2037,7 +2037,7 @@
       "free_tier": "Free, open-source (MIT); needs a free Tavily API key — 1,000 credits/mo, no card",
       "https": true,
       "id": "tavily-mcp",
-      "last_checked": "2026-11-19",
+      "last_checked": "2026-11-22",
       "name": "Tavily MCP",
       "status": "live",
       "tier": "free",
@@ -2065,7 +2065,7 @@
       "free_tier": "Free, open-source (AGPL-3.0). No paid tier for the CLI. A linux_arm64 release asset is confirmed — a static binary, no install toolchain needed. On-device run untested.",
       "https": true,
       "id": "trufflehog",
-      "last_checked": "2026-11-20",
+      "last_checked": "2026-11-22",
       "name": "TruffleHog",
       "status": "live",
       "tier": "free"
@@ -2079,7 +2079,7 @@
       "free_tier": "Free, open-source (MIT). No API, no key, no limits; models downloaded once (tiny 39MB). CPU-only; Termux build documented and prebuilt Bionic ARM64 binaries exist.",
       "https": true,
       "id": "whisper-cpp",
-      "last_checked": "2026-11-20",
+      "last_checked": "2026-11-22",
       "name": "whisper.cpp",
       "status": "live",
       "tier": "free"
@@ -2093,7 +2093,7 @@
       "free_tier": "Free, open-source (Apache-2.0 engine); static arm64 binary or build from source; neural Query-1 model in release binaries is proprietary (core engine open).",
       "https": true,
       "id": "xerj",
-      "last_checked": "2026-11-17",
+      "last_checked": "2026-11-22",
       "name": "Xerj",
       "status": "live",
       "tier": "free"
@@ -2107,7 +2107,7 @@
       "free_tier": "Free, open-source (Unlicense); pip-installable in Termux, no key, no account.",
       "https": true,
       "id": "yt-dlp",
-      "last_checked": "2026-11-17",
+      "last_checked": "2026-11-22",
       "name": "yt-dlp",
       "status": "live",
       "tier": "free"
@@ -2121,7 +2121,7 @@
       "free_tier": "Free tier, no card, no expiry: per-model limits shown in AI Studio (not published in public docs) — reports conflict on 2.5 Flash daily cap (500–1,500 RPD); check aistudio.google.com/rate-limit. Free-tier data may be used to train models.",
       "https": true,
       "id": "google-ai-studio",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-22",
       "name": "Google AI Studio",
       "status": "live",
       "tier": "freemium"
@@ -2135,7 +2135,7 @@
       "free_tier": "Free tier, no card: per-model limits — chat models (gpt-oss-120b/20b, qwen3.8-27b) 30 RPM / 1,000 RPD / 8K TPM / 200K TPD; Llama chat models are Enterprise-only since Aug 2026",
       "https": true,
       "id": "groq",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-22",
       "name": "Groq",
       "status": "live",
       "tier": "freemium"
@@ -2149,7 +2149,7 @@
       "free_tier": "Free via registration credits + daily sign-in quota (amounts not published); free layer incl. DeepSeek-V4-Pro/Flash, Kimi-K3, MiniMax-M3, GLM-5.3-Flash — full GLM 5.3 is on the paid SVIP layer. Third-party proxy, NOT a permanent free tier.",
       "https": true,
       "id": "hcnsec",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-22",
       "name": "hcnsec",
       "status": "live",
       "tier": "freemium"
@@ -2163,7 +2163,7 @@
       "free_tier": "Free models incl. kilo-auto/free router, no key, no signup: 200 requests/hour per IP (anonymous); Auto Free may route to providers that log prompts — no sensitive data",
       "https": true,
       "id": "kilo-gateway",
-      "last_checked": "2026-11-17",
+      "last_checked": "2026-11-22",
       "name": "Kilo Code Gateway",
       "status": "live",
       "tier": "freemium"
@@ -2177,7 +2177,7 @@
       "free_tier": "Free token: 100,000 tokens per 24 hours; 60 RPM / 250 req/hour; Pro $12/mo for more. Free quota may shrink without notice.",
       "https": true,
       "id": "llm7",
-      "last_checked": "2026-11-17",
+      "last_checked": "2026-11-22",
       "name": "LLM7.io",
       "status": "live",
       "tier": "freemium",
@@ -2192,7 +2192,7 @@
       "free_tier": "Free endpoints (70+ models incl. DeepSeek V4.1 Flash, GLM 5.3): published ceiling 40 RPM / 10,000 req/day; BUT phone verification blocks Bangladesh (+880) — not offered there per NVIDIA's own list; manual verification via help@build.nvidia.com is the official route. Prototyping/evaluation only, no production SLA.",
       "https": true,
       "id": "nvidia-build",
-      "last_checked": "2026-11-17",
+      "last_checked": "2026-11-22",
       "name": "NVIDIA Build",
       "status": "live",
       "tier": "freemium"
@@ -2206,7 +2206,7 @@
       "free_tier": "25+ :free models: 20 RPM; 50 req/day free, 1,000 req/day after $10+ lifetime credit purchase",
       "https": true,
       "id": "openrouter",
-      "last_checked": "2026-11-17",
+      "last_checked": "2026-11-22",
       "name": "OpenRouter",
       "status": "live",
       "tier": "freemium",
@@ -2221,7 +2221,7 @@
       "free_tier": "Hacker plan free forever, no card: $0 free models incl. DeepSeek V4.1 Flash Free + GLM 5.3 Flash Free; 10 RPM / 50 RPD (20 RPM / 800 RPD after $20+ lifetime purchases); lineup rotates",
       "https": true,
       "id": "orcarouter",
-      "last_checked": "2026-11-17",
+      "last_checked": "2026-11-22",
       "name": "OrcaRouter",
       "status": "live",
       "tier": "freemium",
@@ -2236,7 +2236,7 @@
       "free_tier": "Legacy keyless text API (text.pollinations.ai, OpenAI-compatible, gpt-oss-20b): free, no signup — allowance not published; new gen.pollinations.ai API needs a key + Pollen credits (small free Quest Pollen). Free image lane ~1 image/45 sec per IP.",
       "https": true,
       "id": "pollinations",
-      "last_checked": "2026-11-17",
+      "last_checked": "2026-11-22",
       "name": "Pollinations",
       "status": "live",
       "tier": "freemium",
@@ -2251,7 +2251,7 @@
       "free_tier": "150+ :free models incl. DeepSeek V4.1 Flash + GLM 5.3 Flash: ~1 request/min per model per account, no daily cap; paid models pay-as-you-go from $1",
       "https": true,
       "id": "unorouter",
-      "last_checked": "2026-11-17",
+      "last_checked": "2026-11-22",
       "name": "UnoRouter",
       "status": "live",
       "tier": "freemium",
@@ -2269,7 +2269,7 @@
       "free_tier": "Free, no key; rate limits not published",
       "sample_url": "https://www.cheapshark.com/api/1.0/deals?storeID=1&upperPrice=15",
       "status": "live",
-      "last_checked": "2026-11-15",
+      "last_checked": "2026-11-22",
       "tier": "free"
     },
     {
@@ -2281,7 +2281,7 @@
       "free_tier": "Free, no key; serial requests unlimited",
       "https": true,
       "id": "chess-com",
-      "last_checked": "2026-11-14",
+      "last_checked": "2026-11-22",
       "name": "Chess.com",
       "status": "live",
       "sample_url": "https://api.chess.com/pub/player/erik",
@@ -2296,7 +2296,7 @@
       "free_tier": "Free, no key; no published limit",
       "https": true,
       "id": "deck-of-cards",
-      "last_checked": "2026-11-14",
+      "last_checked": "2026-11-22",
       "name": "Deck of Cards",
       "status": "live",
       "sample_url": "https://deckofcardsapi.com/api/deck/new/shuffle/?deck_count=1",
@@ -2311,9 +2311,9 @@
       "free_tier": "Free, no key; 1 req/5 sec per IP",
       "https": true,
       "id": "opentdb",
-      "last_checked": "2026-11-14",
+      "last_checked": "2026-11-22",
       "name": "Open Trivia DB",
-      "status": "live",
+      "status": "down",
       "sample_url": "https://opentdb.com/api.php?amount=1",
       "tier": "free"
     },
@@ -2326,7 +2326,7 @@
       "free_tier": "Free, no key; no hard limit (fair use)",
       "https": true,
       "id": "pokeapi",
-      "last_checked": "2026-11-14",
+      "last_checked": "2026-11-22",
       "name": "PokeAPI",
       "status": "live",
       "sample_url": "https://pokeapi.co/api/v2/pokemon/ditto",
@@ -2341,7 +2341,7 @@
       "free_tier": "Free, no key; unlimited queries, fair use",
       "https": true,
       "id": "bigdatacloud",
-      "last_checked": "2026-11-14",
+      "last_checked": "2026-11-22",
       "name": "BigDataCloud",
       "status": "live",
       "sample_url": "https://api.bigdatacloud.net/data/reverse-geocode-client",
@@ -2356,7 +2356,7 @@
       "free_tier": "Free username; 30,000 credits/day, 2,000/hr",
       "https": false,
       "id": "geonames",
-      "last_checked": "2026-11-14",
+      "last_checked": "2026-11-22",
       "name": "GeoNames",
       "status": "live",
       "tier": "freemium"
@@ -2370,7 +2370,7 @@
       "free_tier": "Free monthly caps per SKU — Essentials 10,000/mo (Dynamic Maps, Geocoding), Pro 5,000, Enterprise 1,000; Maps Embed + mobile SDKs unlimited free; billing card required even for free use ($200 credit retired 1 Mar 2025)",
       "https": true,
       "id": "google-maps-platform",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-22",
       "name": "Google Maps Platform",
       "status": "live",
       "tier": "freemium",
@@ -2395,7 +2395,7 @@
       "free_tier": "Free for non-commercial use, 45 req/min.",
       "https": true,
       "id": "ip-api",
-      "last_checked": "2026-11-14",
+      "last_checked": "2026-11-22",
       "name": "ip-api",
       "status": "live",
       "tier": "freemium"
@@ -2409,7 +2409,7 @@
       "free_tier": "Free, no key; 1,000 requests/day.",
       "https": true,
       "id": "ipapi-co",
-      "last_checked": "2026-11-14",
+      "last_checked": "2026-11-22",
       "name": "ipapi.co",
       "status": "live",
       "sample_url": "https://ipapi.co/json/",
@@ -2424,7 +2424,7 @@
       "free_tier": "Free, no key; usage policy 1 req/sec.",
       "https": true,
       "id": "nominatim",
-      "last_checked": "2026-11-14",
+      "last_checked": "2026-11-22",
       "name": "Nominatim (OpenStreetMap)",
       "status": "live",
       "sample_url": "https://nominatim.openstreetmap.org/search?q=berlin&format=json&limit=1",
@@ -2439,7 +2439,7 @@
       "free_tier": "Free, no key; no published limit",
       "https": false,
       "id": "zippopotam",
-      "last_checked": "2026-11-14",
+      "last_checked": "2026-11-22",
       "name": "Zippopotam",
       "status": "live",
       "sample_url": "https://api.zippopotam.us/us/90210",
@@ -2454,7 +2454,7 @@
       "free_tier": "Free, no key; no published limit",
       "https": true,
       "id": "disease-sh",
-      "last_checked": "2026-11-14",
+      "last_checked": "2026-11-22",
       "name": "disease.sh",
       "status": "live",
       "sample_url": "https://disease.sh/v3/covid-19/all",
@@ -2469,7 +2469,7 @@
       "free_tier": "Free, no key; 240 req/min, 1,000/day",
       "https": true,
       "id": "openfda",
-      "last_checked": "2026-11-14",
+      "last_checked": "2026-11-22",
       "name": "openFDA",
       "status": "live",
       "sample_url": "https://api.fda.gov/drug/label.json?limit=1",
@@ -2484,7 +2484,7 @@
       "free_tier": "Free, no key; no published limit",
       "https": true,
       "id": "chuck-norris",
-      "last_checked": "2026-11-14",
+      "last_checked": "2026-11-22",
       "name": "Chuck Norris Jokes",
       "status": "live",
       "sample_url": "https://api.chucknorris.io/jokes/random",
@@ -2499,7 +2499,7 @@
       "free_tier": "Free, no key; no published limit",
       "https": true,
       "id": "dad-jokes",
-      "last_checked": "2026-11-14",
+      "last_checked": "2026-11-22",
       "name": "Dad Jokes",
       "status": "live",
       "sample_url": "https://icanhazdadjoke.com/",
@@ -2514,7 +2514,7 @@
       "free_tier": "Free, no key; 120 req/min",
       "https": true,
       "id": "jokeapi",
-      "last_checked": "2026-11-14",
+      "last_checked": "2026-11-22",
       "name": "JokeAPI",
       "status": "live",
       "sample_url": "https://v2.jokeapi.dev/joke/Any?type=single",
@@ -2529,7 +2529,7 @@
       "free_tier": "Free, no key; no published limit",
       "https": true,
       "id": "deezer",
-      "last_checked": "2026-11-17",
+      "last_checked": "2026-11-22",
       "name": "Deezer",
       "status": "live",
       "tier": "free"
@@ -2543,7 +2543,7 @@
       "free_tier": "Free, no key; no published limit",
       "https": true,
       "id": "itunes-search",
-      "last_checked": "2026-11-14",
+      "last_checked": "2026-11-22",
       "name": "iTunes Search API",
       "status": "live",
       "sample_url": "https://itunes.apple.com/search?term=jack+johnson&limit=1",
@@ -2558,7 +2558,7 @@
       "free_tier": "Free, no key; 1 req/sec usage policy.",
       "https": true,
       "id": "musicbrainz",
-      "last_checked": "2026-11-17",
+      "last_checked": "2026-11-22",
       "name": "MusicBrainz",
       "status": "live",
       "sample_url": "https://musicbrainz.org/ws/2/artist/?query=artist:beatles&fmt=json&limit=1",
@@ -2576,7 +2576,7 @@
       "free_tier": "Free, no key; no published limit",
       "sample_url": "https://de1.api.radio-browser.info/json/stations/search?name=classic&limit=1",
       "status": "live",
-      "last_checked": "2026-11-15",
+      "last_checked": "2026-11-22",
       "tier": "free"
     },
     {
@@ -2588,7 +2588,7 @@
       "free_tier": "Free key; 100 req/day, non-commercial",
       "https": true,
       "id": "gnews",
-      "last_checked": "2026-11-14",
+      "last_checked": "2026-11-22",
       "name": "GNews",
       "status": "live",
       "tier": "freemium"
@@ -2602,7 +2602,7 @@
       "free_tier": "Free, no key; no rate limit",
       "https": true,
       "id": "hacker-news",
-      "last_checked": "2026-11-14",
+      "last_checked": "2026-11-22",
       "name": "Hacker News API",
       "status": "live",
       "sample_url": "https://hacker-news.firebaseio.com/v0/item/8863.json",
@@ -2617,7 +2617,7 @@
       "free_tier": "Free developer plan; 100 requests/day.",
       "https": true,
       "id": "newsapi",
-      "last_checked": "2026-11-14",
+      "last_checked": "2026-11-22",
       "name": "NewsAPI",
       "status": "live",
       "tier": "freemium"
@@ -2631,7 +2631,7 @@
       "free_tier": "Free key; 100 req/day, non-commercial",
       "https": true,
       "id": "noozra",
-      "last_checked": "2026-11-14",
+      "last_checked": "2026-11-22",
       "name": "Noozra",
       "status": "live",
       "tier": "freemium"
@@ -2648,7 +2648,7 @@
       "free_tier": "Free, no key; no published limit",
       "sample_url": "https://api.spaceflightnewsapi.net/v4/articles/?limit=1",
       "status": "live",
-      "last_checked": "2026-11-15",
+      "last_checked": "2026-11-22",
       "tier": "free"
     },
     {
@@ -2660,7 +2660,7 @@
       "free_tier": "Free, no key (v3.1); v5 key 1,000 req/mo",
       "https": true,
       "id": "rest-countries",
-      "last_checked": "2026-11-14",
+      "last_checked": "2026-11-22",
       "name": "REST Countries",
       "status": "live",
       "sample_url": "https://restcountries.com/v3.1/alpha/col",
@@ -2675,7 +2675,7 @@
       "free_tier": "Free, no key; 10 req/min (200 with UA)",
       "https": true,
       "id": "wikipedia",
-      "last_checked": "2026-11-14",
+      "last_checked": "2026-11-22",
       "name": "Wikipedia",
       "status": "live",
       "sample_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Albert%20Einstein&format=json&origin=*",
@@ -2690,7 +2690,7 @@
       "free_tier": "Free, no key; no published limit",
       "https": true,
       "id": "world-bank",
-      "last_checked": "2026-11-14",
+      "last_checked": "2026-11-22",
       "name": "World Bank",
       "status": "live",
       "sample_url": "https://api.worldbank.org/v2/country/US?format=json",
@@ -2705,7 +2705,7 @@
       "free_tier": "Free, no key; 100 requests/day.",
       "https": true,
       "id": "agify",
-      "last_checked": "2026-11-14",
+      "last_checked": "2026-11-22",
       "name": "Agify",
       "status": "live",
       "sample_url": "https://api.agify.io/?name=michael",
@@ -2720,7 +2720,7 @@
       "free_tier": "Free, no key; 100 requests/day.",
       "https": true,
       "id": "genderize",
-      "last_checked": "2026-11-14",
+      "last_checked": "2026-11-22",
       "name": "Genderize",
       "status": "live",
       "sample_url": "https://api.genderize.io/?name=peter",
@@ -2735,7 +2735,7 @@
       "free_tier": "Free, no key; 3-sec delay advised",
       "https": true,
       "id": "arxiv",
-      "last_checked": "2026-11-17",
+      "last_checked": "2026-11-22",
       "name": "arXiv",
       "status": "live",
       "tier": "free"
@@ -2751,7 +2751,7 @@
       "cors": "Yes",
       "free_tier": "Free, no key; no published limit",
       "status": "live",
-      "last_checked": "2026-11-15",
+      "last_checked": "2026-11-22",
       "tier": "free"
     },
     {
@@ -2763,7 +2763,7 @@
       "free_tier": "Free key; DEMO_KEY allows 30 req/hour.",
       "https": true,
       "id": "nasa",
-      "last_checked": "2026-11-14",
+      "last_checked": "2026-11-22",
       "name": "NASA Open APIs",
       "status": "live",
       "tier": "free"
@@ -2777,7 +2777,7 @@
       "free_tier": "Free, no key; no published limit",
       "https": false,
       "id": "open-notify",
-      "last_checked": "2026-11-14",
+      "last_checked": "2026-11-22",
       "name": "Open Notify",
       "status": "live",
       "tier": "free"
@@ -2791,7 +2791,7 @@
       "free_tier": "Free, no key; max 20,000 results/query",
       "https": true,
       "id": "usgs-earthquakes",
-      "last_checked": "2026-11-14",
+      "last_checked": "2026-11-22",
       "name": "USGS Earthquakes",
       "status": "live",
       "sample_url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&limit=1&orderby=time",
@@ -2806,7 +2806,7 @@
       "free_tier": "Free, no key; 3,000 req/5 min per IP",
       "https": true,
       "id": "bluesky",
-      "last_checked": "2026-11-14",
+      "last_checked": "2026-11-22",
       "name": "Bluesky API",
       "status": "live",
       "sample_url": "https://public.api.bsky.app/xrpc/app.bsky.actor.searchActors?q=bsky",
@@ -2821,7 +2821,7 @@
       "free_tier": "Free key; 10 req/30 sec",
       "https": true,
       "id": "dev-to",
-      "last_checked": "2026-11-14",
+      "last_checked": "2026-11-22",
       "name": "Dev.to",
       "status": "live",
       "tier": "free"
@@ -2835,7 +2835,7 @@
       "free_tier": "Free key; 5 req/min, NBA teams/players/games",
       "https": true,
       "id": "balldontlie",
-      "last_checked": "2026-11-14",
+      "last_checked": "2026-11-22",
       "name": "balldontlie",
       "status": "live",
       "tier": "freemium"
@@ -2849,7 +2849,7 @@
       "free_tier": "Free plan; 10 requests/minute.",
       "https": true,
       "id": "football-data",
-      "last_checked": "2026-11-14",
+      "last_checked": "2026-11-22",
       "name": "football-data.org",
       "status": "live",
       "tier": "freemium"
@@ -2863,7 +2863,7 @@
       "free_tier": "Free key; 30 req/min",
       "https": true,
       "id": "thesportsdb",
-      "last_checked": "2026-11-14",
+      "last_checked": "2026-11-22",
       "name": "TheSportsDB",
       "status": "live",
       "tier": "freemium"
@@ -2877,7 +2877,7 @@
       "free_tier": "Free, no key; no published limit",
       "https": true,
       "id": "dummyjson",
-      "last_checked": "2026-11-14",
+      "last_checked": "2026-11-22",
       "name": "DummyJSON",
       "status": "live",
       "sample_url": "https://dummyjson.com/products/1",
@@ -2892,7 +2892,7 @@
       "free_tier": "Free, no key; no published limit",
       "https": true,
       "id": "fake-store",
-      "last_checked": "2026-11-14",
+      "last_checked": "2026-11-22",
       "name": "Fake Store API",
       "status": "live",
       "sample_url": "https://fakestoreapi.com/products/1",
@@ -2910,7 +2910,7 @@
       "free_tier": "Free, no key; max 1,000 rows per request",
       "sample_url": "https://fakerapi.it/api/v2/persons?_quantity=1",
       "status": "live",
-      "last_checked": "2026-11-15",
+      "last_checked": "2026-11-22",
       "tier": "free"
     },
     {
@@ -2922,7 +2922,7 @@
       "free_tier": "Free, no key; 180 req/min",
       "https": true,
       "id": "quotable",
-      "last_checked": "2026-11-14",
+      "last_checked": "2026-11-22",
       "name": "Quotable",
       "status": "live",
       "sample_url": "https://quotable.vercel.app/random",
@@ -2937,7 +2937,7 @@
       "free_tier": "Free, no key; no published limit",
       "https": true,
       "id": "random-user",
-      "last_checked": "2026-11-14",
+      "last_checked": "2026-11-22",
       "name": "Random User",
       "status": "live",
       "sample_url": "https://randomuser.me/api/?results=1",
@@ -2952,7 +2952,7 @@
       "free_tier": "Free key; 250 req/day",
       "https": true,
       "id": "reqres",
-      "last_checked": "2026-11-14",
+      "last_checked": "2026-11-22",
       "name": "ReqRes",
       "status": "live",
       "sample_url": "https://reqres.in/api/users/2",
@@ -2967,7 +2967,7 @@
       "free_tier": "Free to self-host; hosted API from $29/mo",
       "https": true,
       "id": "libretranslate",
-      "last_checked": "2026-11-14",
+      "last_checked": "2026-11-22",
       "name": "LibreTranslate",
       "status": "live",
       "sample_url": "https://libretranslate.com/languages",
@@ -2982,7 +2982,7 @@
       "free_tier": "Free — 100 search/day + 10,000 units/day; quota increase needs manual audit",
       "https": true,
       "id": "youtube",
-      "last_checked": "2026-11-19",
+      "last_checked": "2026-11-22",
       "name": "YouTube Data API v3",
       "status": "live",
       "tier": "free",
@@ -3009,7 +3009,7 @@
       "free_tier": "Free, no key; max 20 req/sec",
       "https": true,
       "id": "met-norway",
-      "last_checked": "2026-11-14",
+      "last_checked": "2026-11-22",
       "name": "MET Norway",
       "status": "live",
       "sample_url": "https://api.met.no/weatherapi/locationforecast/2.0/compact?lat=60.10&lon=9.58",
@@ -3024,7 +3024,7 @@
       "free_tier": "Free, no key; 10,000 calls/day (non-commercial)",
       "https": true,
       "id": "open-meteo",
-      "last_checked": "2026-11-14",
+      "last_checked": "2026-11-22",
       "name": "Open-Meteo",
       "status": "live",
       "sample_url": "https://api.open-meteo.com/v1/forecast?latitude=52.52&longitude=13.41&current=temperature_2m",
@@ -3039,7 +3039,7 @@
       "free_tier": "Free plan; 1,000 calls/day.",
       "https": true,
       "id": "openweathermap",
-      "last_checked": "2026-11-14",
+      "last_checked": "2026-11-22",
       "name": "OpenWeatherMap",
       "status": "live",
       "tier": "freemium"
@@ -3053,7 +3053,7 @@
       "free_tier": "Free, no key; no published limit",
       "https": true,
       "id": "wttr-in",
-      "last_checked": "2026-11-14",
+      "last_checked": "2026-11-22",
       "name": "wttr.in",
       "status": "live",
       "sample_url": "https://wttr.in/London?format=j1",
@@ -3070,7 +3070,7 @@
       "cors": "Unknown",
       "free_tier": "Free — 50 req/sec per bot; app verification needed at 100+ servers",
       "status": "live",
-      "last_checked": "2026-11-15",
+      "last_checked": "2026-11-22",
       "tier": "free",
       "access": {
         "portal": "https://discord.com/developers/applications",
@@ -3094,7 +3094,7 @@
       "cors": "Unknown",
       "free_tier": "No fee published — rate limits only; Advanced Access needs App Review + Business Verification",
       "status": "live",
-      "last_checked": "2026-11-15",
+      "last_checked": "2026-11-22",
       "tier": "free",
       "access": {
         "portal": "https://developers.facebook.com",
@@ -3117,7 +3117,7 @@
       "free_tier": "Free plan: 10M credits/month, 600 RPM per endpoint (1,000 RPM global), 10 webhooks, 5 apps",
       "https": true,
       "id": "farcaster-api",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-22",
       "name": "Farcaster",
       "status": "live",
       "tier": "freemium",
@@ -3142,7 +3142,7 @@
       "cors": "Unknown",
       "free_tier": "No fee published — rate limits only (4,800 × impressions/24h); Advanced Access needs App Review + Business Verification",
       "status": "live",
-      "last_checked": "2026-11-15",
+      "last_checked": "2026-11-22",
       "tier": "free",
       "access": {
         "portal": "https://developers.facebook.com",
@@ -3165,7 +3165,7 @@
       "free_tier": "No fee published — needs a verified Business Channel + app review (3–5 days); business messages billed per-message",
       "https": true,
       "id": "kakaotalk-channel-api",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-22",
       "name": "KakaoTalk Channel API",
       "status": "live",
       "tier": "free",
@@ -3189,7 +3189,7 @@
       "free_tier": "No fee published — self-serve registration, no pricing in official docs; rate limits not published",
       "https": true,
       "id": "kick-api",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-22",
       "name": "Kick API",
       "status": "live",
       "tier": "free",
@@ -3213,7 +3213,7 @@
       "free_tier": "Free — open source, no paid tier; per-IP rate limiting, no numeric limits published; API v3 current, v4 in development on main",
       "https": true,
       "id": "lemmy-api",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-22",
       "name": "Lemmy",
       "status": "live",
       "tier": "free",
@@ -3237,7 +3237,7 @@
       "free_tier": "Free plan — 200 push msgs/mo (Japan; 300 in Thailand); replies + 1:1 chat free; paid from ¥5,000/mo",
       "https": true,
       "id": "line-messaging-api",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-22",
       "name": "LINE Messaging API",
       "status": "live",
       "tier": "freemium",
@@ -3263,7 +3263,7 @@
       "cors": "Unknown",
       "free_tier": "Free — no per-call price; Sign In + Share are self-serve, other products need partner approval",
       "status": "live",
-      "last_checked": "2026-11-15",
+      "last_checked": "2026-11-22",
       "tier": "free",
       "access": {
         "portal": "https://www.linkedin.com/developers/apps",
@@ -3285,7 +3285,7 @@
       "free_tier": "Free — 300 req/5 min per account (defaults; varies by server); no review or fee",
       "https": true,
       "id": "mastodon-api",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-22",
       "name": "Mastodon API",
       "status": "live",
       "tier": "free",
@@ -3309,7 +3309,7 @@
       "free_tier": "Free — open protocol, no key or signup; limits are set per relay (NIP-11), not centrally",
       "https": true,
       "id": "nostr",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-22",
       "name": "Nostr",
       "status": "live",
       "tier": "free"
@@ -3323,7 +3323,7 @@
       "free_tier": "Free, no key — run the LBRY SDK daemon locally; no fee published",
       "https": true,
       "id": "odysee-api",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-22",
       "name": "Odysee",
       "status": "live",
       "tier": "free",
@@ -3348,7 +3348,7 @@
       "free_tier": "Free, open source — public reads need no auth; instance default rate limit 50 requests / 10 seconds (set per instance)",
       "https": true,
       "id": "peertube-api",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-22",
       "name": "PeerTube",
       "status": "live",
       "tier": "free",
@@ -3373,7 +3373,7 @@
       "free_tier": "Free — Trial: 1,000 req/day per app (300 writes), pins visible only to you; Standard needs review + demo video",
       "https": true,
       "id": "pinterest-api",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-22",
       "name": "Pinterest API",
       "status": "live",
       "tier": "free",
@@ -3397,7 +3397,7 @@
       "free_tier": "Free — open source, no paid tier; rate limits not published (429 with Retry-After when exceeded)",
       "https": true,
       "id": "pixelfed-api",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-22",
       "name": "Pixelfed",
       "status": "live",
       "tier": "free",
@@ -3423,7 +3423,7 @@
       "cors": "Unknown",
       "free_tier": "Free — ~30 msg/sec; paid broadcasts only at 100K+ user scale",
       "status": "live",
-      "last_checked": "2026-11-15",
+      "last_checked": "2026-11-22",
       "tier": "free",
       "access": {
         "portal": "https://t.me/BotFather",
@@ -3445,7 +3445,7 @@
       "free_tier": "No fee published — 250 posts + 1,000 replies per profile/24h; App Review needed for other accounts",
       "https": true,
       "id": "threads-api",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-22",
       "name": "Threads API",
       "status": "live",
       "tier": "free",
@@ -3471,7 +3471,7 @@
       "cors": "Unknown",
       "free_tier": "Free — no paid tier published; app review required, public posts need a separate audit",
       "status": "live",
-      "last_checked": "2026-11-15",
+      "last_checked": "2026-11-22",
       "tier": "free",
       "access": {
         "portal": "https://developers.tiktok.com",
@@ -3494,7 +3494,7 @@
       "free_tier": "Free — 300 req/min per IP; 1,000/hr + 5,000/day per consumer key",
       "https": true,
       "id": "tumblr-api",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-22",
       "name": "Tumblr API v2",
       "status": "live",
       "tier": "free",
@@ -3518,7 +3518,7 @@
       "free_tier": "Free — 800 points/min Helix rate limit; app registration + OAuth required",
       "https": true,
       "id": "twitch-api",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-22",
       "name": "Twitch Helix API",
       "status": "live",
       "tier": "free",
@@ -3542,7 +3542,7 @@
       "free_tier": "No fee published — 3 req/sec per token; some methods need a service token",
       "https": true,
       "id": "vk-api",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-22",
       "name": "VK API",
       "status": "live",
       "tier": "free",
@@ -3566,7 +3566,7 @@
       "free_tier": "Free own-data tier — 100 req/day per authorised user, 15,000 req/hour per IP; search and other users' posts are paid Business API (no fee published)",
       "https": true,
       "id": "weibo-api",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-22",
       "name": "Sina Weibo API",
       "status": "live",
       "tier": "freemium",
@@ -3593,7 +3593,7 @@
       "cors": "Unknown",
       "free_tier": "No free tier — pay-per-use from $0.005/read (min $1 purchase); up to $70 one-time starter credits for new paying accounts",
       "status": "live",
-      "last_checked": "2026-11-15",
+      "last_checked": "2026-11-22",
       "tier": "paid",
       "access": {
         "portal": "https://developer.x.com",
@@ -3617,7 +3617,7 @@
       "cors": "Unknown",
       "free_tier": "Free Domain Rating endpoint with a free API key; full API from Lite $129/mo",
       "status": "live",
-      "last_checked": "2026-11-15",
+      "last_checked": "2026-11-22",
       "tier": "freemium",
       "access": {
         "portal": "https://ahrefs.com",
@@ -3641,7 +3641,7 @@
       "cors": "Unknown",
       "free_tier": "Free sandbox for all users (1,000 credits/day, mock results only); live API from Pro $47/mo annual",
       "status": "live",
-      "last_checked": "2026-11-15",
+      "last_checked": "2026-11-22",
       "tier": "freemium",
       "access": {
         "portal": "https://alsoasked.com/developer/keys",
@@ -3665,7 +3665,7 @@
       "cors": "Unknown",
       "free_tier": "14-day free trial, no card; API pricing unclear — official pages conflict ($65/mo Plus vs Enterprise $585/mo, confirm with sales)",
       "status": "live",
-      "last_checked": "2026-11-15",
+      "last_checked": "2026-11-22",
       "tier": "freemium",
       "access": {
         "portal": "https://authoritylabs.com/pricing",
@@ -3688,7 +3688,7 @@
       "cors": "Unknown",
       "free_tier": "7-day trial, 150 keywords, no card; API on Agency $279/mo monthly or any yearly plan (Pro yearly ≈ $125/mo)",
       "status": "live",
-      "last_checked": "2026-11-15",
+      "last_checked": "2026-11-22",
       "tier": "freemium",
       "access": {
         "portal": "https://advancedwebranking.com",
@@ -3712,7 +3712,7 @@
       "cors": "Unknown",
       "free_tier": "Free — no published rate limit; URL submission quota per site",
       "status": "live",
-      "last_checked": "2026-11-15",
+      "last_checked": "2026-11-22",
       "tier": "free",
       "access": {
         "portal": "https://www.bing.com/webmasters",
@@ -3736,7 +3736,7 @@
       "cors": "Unknown",
       "free_tier": "3-week free trial, full access (API during trial unconfirmed); pricing quote-only",
       "status": "live",
-      "last_checked": "2026-11-15",
+      "last_checked": "2026-11-22",
       "tier": "freemium",
       "access": {
         "portal": "https://www.conductor.com/pricing/",
@@ -3760,7 +3760,7 @@
       "cors": "Unknown",
       "free_tier": "Free — 150 queries/min per project; no billing account needed",
       "status": "live",
-      "last_checked": "2026-11-15",
+      "last_checked": "2026-11-22",
       "tier": "free",
       "access": {
         "portal": "https://console.cloud.google.com/apis/credentials",
@@ -3784,7 +3784,7 @@
       "cors": "Unknown",
       "free_tier": "Free trial (length unverified); plans from ~$22/mo annual (third-party reading)",
       "status": "live",
-      "last_checked": "2026-11-15",
+      "last_checked": "2026-11-22",
       "tier": "freemium",
       "access": {
         "portal": "https://www.dareboost.com/en/signup",
@@ -3807,7 +3807,7 @@
       "cors": "Unknown",
       "free_tier": "Free on a free account — scoring/retrieval free; 1 free report at signup",
       "status": "live",
-      "last_checked": "2026-11-15",
+      "last_checked": "2026-11-22",
       "tier": "free",
       "access": {
         "portal": "https://app.dashword.com/register",
@@ -3831,7 +3831,7 @@
       "cors": "Unknown",
       "free_tier": "$1 free credit on signup (no card) + free Sandbox; then $50 min top-up, SERP from $0.0006/call",
       "status": "live",
-      "last_checked": "2026-11-15",
+      "last_checked": "2026-11-22",
       "tier": "freemium",
       "access": {
         "portal": "https://dataforseo.com",
@@ -3855,7 +3855,7 @@
       "cors": "Unknown",
       "free_tier": "7-day free trial, no card (API during trial unconfirmed); API on every plan from Starter $39/mo yearly",
       "status": "live",
-      "last_checked": "2026-11-15",
+      "last_checked": "2026-11-22",
       "tier": "freemium",
       "access": {
         "portal": "https://www.frase.io",
@@ -3878,7 +3878,7 @@
       "cors": "Unknown",
       "free_tier": "Free — Test 15k ops/day; Explorer 2,880/day; Basic 15k/day (Keyword Planner needs brand verification)",
       "status": "live",
-      "last_checked": "2026-11-15",
+      "last_checked": "2026-11-22",
       "tier": "free",
       "access": {
         "portal": "https://console.cloud.google.com/",
@@ -3903,7 +3903,7 @@
       "cors": "Unknown",
       "free_tier": "Free — 200,000 Core tokens/day per standard property",
       "status": "live",
-      "last_checked": "2026-11-15",
+      "last_checked": "2026-11-22",
       "tier": "free",
       "access": {
         "portal": "https://console.cloud.google.com/",
@@ -3928,7 +3928,7 @@
       "cors": "Unknown",
       "free_tier": "Free after approval (~14-day review); 0 quota before, 300 QPM after",
       "status": "live",
-      "last_checked": "2026-11-15",
+      "last_checked": "2026-11-22",
       "tier": "free",
       "access": {
         "portal": "https://console.cloud.google.com/",
@@ -3953,7 +3953,7 @@
       "cors": "Unknown",
       "free_tier": "Free — 1,200 queries/min per site",
       "status": "live",
-      "last_checked": "2026-11-15",
+      "last_checked": "2026-11-22",
       "tier": "free",
       "access": {
         "portal": "https://console.cloud.google.com/",
@@ -3978,7 +3978,7 @@
       "cors": "Unknown",
       "free_tier": "Trial API credits included on free accounts; plans from Lite $5.99/mo",
       "status": "live",
-      "last_checked": "2026-11-15",
+      "last_checked": "2026-11-22",
       "tier": "freemium",
       "access": {
         "portal": "https://gtmetrix.com",
@@ -4001,7 +4001,7 @@
       "cors": "Unknown",
       "free_tier": "Free trial after a demo, no card; plans from Growth €299/$349 per month annual",
       "status": "live",
-      "last_checked": "2026-11-15",
+      "last_checked": "2026-11-22",
       "tier": "freemium",
       "access": {
         "portal": "https://my.jetoctopus.com/register",
@@ -4024,7 +4024,7 @@
       "cors": "Unknown",
       "free_tier": "7-day free trial, no card (API during trial not explicitly confirmed); plans from Starter $24/mo",
       "status": "live",
-      "last_checked": "2026-11-15",
+      "last_checked": "2026-11-22",
       "tier": "freemium",
       "access": {
         "portal": "https://keysearch.co/user/register",
@@ -4048,7 +4048,7 @@
       "cors": "Unknown",
       "free_tier": "Free account: one-time 100 keyword + 100 SERP lookups, no card; API from Basic $61/mo",
       "status": "live",
-      "last_checked": "2026-11-15",
+      "last_checked": "2026-11-22",
       "tier": "freemium",
       "access": {
         "portal": "https://mangools.com/api-token",
@@ -4071,7 +4071,7 @@
       "cors": "Unknown",
       "free_tier": "Free tier: 50 rows/mo (1 req/10s); a card may be required at signup — verify",
       "status": "live",
-      "last_checked": "2026-11-15",
+      "last_checked": "2026-11-22",
       "tier": "free",
       "access": {
         "portal": "https://moz.com/products/api/pricing",
@@ -4095,7 +4095,7 @@
       "cors": "Unknown",
       "free_tier": "7-day free trial under Gold terms, no card (API key during trial unconfirmed); API from Gold $69/mo",
       "status": "live",
-      "last_checked": "2026-11-15",
+      "last_checked": "2026-11-22",
       "tier": "freemium",
       "access": {
         "portal": "https://neuronwriter.com",
@@ -4119,7 +4119,7 @@
       "cors": "Unknown",
       "free_tier": "14-day trial, no card (REST API during trial not explicitly confirmed); API from Professional €159/mo annual",
       "status": "live",
-      "last_checked": "2026-11-15",
+      "last_checked": "2026-11-22",
       "tier": "freemium",
       "access": {
         "portal": "https://nightwatch.io",
@@ -4142,7 +4142,7 @@
       "cors": "Unknown",
       "free_tier": "14-day free trial, no card, full access; API included on every plan from Basic $49/mo annual",
       "status": "live",
-      "last_checked": "2026-11-15",
+      "last_checked": "2026-11-22",
       "tier": "freemium",
       "access": {
         "portal": "https://app.nozzle.io/sign-up",
@@ -4164,7 +4164,7 @@
       "free_tier": "Freemium: $0.50 free-trial credits, no card, then $10/mo hosted; self-host needs a DataForSEO key ($1 trial, then $50 min top-up). Google Search Console data is free forever.",
       "https": true,
       "id": "open-seo",
-      "last_checked": "2026-11-17",
+      "last_checked": "2026-11-22",
       "name": "Open SEO",
       "status": "live",
       "tier": "freemium"
@@ -4180,7 +4180,7 @@
       "cors": "Unknown",
       "free_tier": "Free, no card — daily quota applies (25,000/day widely reported; not stated on the current docs page)",
       "status": "live",
-      "last_checked": "2026-11-15",
+      "last_checked": "2026-11-22",
       "tier": "free",
       "access": {
         "portal": "https://developers.google.com/speed/docs/insights/v5/get-started",
@@ -4204,7 +4204,7 @@
       "cors": "Unknown",
       "free_tier": "14-day free trial; plans from ~$16.50/mo annual (third-party reading)",
       "status": "live",
-      "last_checked": "2026-11-15",
+      "last_checked": "2026-11-22",
       "tier": "freemium",
       "access": {
         "portal": "https://www.pingdom.com/pricing/",
@@ -4227,7 +4227,7 @@
       "cors": "Unknown",
       "free_tier": "7-day free trial (API during trial not explicitly stated); plans from Small Biz $39/mo annual",
       "status": "live",
-      "last_checked": "2026-11-15",
+      "last_checked": "2026-11-22",
       "tier": "freemium",
       "access": {
         "portal": "https://raventools.com",
@@ -4250,7 +4250,7 @@
       "cors": "Unknown",
       "free_tier": "14-day trial, 100k credits, full API, no card; then Wallet PAYG $50 one-time or Core $129/mo",
       "status": "live",
-      "last_checked": "2026-11-15",
+      "last_checked": "2026-11-22",
       "tier": "freemium",
       "access": {
         "portal": "https://seranking.com",
@@ -4273,7 +4273,7 @@
       "cors": "Unknown",
       "free_tier": "Full-featured free trial (length unstated); plans from $149/mo (5M units)",
       "status": "live",
-      "last_checked": "2026-11-15",
+      "last_checked": "2026-11-22",
       "tier": "freemium",
       "access": {
         "portal": "https://link-assistant.com/backlink-api.html",
@@ -4296,7 +4296,7 @@
       "cors": "Unknown",
       "free_tier": "7-day Team trial includes API (card required, $1 verification refunded); API from Team $100/mo annual",
       "status": "live",
-      "last_checked": "2026-11-15",
+      "last_checked": "2026-11-22",
       "tier": "freemium",
       "access": {
         "portal": "https://serpstat.com",
@@ -4319,7 +4319,7 @@
       "cors": "Unknown",
       "free_tier": "Free trial (length disputed: 3 vs 14 days); API on all plans from Pro $89.99/mo",
       "status": "live",
-      "last_checked": "2026-11-15",
+      "last_checked": "2026-11-22",
       "tier": "freemium",
       "access": {
         "portal": "https://www.woorank.com/en/p/pricing",
@@ -4342,7 +4342,7 @@
       "cors": "Unknown",
       "free_tier": "Free — no quota published",
       "status": "live",
-      "last_checked": "2026-11-15",
+      "last_checked": "2026-11-22",
       "tier": "free",
       "access": {
         "portal": "https://oauth.yandex.com",
@@ -4367,7 +4367,7 @@
       "cors": "Unknown",
       "free_tier": "Paid only — quote-only, no trial, no self-serve signup",
       "status": "live",
-      "last_checked": "2026-11-15",
+      "last_checked": "2026-11-22",
       "tier": "paid",
       "access": {
         "portal": "https://www.brightedge.com",
@@ -4390,7 +4390,7 @@
       "cors": "Unknown",
       "free_tier": "Paid only — quote-only enterprise pricing, no published price",
       "status": "live",
-      "last_checked": "2026-11-15",
+      "last_checked": "2026-11-22",
       "tier": "paid",
       "access": {
         "portal": "https://www.conductor.com",
@@ -4413,7 +4413,7 @@
       "cors": "Unknown",
       "free_tier": "Paid only — API from Agency (level 4+) ~$196/mo (re-check price — no live pricing page)",
       "status": "live",
-      "last_checked": "2026-11-15",
+      "last_checked": "2026-11-22",
       "tier": "paid",
       "access": {
         "portal": "https://inlinks.com",
@@ -4436,7 +4436,7 @@
       "cors": "Unknown",
       "free_tier": "Paid only — no free trial (30-day money-back); API from Starter $68/mo annual",
       "status": "live",
-      "last_checked": "2026-11-15",
+      "last_checked": "2026-11-22",
       "tier": "paid",
       "access": {
         "portal": "https://keywordtool.io/pro",
@@ -4459,7 +4459,7 @@
       "cors": "Unknown",
       "free_tier": "Paid only — no free credits; Bronze $84/year (100,000 credits/year)",
       "status": "live",
-      "last_checked": "2026-11-15",
+      "last_checked": "2026-11-22",
       "tier": "paid",
       "access": {
         "portal": "https://keywordseverywhere.com/ctl/subscriptions",
@@ -4482,7 +4482,7 @@
       "cors": "Unknown",
       "free_tier": "Paid only — any paid plan from Webmaster $14.90/mo; trial has no API",
       "status": "live",
-      "last_checked": "2026-11-15",
+      "last_checked": "2026-11-22",
       "tier": "paid",
       "access": {
         "portal": "https://www.linkody.com",
@@ -4505,7 +4505,7 @@
       "cors": "Unknown",
       "free_tier": "Paid only — quote-only, no published price",
       "status": "live",
-      "last_checked": "2026-11-15",
+      "last_checked": "2026-11-22",
       "tier": "paid",
       "access": {
         "portal": "https://www.lumar.io/request-demo/",
@@ -4528,7 +4528,7 @@
       "cors": "Unknown",
       "free_tier": "Paid only — API plan £319.99/mo (excl. VAT); Lite/Pro have no API",
       "status": "live",
-      "last_checked": "2026-11-15",
+      "last_checked": "2026-11-22",
       "tier": "paid",
       "access": {
         "portal": "https://majestic.com/plans-pricing",
@@ -4551,7 +4551,7 @@
       "cors": "Unknown",
       "free_tier": "Paid only — quote-only; API is a paid add-on",
       "status": "live",
-      "last_checked": "2026-11-15",
+      "last_checked": "2026-11-22",
       "tier": "paid",
       "access": {
         "portal": "https://www.oncrawl.com",
@@ -4574,7 +4574,7 @@
       "cors": "Unknown",
       "free_tier": "Paid only — API on Advanced plan (custom pricing) + unit packages",
       "status": "live",
-      "last_checked": "2026-11-15",
+      "last_checked": "2026-11-22",
       "tier": "paid",
       "access": {
         "portal": "https://semrush.com",
@@ -4597,7 +4597,7 @@
       "cors": "Unknown",
       "free_tier": "Paid only — packages from $2,500/mo (representative pricing)",
       "status": "live",
-      "last_checked": "2026-11-15",
+      "last_checked": "2026-11-22",
       "tier": "paid",
       "access": {
         "portal": "https://seoclarity.net",
@@ -4620,7 +4620,7 @@
       "cors": "Unknown",
       "free_tier": "Paid only — quote-only; self-serve plans exclude API",
       "status": "live",
-      "last_checked": "2026-11-15",
+      "last_checked": "2026-11-22",
       "tier": "paid",
       "access": {
         "portal": "https://similarweb.com/corp/developer/",
@@ -4643,7 +4643,7 @@
       "cors": "Unknown",
       "free_tier": "Paid only — API from Pro + AI $119/mo monthly; usage $0.20–$5.00/1k rows",
       "status": "live",
-      "last_checked": "2026-11-15",
+      "last_checked": "2026-11-22",
       "tier": "paid",
       "access": {
         "portal": "https://spyfu.com",
@@ -4665,7 +4665,7 @@
       "cors": "Unknown",
       "free_tier": "Paid only — API on Peace of Mind $299/mo annual or Enterprise; 7-day trial is Pro-only (no API)",
       "status": "live",
-      "last_checked": "2026-11-15",
+      "last_checked": "2026-11-22",
       "tier": "paid",
       "access": {
         "portal": "https://surfer.ai",
@@ -4688,7 +4688,7 @@
       "cors": "Unknown",
       "free_tier": "Paid only — API is Agency-only, $129/mo annual; trial covers Starter only",
       "status": "live",
-      "last_checked": "2026-11-15",
+      "last_checked": "2026-11-22",
       "tier": "paid",
       "access": {
         "portal": "https://app.trueranker.com/en/signup",
@@ -4712,7 +4712,7 @@
       "cors": "Unknown",
       "free_tier": "Paid only — Standard $60/mo (500 calls); free plan appears discontinued",
       "status": "live",
-      "last_checked": "2026-11-15",
+      "last_checked": "2026-11-22",
       "tier": "paid",
       "access": {
         "portal": "https://my.wordtracker.com/sign-up",
@@ -4734,7 +4734,7 @@
       "free_tier": "30 credits/week, reset Saturdays 00:00 UTC. Images cost 3/6/10 credits (Low/Medium/High) = ~3–10 images/week. Only Google or Apple sign-ups get free credits — Microsoft/email sign-ups get none. Free images are public.",
       "https": true,
       "id": "ideogram",
-      "last_checked": "2026-11-20",
+      "last_checked": "2026-11-22",
       "name": "Ideogram",
       "status": "live",
       "tier": "freemium"
@@ -4748,7 +4748,7 @@
       "free_tier": "100 credits/day, refreshed daily, no rollover; select standard image models only; no video, no premium models. Free images are public and watermark-free; commercial use on free requires crediting Imagine.Art. MCP server at https://mcp.imagine.art (96 tools, same account credits).",
       "https": true,
       "id": "imagineart",
-      "last_checked": "2026-11-20",
+      "last_checked": "2026-11-22",
       "name": "ImagineArt",
       "status": "live",
       "tier": "freemium"
@@ -4762,9 +4762,9 @@
       "free_tier": "150 fast tokens/day, reset daily, no rollover. Auto model only on free; creations public. Official pricing-page FAQ grants a non-exclusive, royalty-free licence for commercial use. API starts at a $5 starter credit (paid, no expiry) — free tier is web/app only.",
       "https": true,
       "id": "leonardo-ai",
-      "last_checked": "2026-11-20",
+      "last_checked": "2026-11-22",
       "name": "Leonardo.Ai",
-      "status": "live",
+      "status": "reachable",
       "tier": "freemium"
     },
     {
@@ -4776,9 +4776,9 @@
       "free_tier": "Free plan = free daily generations across image, video and audio; Adobe lists 'Generate 5-second videos: Limited' for Free. The exact number of free video generations per day is NOT published by Adobe. Paid from $9.99/mo (Standard, 2,000 credits).",
       "https": true,
       "id": "adobe-firefly-video",
-      "last_checked": "2026-11-20",
+      "last_checked": "2026-11-22",
       "name": "Adobe Firefly",
-      "status": "live",
+      "status": "reachable",
       "tier": "freemium"
     },
     {
@@ -4790,7 +4790,7 @@
       "free_tier": "$50 one-time credits for new accounts, no card, never expire — covers up to 185 hours pre-recorded / 333 hours streaming. Pay-as-you-go after: $0.15/hr (Universal-2) / $0.21/hr (STT-3.7). Free accounts: 5 concurrent jobs, no LLM Gateway.",
       "https": true,
       "id": "assemblyai",
-      "last_checked": "2026-11-20",
+      "last_checked": "2026-11-22",
       "name": "AssemblyAI",
       "status": "live",
       "tier": "freemium"
@@ -4804,7 +4804,7 @@
       "free_tier": "Free forever, no card: 25 credits/month. 1 credit = 1,000 transformations OR 1GB storage OR 1GB bandwidth (video bandwidth 2GB/credit is paid-only). Max video file 100MB on Free. Next tier is $99/mo — a big jump.",
       "https": true,
       "id": "cloudinary",
-      "last_checked": "2026-11-20",
+      "last_checked": "2026-11-22",
       "name": "Cloudinary",
       "status": "live",
       "tier": "freemium"
@@ -4818,7 +4818,7 @@
       "free_tier": "120 free credits/day, renewing daily. One 5s Seedance 2.0 Pro clip (17 cr/s), or three 5s Fast clips (8 cr/s), or four 5s Mini clips (5 cr/s). Watermark on free downloads; free use is non-commercial. Paid from $15/mo. Allowance was 225/day in Aug 2026 — already cut once.",
       "https": true,
       "id": "dreamina",
-      "last_checked": "2026-11-20",
+      "last_checked": "2026-11-22",
       "name": "Dreamina (Seedance video)",
       "status": "live",
       "tier": "freemium"
@@ -4832,7 +4832,7 @@
       "free_tier": "5 free generations/day with no account + 5 more/day signed in via Sandbox. 5s, 768p clips with synchronised audio; signed-in runs up to 15s. Commercial use allowed — anything generated may be used in commercial projects. Paid beyond free: $0.05/s 480p, $0.08/s 768p, $0.16/s 1080p. Web-playground free tier, NOT an API free tier.",
       "https": true,
       "id": "fal-h3-max",
-      "last_checked": "2026-11-20",
+      "last_checked": "2026-11-22",
       "name": "fal.ai MiniMax H3 Max (free runs)",
       "status": "live",
       "tier": "freemium"
@@ -4846,7 +4846,7 @@
       "free_tier": "50 Flow credits/day, every account, with or without a subscription; unused credits do NOT roll over. Veo 3.1 Lite 4/6/8s clips at 720p = 10 credits each — 5 clips/day. Max 10s clips; no clip extension, no upscaling; video generation may be blocked during peak hours ~2–5 PM UTC for non-subscribers. Commercial use on free tier unverified. Availability in Bangladesh unverified.",
       "https": true,
       "id": "google-flow",
-      "last_checked": "2026-11-20",
+      "last_checked": "2026-11-22",
       "name": "Google Flow",
       "status": "live",
       "tier": "freemium"
@@ -4860,7 +4860,7 @@
       "free_tier": "Free $0/month — 3 videos/month, up to 1 minute each, 1080p. Watermarked. Commercial use: NO on free — personal, non-commercial and internal evaluation use only. Paid from Creator $29/mo. Desktop-first — mobile is a demo page only.",
       "https": true,
       "id": "heygen",
-      "last_checked": "2026-11-20",
+      "last_checked": "2026-11-22",
       "name": "HeyGen",
       "status": "live",
       "tier": "freemium"
@@ -4874,7 +4874,7 @@
       "free_tier": "66 credits/month, claimed on login each month, valid 31 days. Buys two 5s Kling 3.0 clips at 720p without audio, or one clip with native audio, or one 5s Kling 4.0 clip. Watermarked, capped at 720p, no commercial use, 1 video per generation. Amount is in-app-verified, not officially published.",
       "https": true,
       "id": "kling-ai",
-      "last_checked": "2026-11-20",
+      "last_checked": "2026-11-22",
       "name": "Kling AI",
       "status": "live",
       "tier": "freemium"
@@ -4888,7 +4888,7 @@
       "free_tier": "Free, no paid tier exists. 100 requests per 60 seconds by default; max 500 results per query; requests must be cached 24 hours; no systematic mass downloads. Free account + key, no card.",
       "https": true,
       "id": "pixabay",
-      "last_checked": "2026-11-20",
+      "last_checked": "2026-11-22",
       "name": "Pixabay API",
       "status": "live",
       "tier": "free"
@@ -4902,7 +4902,7 @@
       "free_tier": "Freemium: 60 credits once + 30/day, up to 540p, watermarked, non-commercial. Free credits are web-only — the developer API is paid.",
       "https": true,
       "id": "pixverse",
-      "last_checked": "2026-11-20",
+      "last_checked": "2026-11-22",
       "name": "PixVerse",
       "status": "live",
       "tier": "freemium"
@@ -4916,7 +4916,7 @@
       "free_tier": "Free License covers individuals, for-profit orgs with up to 3 employees, non-profits, and evaluators — free including commercial use, all features. Company License required for for-profit orgs of 4+. Desktop-only — needs glibc 2.35+ Linux, Node, and Chrome Headless Shell; won't run natively in Termux (proot path untested). Not open source — custom Remotion License.",
       "https": true,
       "id": "remotion",
-      "last_checked": "2026-11-20",
+      "last_checked": "2026-11-22",
       "name": "Remotion",
       "status": "live",
       "tier": "freemium"
@@ -4930,7 +4930,7 @@
       "free_tier": "1,000 credits/month, recurring, no card — 1 credit = 1 plain page; 2 concurrent browsers; 10 RPM scrape/map/search, 2 RPM crawl/agent/interact; no rollover. JSON extraction costs 5 credits/page.",
       "https": true,
       "id": "firecrawl",
-      "last_checked": "2026-11-20",
+      "last_checked": "2026-11-22",
       "name": "Firecrawl",
       "status": "live",
       "tier": "freemium"
@@ -4944,7 +4944,7 @@
       "free_tier": "Keyless 20 req/min, free forever, no expiry; free key adds 10M tokens one-time (non-commercial) + 500 RPM. Paid top-ups ~$0.05/1M tokens.",
       "https": true,
       "id": "jina-reader",
-      "last_checked": "2026-11-20",
+      "last_checked": "2026-11-22",
       "name": "Jina AI Reader",
       "status": "live",
       "tier": "free",
@@ -4959,7 +4959,7 @@
       "free_tier": "Free, open-source (BSD-3); no key, no account, no limits. Pure Python, pip install scrapy; Termux has python-lxml and python-cryptography packages. Untested on the user's phone; no JS rendering out of the box.",
       "https": true,
       "id": "scrapy",
-      "last_checked": "2026-11-20",
+      "last_checked": "2026-11-22",
       "name": "Scrapy",
       "status": "live",
       "tier": "free"
@@ -4973,7 +4973,7 @@
       "free_tier": "5,000 credits/month, recurring, no card, 5 concurrent. 1 credit plain / 5 JS / 10 premium proxy / 25 both; failed requests not charged; no rollover. Paid from $19/mo.",
       "https": true,
       "id": "zenrows",
-      "last_checked": "2026-11-20",
+      "last_checked": "2026-11-22",
       "name": "ZenRows",
       "status": "live",
       "tier": "freemium"
@@ -4987,7 +4987,7 @@
       "free_tier": "Free, open-source (MIT). No paid tier. Node-based; heavier npm install than Eleventy but runs fine in Termux.",
       "https": true,
       "id": "astro",
-      "last_checked": "2026-11-20",
+      "last_checked": "2026-11-22",
       "name": "Astro",
       "status": "live",
       "tier": "free"
@@ -5001,7 +5001,7 @@
       "free_tier": "$0. Unlimited bandwidth and static requests; 500 builds/mo; 1 concurrent build; 20-min build timeout; 20,000 files/site; 25 MiB/file; 100 custom domains/project. Pages Functions count against Workers Free (100,000 req/day, 10 ms CPU/invocation). No commercial-use restriction stated. Paid step: Workers Paid $5/mo.",
       "https": true,
       "id": "cloudflare-pages",
-      "last_checked": "2026-11-20",
+      "last_checked": "2026-11-22",
       "name": "Cloudflare Pages",
       "status": "live",
       "tier": "freemium"
@@ -5015,7 +5015,7 @@
       "free_tier": "$0. 25 sites × 25 MB each; 60 publishes/hr; 5 retained versions; 1 custom domain; 1 webhook; 4 MB max per request body. First publish mints a token (save it — no recovery without an optional recovery email). Very young service (Avatar 8 LLC) — longevity unproven.",
       "https": true,
       "id": "deed",
-      "last_checked": "2026-11-20",
+      "last_checked": "2026-11-22",
       "name": "Deed",
       "status": "live",
       "tier": "freemium"
@@ -5029,7 +5029,7 @@
       "free_tier": "Free, open-source (MIT). No paid tier exists. Node-based (Termux ships Node 26); lightweight, minimal dependencies, no build toolchain beyond npm.",
       "https": true,
       "id": "eleventy",
-      "last_checked": "2026-11-20",
+      "last_checked": "2026-11-22",
       "name": "Eleventy",
       "status": "live",
       "tier": "free"
@@ -5043,7 +5043,7 @@
       "free_tier": "$0 on GitHub Free (repo must be public). Published site ≤1 GB; soft 100 GB/mo bandwidth; soft 10 builds/hr (waived with custom Actions workflow); 10-min deploy timeout; custom domains + HTTPS free. ToS bars online businesses, e-commerce and commercial SaaS.",
       "https": true,
       "id": "github-pages",
-      "last_checked": "2026-11-20",
+      "last_checked": "2026-11-22",
       "name": "GitHub Pages",
       "status": "live",
       "tier": "free"
@@ -5057,7 +5057,7 @@
       "free_tier": "Free, open-source (Apache-2.0). No paid tier exists. Official Termux package (pkg install hugo) plus Hugo's own prebuilt Android ARM binaries; single static binary, tiny footprint.",
       "https": true,
       "id": "hugo",
-      "last_checked": "2026-11-20",
+      "last_checked": "2026-11-22",
       "name": "Hugo",
       "status": "live",
       "tier": "free"
@@ -5068,6 +5068,6 @@
   "status_meaning": {
     "live": "Docs URL answered 2xx/3xx on the last check."
   },
-  "updated": "2026-11-20",
+  "updated": "2026-11-22",
   "version": "0.6.12"
 }
